@@ -1,0 +1,17 @@
+[1.486s] CMake Error at CMakeLists.txt:18 (find_package):
+[1.486s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.486s]   has asked CMake to find a package configuration file provided by
+[1.487s]   "ament_cmake", but CMake did not find one.
+[1.487s] 
+[1.487s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.487s]   any of the following names:
+[1.487s] 
+[1.487s]     ament_cmakeConfig.cmake
+[1.487s]     ament_cmake-config.cmake
+[1.487s] 
+[1.487s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.487s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.487s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.487s]   has been installed.
+[1.487s] 
+[1.487s] 

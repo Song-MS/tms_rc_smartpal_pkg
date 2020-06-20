@@ -1,0 +1,35 @@
+[1.401s] running develop
+[1.695s] Removing /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.279s] running egg_info
+[2.279s] writing /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.280s] writing dependency_links to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.280s] writing entry points to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.280s] writing requirements to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.280s] writing top-level names to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.311s] reading manifest file '/home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.312s] writing manifest file '/home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.312s] running build
+[2.313s] running build_py
+[2.313s] creating /home/common/colcon_ws/build/turtlebot3_teleop/build
+[2.313s] creating /home/common/colcon_ws/build/turtlebot3_teleop/build/lib
+[2.313s] creating /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.313s] copying turtlebot3_teleop/__init__.py -> /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.313s] creating /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.313s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.313s] copying turtlebot3_teleop/script/__init__.py -> /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.313s] running install
+[2.313s] running install_lib
+[2.314s] creating /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop
+[2.314s] creating /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+[2.314s] copying /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+[2.314s] copying /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+[2.315s] copying /home/common/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop
+[2.315s] byte-compiling /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-36.pyc
+[2.316s] byte-compiling /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-36.pyc
+[2.316s] byte-compiling /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-36.pyc
+[2.316s] running install_data
+[2.316s] running install_egg_info
+[2.318s] Copying /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop-2.0.1-py3.6.egg-info
+[2.319s] running install_scripts
+[2.341s] Installing teleop_keyboard script to /home/common/colcon_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.341s] writing list of installed files to '/home/common/colcon_ws/build/turtlebot3_teleop/install.log'

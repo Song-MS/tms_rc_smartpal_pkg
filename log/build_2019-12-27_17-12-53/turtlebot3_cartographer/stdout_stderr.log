@@ -1,0 +1,25 @@
+[0.083s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.090s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.392s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.582s] -- Configuring done
+[0.586s] -- Generating done
+[0.588s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_cartographer
+[0.815s] [36mInstall the project...[0m
+[0.822s] -- Install configuration: ""
+[0.823s] -- Execute custom install script
+[0.823s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.883s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.909s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.960s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.999s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.012s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.024s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.037s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.074s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.101s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.146s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.159s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.172s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.211s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.254s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml

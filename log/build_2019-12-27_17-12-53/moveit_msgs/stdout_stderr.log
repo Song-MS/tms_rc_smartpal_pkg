@@ -1,0 +1,69 @@
+[0.313s] -- The C compiler identification is GNU 7.4.0
+[0.555s] -- The CXX compiler identification is GNU 7.4.0
+[0.560s] -- Check for working C compiler: /usr/bin/cc
+[0.918s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.919s] -- Detecting C compiler ABI info
+[1.160s] -- Detecting C compiler ABI info - done
+[1.169s] -- Detecting C compile features
+[2.213s] -- Detecting C compile features - done
+[2.217s] -- Check for working CXX compiler: /usr/bin/c++
+[2.478s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.478s] -- Detecting CXX compiler ABI info
+[2.770s] -- Detecting CXX compiler ABI info - done
+[2.778s] -- Detecting CXX compile features
+[4.692s] -- Detecting CXX compile features - done
+[4.695s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.803s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.803s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.734s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[6.396s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[6.468s] -- Found FastRTPS: /opt/ros/dashing/include  
+[6.500s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[6.712s] -- Found action_msgs: 0.7.4 (/opt/ros/dashing/share/action_msgs/cmake)
+[6.745s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[6.770s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[6.806s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[6.846s] -- Found shape_msgs: 0.7.0 (/opt/ros/dashing/share/shape_msgs/cmake)
+[6.881s] -- Found actionlib_msgs: 0.7.0 (/opt/ros/dashing/share/actionlib_msgs/cmake)
+[7.150s] -- Found trajectory_msgs: 0.7.0 (/opt/ros/dashing/share/trajectory_msgs/cmake)
+[7.347s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[10.412s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[10.846s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[12.188s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[12.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[12.236s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[12.281s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[12.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.281s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[12.281s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[12.329s] -- Found PythonExtra: .so  
+[12.780s] -- Configuring done
+[13.836s] -- Generating done
+[13.846s] -- Build files have been written to: /home/common/colcon_ws/build/moveit_msgs
+[14.084s] [35m[1mScanning dependencies of target moveit_msgs__cpp[0m
+[14.094s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.131s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[37.960s] [  0%] Built target moveit_msgs__cpp
+[40.704s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_generator_c[0m
+[40.764s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/allowed_collision_entry__functions.c.o[0m
+[40.802s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/constraint_eval_result__functions.c.o[0m
+[40.839s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/constraints__functions.c.o[0m
+[40.884s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/cost_source__functions.c.o[0m
+[40.922s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/contact_information__functions.c.o[0m
+[40.957s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o[0m
+[40.970s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__struct.h:26[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.h:19[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c:4[m[K:
+[40.970s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[40.970s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[40.970s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[40.971s] compilation terminated.
+[40.971s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o] Error 1
+[40.971s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1401: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o' failed
+[40.971s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all] Error 2
+[40.971s] CMakeFiles/Makefile2:698: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all' failed
+[40.971s] make: *** [all] Error 2
+[40.971s] Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,33 @@
+[0.776s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.777s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.778s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.779s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.779s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.779s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.798s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.803s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.824s] -- Found tms_msg_rc: 1.0.2 (/home/common/colcon_ws/install/tms_msg_rc/share/tms_msg_rc/cmake)
+[0.848s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[0.872s] -- Found moveit_msgs: 0.10.0 (/home/common/colcon_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[1.053s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.377s] -- Configuring done
+[1.415s] -- Generating done
+[1.416s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_smartpal_control
+[1.440s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[1.476s] [ 14%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_arm.cpp.o[0m
+[1.476s] [ 21%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_gripper.cpp.o[0m
+[1.476s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/CommonSK.cc.o[0m
+[1.476s] [ 14%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_mobility.cpp.o[0m
+[1.477s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_lumbar.cpp.o[0m
+[1.478s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_client.cpp.o[0m
+[1.478s] [ 50%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/MobilitySK.cc.o[0m
+[1.482s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[2.248s] [ 64%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/ArmUnitSK.cc.o[0m
+[2.483s] [ 71%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperUnitSK.cc.o[0m
+[2.498s] [ 78%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperExtAxesSK.cc.o[0m
+[2.531s] [ 85%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarUnitSK.cc.o[0m
+[2.547s] [ 92%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarExtAxesSK.cc.o[0m
+[6.059s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[6.061s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[6.061s] Makefile:140: recipe for target 'all' failed

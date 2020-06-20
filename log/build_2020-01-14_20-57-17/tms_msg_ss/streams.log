@@ -1,0 +1,146 @@
+[0.039s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ss -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ss
+[0.117s] -- The C compiler identification is GNU 7.4.0
+[0.192s] -- The CXX compiler identification is GNU 7.4.0
+[0.198s] -- Check for working C compiler: /usr/bin/cc
+[0.297s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.297s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.398s] -- Detecting C compile features
+[0.679s] -- Detecting C compile features - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++
+[0.801s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.802s] -- Detecting CXX compiler ABI info
+[0.928s] -- Detecting CXX compiler ABI info - done
+[0.934s] -- Detecting CXX compile features
+[1.512s] -- Detecting CXX compile features - done
+[1.519s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.011s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.087s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.300s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.341s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.387s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.530s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.596s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.602s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.603s] -- Looking for pthread.h
+[2.712s] -- Looking for pthread.h - found
+[2.712s] -- Looking for pthread_create
+[2.834s] -- Looking for pthread_create - not found
+[2.835s] -- Looking for pthread_create in pthreads
+[2.927s] -- Looking for pthread_create in pthreads - not found
+[2.930s] -- Looking for pthread_create in pthread
+[3.038s] -- Looking for pthread_create in pthread - found
+[3.040s] -- Found Threads: TRUE  
+[3.092s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[3.106s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[3.147s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.323s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.640s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[3.778s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[4.771s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[4.839s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[4.840s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[4.841s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.841s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[4.841s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[4.861s] -- Found PythonExtra: .so  
+[5.300s] -- Configuring done
+[5.611s] -- Generating done
+[5.617s] -- Build files have been written to: /home/common/colcon_ws/build/tms_msg_ss
+[5.625s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ss' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ss -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ss
+[5.628s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss -- -j8 -l8
+[5.721s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_generator_c[0m
+[5.743s] [35m[1mScanning dependencies of target tms_msg_ss__cpp[0m
+[5.748s] [ 10%] Built target tms_msg_ss__rosidl_generator_c
+[5.779s] [ 13%] Built target tms_msg_ss__cpp
+[5.785s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_introspection_c[0m
+[5.827s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_cpp[0m
+[5.833s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_introspection_cpp[0m
+[5.834s] [ 24%] Built target tms_msg_ss__rosidl_typesupport_introspection_c
+[5.866s] [ 34%] Built target tms_msg_ss__rosidl_typesupport_introspection_cpp
+[5.889s] [ 44%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_cpp
+[5.920s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_cpp[0m
+[5.948s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_c[0m
+[5.959s] [ 55%] Built target tms_msg_ss__rosidl_typesupport_cpp
+[5.981s] [ 65%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c
+[6.006s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_c[0m
+[6.043s] [ 75%] Built target tms_msg_ss__rosidl_typesupport_c
+[6.066s] [35m[1mScanning dependencies of target tms_msg_ss[0m
+[6.089s] [ 75%] Built target tms_msg_ss
+[6.133s] [ 79%] Built target tms_msg_ss__py
+[6.152s] [35m[1mScanning dependencies of target tms_msg_ss__python[0m
+[6.190s] [ 86%] Built target tms_msg_ss__python
+[6.212s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_c__pyext[0m
+[6.214s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.259s] [ 93%] Built target tms_msg_ss__rosidl_typesupport_c__pyext
+[6.259s] [100%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext
+[6.276s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ss' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss -- -j8 -l8
+[6.464s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss --target install -- -j8 -l8
+[6.579s] [  3%] Built target tms_msg_ss__cpp
+[6.603s] [ 13%] Built target tms_msg_ss__rosidl_generator_c
+[6.630s] [ 24%] Built target tms_msg_ss__rosidl_typesupport_introspection_cpp
+[6.643s] [ 34%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_cpp
+[6.659s] [ 44%] Built target tms_msg_ss__rosidl_typesupport_introspection_c
+[6.701s] [ 55%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c
+[6.715s] [ 65%] Built target tms_msg_ss__rosidl_typesupport_cpp
+[6.751s] [ 75%] Built target tms_msg_ss__rosidl_typesupport_c
+[6.795s] [ 75%] Built target tms_msg_ss
+[6.841s] [ 79%] Built target tms_msg_ss__py
+[6.897s] [ 86%] Built target tms_msg_ss__python
+[6.954s] [ 93%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext
+[6.969s] [100%] Built target tms_msg_ss__rosidl_typesupport_c__pyext
+[7.006s] [36mInstall the project...[0m
+[7.022s] -- Install configuration: ""
+[7.026s] -- Execute custom install script
+[7.026s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/rosidl_interfaces/tms_msg_ss
+[7.027s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_c.so
+[7.027s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/library_path.sh
+[7.028s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_cpp.so
+[7.029s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.029s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_fastrtps_c.h
+[7.030s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_fastrtps_c.so
+[7.030s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_generator_c__visibility_control.h
+[7.031s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data.h
+[7.031s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__functions.h
+[7.031s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__struct.h
+[7.032s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__type_support.h
+[7.032s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_generator_c.so
+[7.033s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.033s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_fastrtps_cpp.so
+[7.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data.hpp
+[7.035s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__struct.hpp
+[7.035s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__traits.hpp
+[7.036s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.036s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_introspection_c.h
+[7.037s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_introspection_c.so
+[7.037s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_introspection_cpp.hpp
+[7.038s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_introspection_cpp.so
+[7.038s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/pythonpath.sh
+[7.039s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/__init__.py
+[7.040s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/msg/__init__.py
+[7.040s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/msg/_vicon_data.py
+[7.040s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/tms_msg_ss_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[7.041s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/tms_msg_ss_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[7.042s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__python.so
+[7.042s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/msg/ViconData.idl
+[7.042s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/msg/ViconData.msg
+[7.043s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/package_run_dependencies/tms_msg_ss
+[7.043s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/parent_prefix_path/tms_msg_ss
+[7.044s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/ament_prefix_path.sh
+[7.044s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/path.sh
+[7.045s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.bash
+[7.045s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.sh
+[7.045s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.zsh
+[7.046s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/packages/tms_msg_ss
+[7.046s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/rosidl_cmake-extras.cmake
+[7.047s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.047s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_libraries-extras.cmake
+[7.047s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.048s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/tms_msg_ssConfig.cmake
+[7.048s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/tms_msg_ssConfig-version.cmake
+[7.049s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/package.xml
+[7.126s] Compiling '/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/__init__.py'...
+[7.138s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ss' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss --target install -- -j8 -l8

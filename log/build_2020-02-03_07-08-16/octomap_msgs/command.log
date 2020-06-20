@@ -1,0 +1,4 @@
+[0.061s] Invoking command in '/home/common/colcon_ws/build/octomap_msgs': /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs -- -j8 -l8
+[0.547s] Invoked command in '/home/common/colcon_ws/build/octomap_msgs' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs -- -j8 -l8
+[1.048s] Invoking command in '/home/common/colcon_ws/build/octomap_msgs': /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs --target install -- -j8 -l8
+[1.532s] Invoked command in '/home/common/colcon_ws/build/octomap_msgs' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs --target install -- -j8 -l8

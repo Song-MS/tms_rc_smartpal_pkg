@@ -1,0 +1,22 @@
+[0.040s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_cartographer': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.121s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_cartographer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.156s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_cartographer': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer --target install -- -j8 -l8
+[0.221s] [36mInstall the project...[0m
+[0.233s] -- Install configuration: ""
+[0.233s] -- Execute custom install script
+[0.234s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.234s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.235s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.235s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.235s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.237s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.237s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.238s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.239s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.239s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.239s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.240s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.245s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_cartographer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer --target install -- -j8 -l8

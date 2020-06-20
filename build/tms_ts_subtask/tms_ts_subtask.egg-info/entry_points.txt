@@ -1,0 +1,3 @@
+[console_scripts]
+tms_ts_subtask = tms_ts_subtask.tms_ts_subtask:main
+

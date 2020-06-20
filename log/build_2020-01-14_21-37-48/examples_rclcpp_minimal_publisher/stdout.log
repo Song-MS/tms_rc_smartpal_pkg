@@ -1,0 +1,35 @@
+[0.120s] -- The C compiler identification is GNU 7.4.0
+[0.205s] -- The CXX compiler identification is GNU 7.4.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.319s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.320s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.443s] -- Detecting C compile features
+[0.783s] -- Detecting C compile features - done
+[0.787s] -- Check for working CXX compiler: /usr/bin/c++
+[0.924s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.925s] -- Detecting CXX compiler ABI info
+[1.054s] -- Detecting CXX compiler ABI info - done
+[1.066s] -- Detecting CXX compile features
+[1.648s] -- Detecting CXX compile features - done
+[1.652s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.014s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.050s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.091s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.145s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.150s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.152s] -- Looking for pthread.h
+[2.239s] -- Looking for pthread.h - found
+[2.239s] -- Looking for pthread_create
+[2.320s] -- Looking for pthread_create - not found
+[2.320s] -- Looking for pthread_create in pthreads
+[2.387s] -- Looking for pthread_create in pthreads - not found
+[2.387s] -- Looking for pthread_create in pthread
+[2.462s] -- Looking for pthread_create in pthread - found
+[2.463s] -- Found Threads: TRUE  
+[2.494s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.620s] -- Configuring done
+[2.645s] -- Generating done
+[2.646s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,25 @@
+{
+  "package_name": "tms_msg_db",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:msg/Tmsdb.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:msg/TmsdbStamped.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:msg/TmsData.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:msg/TmsDataStamped.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/TmsdbGetData.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetfurnituresinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetmovablefurnituresinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetobjectsinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetpersoninfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetrobotsinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetrobotinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetpersonbehaviorinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetpcdinfo.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgettasklist.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbmissingobjectschecker.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbobjdt.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/TmsdbPlanning.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbfileconservation.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/TmsdbObjectsdata.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_db:srv/Tmsdbgetunknownobject.srv"
+  ]
+}

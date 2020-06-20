@@ -1,0 +1,21 @@
+[0.143s] -- The C compiler identification is GNU 7.4.0
+[0.240s] -- The CXX compiler identification is GNU 7.4.0
+[0.247s] -- Check for working C compiler: /usr/bin/cc
+[0.359s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.360s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.496s] -- Detecting C compile features
+[0.788s] -- Detecting C compile features - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++
+[0.899s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.900s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Detecting CXX compile features
+[1.477s] -- Detecting CXX compile features - done
+[1.479s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.840s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.944s] -- Configuring done
+[1.945s] -- Generating done
+[1.946s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_bringup

@@ -1,0 +1,22 @@
+[1.428s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[1.428s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[6.490s] [ 14%] [32m[1mLinking CXX executable smartpal5_control[0m
+[6.842s] [100%] Built target smartpal5_control
+[6.943s] [100%] Built target smartpal5_control
+[6.959s] [36mInstall the project...[0m
+[6.967s] -- Install configuration: ""
+[6.968s] -- Execute custom install script
+[6.968s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/library_path.sh
+[6.968s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/lib/tms_rc_smartpal_control/smartpal5_control
+[6.968s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/package_run_dependencies/tms_rc_smartpal_control
+[6.969s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/parent_prefix_path/tms_rc_smartpal_control
+[6.969s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/ament_prefix_path.sh
+[6.969s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/path.sh
+[6.969s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.bash
+[6.969s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.sh
+[6.970s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.zsh
+[6.970s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/packages/tms_rc_smartpal_control
+[6.970s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/ament_cmake_export_libraries-extras.cmake
+[6.970s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig.cmake
+[6.970s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig-version.cmake
+[6.971s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/package.xml

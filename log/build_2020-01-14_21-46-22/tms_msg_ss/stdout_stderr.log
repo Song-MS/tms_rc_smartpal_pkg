@@ -1,0 +1,140 @@
+[0.122s] -- The C compiler identification is GNU 7.4.0
+[0.220s] -- The CXX compiler identification is GNU 7.4.0
+[0.221s] -- Check for working C compiler: /usr/bin/cc
+[0.327s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.327s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.447s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.818s] -- Check for working CXX compiler: /usr/bin/c++
+[0.950s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.952s] -- Detecting CXX compiler ABI info
+[1.081s] -- Detecting CXX compiler ABI info - done
+[1.090s] -- Detecting CXX compile features
+[1.632s] -- Detecting CXX compile features - done
+[1.636s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.723s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.285s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.558s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.589s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.732s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.787s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.793s] -- Looking for pthread.h
+[2.931s] -- Looking for pthread.h - found
+[2.932s] -- Looking for pthread_create
+[3.049s] -- Looking for pthread_create - not found
+[3.050s] -- Looking for pthread_create in pthreads
+[3.139s] -- Looking for pthread_create in pthreads - not found
+[3.139s] -- Looking for pthread_create in pthread
+[3.258s] -- Looking for pthread_create in pthread - found
+[3.259s] -- Found Threads: TRUE  
+[3.289s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[3.296s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[3.327s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.533s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.823s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[3.965s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[4.956s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[4.959s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[5.047s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[5.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.048s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[5.048s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[5.124s] -- Found PythonExtra: .so  
+[5.537s] -- Configuring done
+[5.849s] -- Generating done
+[5.855s] -- Build files have been written to: /home/common/colcon_ws/build/tms_msg_ss
+[5.959s] [35m[1mScanning dependencies of target tms_msg_ss__cpp[0m
+[5.982s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_generator_c[0m
+[5.988s] [  3%] Built target tms_msg_ss__cpp
+[6.011s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_introspection_cpp[0m
+[6.020s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_cpp[0m
+[6.022s] [ 13%] Built target tms_msg_ss__rosidl_generator_c
+[6.038s] [ 24%] Built target tms_msg_ss__rosidl_typesupport_introspection_cpp
+[6.054s] [ 34%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_cpp
+[6.056s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_introspection_c[0m
+[6.082s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_c[0m
+[6.084s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_cpp[0m
+[6.095s] [ 44%] Built target tms_msg_ss__rosidl_typesupport_introspection_c
+[6.114s] [ 55%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c
+[6.116s] [ 65%] Built target tms_msg_ss__rosidl_typesupport_cpp
+[6.137s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_c[0m
+[6.171s] [ 75%] Built target tms_msg_ss__rosidl_typesupport_c
+[6.192s] [35m[1mScanning dependencies of target tms_msg_ss[0m
+[6.214s] [ 75%] Built target tms_msg_ss
+[6.254s] [ 79%] Built target tms_msg_ss__py
+[6.274s] [35m[1mScanning dependencies of target tms_msg_ss__python[0m
+[6.315s] [ 86%] Built target tms_msg_ss__python
+[6.339s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.356s] [35m[1mScanning dependencies of target tms_msg_ss__rosidl_typesupport_c__pyext[0m
+[6.379s] [ 93%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext
+[6.396s] [100%] Built target tms_msg_ss__rosidl_typesupport_c__pyext
+[6.694s] [  3%] Built target tms_msg_ss__cpp
+[6.694s] [ 13%] Built target tms_msg_ss__rosidl_generator_c
+[6.753s] [ 24%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_cpp
+[6.767s] [ 34%] Built target tms_msg_ss__rosidl_typesupport_introspection_c
+[6.782s] [ 44%] Built target tms_msg_ss__rosidl_typesupport_introspection_cpp
+[6.822s] [ 55%] Built target tms_msg_ss__rosidl_typesupport_cpp
+[6.836s] [ 65%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c
+[6.889s] [ 75%] Built target tms_msg_ss__rosidl_typesupport_c
+[6.927s] [ 75%] Built target tms_msg_ss
+[6.972s] [ 79%] Built target tms_msg_ss__py
+[7.017s] [ 86%] Built target tms_msg_ss__python
+[7.073s] [ 93%] Built target tms_msg_ss__rosidl_typesupport_fastrtps_c__pyext
+[7.074s] [100%] Built target tms_msg_ss__rosidl_typesupport_c__pyext
+[7.114s] [36mInstall the project...[0m
+[7.131s] -- Install configuration: ""
+[7.132s] -- Execute custom install script
+[7.132s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/rosidl_interfaces/tms_msg_ss
+[7.133s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_c.so
+[7.133s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/library_path.sh
+[7.134s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_cpp.so
+[7.135s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.135s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_fastrtps_c.h
+[7.136s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_fastrtps_c.so
+[7.137s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_generator_c__visibility_control.h
+[7.137s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data.h
+[7.138s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__functions.h
+[7.138s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__struct.h
+[7.138s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__type_support.h
+[7.139s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_generator_c.so
+[7.140s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.140s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.141s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_fastrtps_cpp.so
+[7.142s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data.hpp
+[7.142s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__struct.hpp
+[7.142s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__traits.hpp
+[7.144s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.144s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_introspection_c.h
+[7.144s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_introspection_c.so
+[7.145s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/include/tms_msg_ss/msg/vicon_data__rosidl_typesupport_introspection_cpp.hpp
+[7.145s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__rosidl_typesupport_introspection_cpp.so
+[7.146s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/pythonpath.sh
+[7.152s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/__init__.py
+[7.152s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/msg/__init__.py
+[7.152s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/msg/_vicon_data.py
+[7.152s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/tms_msg_ss_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[7.152s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/tms_msg_ss_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/lib/libtms_msg_ss__python.so
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/msg/ViconData.idl
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/msg/ViconData.msg
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/package_run_dependencies/tms_msg_ss
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/parent_prefix_path/tms_msg_ss
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/ament_prefix_path.sh
+[7.153s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/environment/path.sh
+[7.154s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.bash
+[7.154s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.sh
+[7.154s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/local_setup.zsh
+[7.154s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/ament_index/resource_index/packages/tms_msg_ss
+[7.154s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/rosidl_cmake-extras.cmake
+[7.155s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.155s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_libraries-extras.cmake
+[7.155s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.156s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/tms_msg_ssConfig.cmake
+[7.156s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake/tms_msg_ssConfig-version.cmake
+[7.156s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/package.xml
+[7.252s] Compiling '/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages/tms_msg_ss/__init__.py'...

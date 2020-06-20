@@ -1,0 +1,54 @@
+[2.355s] running egg_info
+[2.355s] creating /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info
+[2.355s] writing /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/PKG-INFO
+[2.355s] writing dependency_links to /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/dependency_links.txt
+[2.356s] writing entry points to /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/entry_points.txt
+[2.356s] writing requirements to /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/requires.txt
+[2.356s] writing top-level names to /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/top_level.txt
+[2.357s] writing manifest file '/home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/SOURCES.txt'
+[2.398s] reading manifest file '/home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/SOURCES.txt'
+[2.399s] writing manifest file '/home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info/SOURCES.txt'
+[2.400s] running build
+[2.400s] running build_py
+[2.400s] creating /home/common/colcon_ws/build/tms_db_manager/build
+[2.400s] creating /home/common/colcon_ws/build/tms_db_manager/build/lib
+[2.400s] creating /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.400s] copying scripts/tms_db_writer.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.400s] copying scripts/tms_db_util.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.400s] copying scripts/tms_db_backuper.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.400s] copying scripts/tms_db_reader.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.401s] copying scripts/tms_db_reader_debug.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.401s] copying scripts/__init__.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.401s] copying scripts/tms_db_publisher.py -> /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts
+[2.401s] running install
+[2.402s] running install_lib
+[2.403s] creating /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_writer.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_util.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_backuper.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_reader.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_reader_debug.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.403s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/__init__.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.404s] copying /home/common/colcon_ws/build/tms_db_manager/build/lib/scripts/tms_db_publisher.py -> /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts
+[2.404s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_writer.py to tms_db_writer.cpython-36.pyc
+[2.405s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_util.py to tms_db_util.cpython-36.pyc
+[2.406s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_backuper.py to tms_db_backuper.cpython-36.pyc
+[2.406s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_reader.py to tms_db_reader.cpython-36.pyc
+[2.408s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_reader_debug.py to tms_db_reader_debug.cpython-36.pyc
+[2.409s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/__init__.py to __init__.cpython-36.pyc
+[2.409s] byte-compiling /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/scripts/tms_db_publisher.py to tms_db_publisher.cpython-36.pyc
+[2.410s] running install_data
+[2.410s] creating /home/common/colcon_ws/install/tms_db_manager/share/ament_index
+[2.411s] creating /home/common/colcon_ws/install/tms_db_manager/share/ament_index/resource_index
+[2.411s] creating /home/common/colcon_ws/install/tms_db_manager/share/ament_index/resource_index/packages
+[2.411s] copying resource/tms_db_manager -> /home/common/colcon_ws/install/tms_db_manager/share/ament_index/resource_index/packages
+[2.411s] copying package.xml -> /home/common/colcon_ws/install/tms_db_manager/share/tms_db_manager
+[2.411s] copying launch/tms_db_manager_launch.launch.py -> /home/common/colcon_ws/install/tms_db_manager/share/tms_db_manager
+[2.411s] running install_egg_info
+[2.413s] Copying /home/common/colcon_ws/build/tms_db_manager/tms_db_manager.egg-info to /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/tms_db_manager-0.1.0-py3.6.egg-info
+[2.414s] running install_scripts
+[2.439s] Installing tms_db_publisher script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[2.439s] Installing tms_db_reader script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[2.439s] Installing tms_db_reader_debug script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[2.439s] Installing tms_db_writer script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[2.440s] writing list of installed files to '/home/common/colcon_ws/build/tms_db_manager/install.log'

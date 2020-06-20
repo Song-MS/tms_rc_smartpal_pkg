@@ -1,0 +1,60 @@
+[0.387s] -- The C compiler identification is GNU 7.4.0
+[0.458s] -- The CXX compiler identification is GNU 7.4.0
+[0.464s] -- Check for working C compiler: /usr/bin/cc
+[0.553s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.553s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.644s] -- Detecting C compile features
+[0.901s] -- Detecting C compile features - done
+[0.903s] -- Check for working CXX compiler: /usr/bin/c++
+[0.992s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.993s] -- Detecting CXX compiler ABI info
+[1.079s] -- Detecting CXX compiler ABI info - done
+[1.086s] -- Detecting CXX compile features
+[1.465s] -- Detecting CXX compile features - done
+[1.467s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.508s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.508s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.761s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.786s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.834s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.839s] -- Looking for pthread.h
+[1.927s] -- Looking for pthread.h - found
+[1.927s] -- Looking for pthread_create
+[1.996s] -- Looking for pthread_create - not found
+[1.996s] -- Looking for pthread_create in pthreads
+[2.051s] -- Looking for pthread_create in pthreads - not found
+[2.051s] -- Looking for pthread_create in pthread
+[2.109s] -- Looking for pthread_create in pthread - found
+[2.110s] -- Found Threads: TRUE  
+[2.133s] -- Found tms_msg_ss: 1.0.2 (/home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake)
+[2.164s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[2.176s] -- Found visualization_msgs: 0.7.0 (/opt/ros/dashing/share/visualization_msgs/cmake)
+[2.278s] -- Configuring done
+[2.303s] -- Generating done
+[2.304s] -- Build files have been written to: /home/common/colcon_ws/build/tms_ss_vicon
+[2.348s] [35m[1mScanning dependencies of target vicon_stream[0m
+[2.379s] [ 50%] [32mBuilding CXX object CMakeFiles/vicon_stream.dir/src/vicon_stream.cpp.o[0m
+[6.005s] [100%] [32m[1mLinking CXX executable bin/vicon_stream[0m
+[6.214s] [100%] Built target vicon_stream
+[6.302s] [100%] Built target vicon_stream
+[6.320s] [36mInstall the project...[0m
+[6.328s] -- Install configuration: ""
+[6.328s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/bin/vicon_stream
+[6.329s] -- Set runtime path of "/home/common/colcon_ws/install/tms_ss_vicon/bin/vicon_stream" to ""
+[6.329s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/lib/tms_ss_vicon/vicon_stream
+[6.330s] -- Set runtime path of "/home/common/colcon_ws/install/tms_ss_vicon/lib/tms_ss_vicon/vicon_stream" to ""
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/package_run_dependencies/tms_ss_vicon
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/parent_prefix_path/tms_ss_vicon
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/ament_prefix_path.sh
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/path.sh
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.bash
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.sh
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.zsh
+[6.331s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/packages/tms_ss_vicon
+[6.332s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.332s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.332s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig.cmake
+[6.332s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig-version.cmake
+[6.332s] -- Installing: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/package.xml

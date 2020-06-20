@@ -1,0 +1,4 @@
+[0.562s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[1.503s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[1.503s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[1.503s] Makefile:140: recipe for target 'all' failed

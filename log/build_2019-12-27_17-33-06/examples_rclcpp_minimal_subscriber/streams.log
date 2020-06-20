@@ -1,0 +1,27 @@
+[0.015s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[0.134s] [ 33%] Built target subscriber_member_function
+[0.135s] [ 66%] Built target subscriber_lambda
+[0.147s] [100%] Built target subscriber_not_composable
+[0.179s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[0.238s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8
+[0.323s] [ 33%] Built target subscriber_not_composable
+[0.336s] [ 66%] Built target subscriber_member_function
+[0.342s] [100%] Built target subscriber_lambda
+[0.381s] [36mInstall the project...[0m
+[0.396s] -- Install configuration: ""
+[0.396s] -- Execute custom install script
+[0.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[0.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[0.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[0.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[0.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[0.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[0.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[0.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[0.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[0.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[0.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[0.401s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[0.401s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[0.401s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[0.431s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8

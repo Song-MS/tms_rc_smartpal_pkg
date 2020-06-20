@@ -1,0 +1,16 @@
+[0.178s] -- The C compiler identification is GNU 7.4.0
+[0.302s] -- The CXX compiler identification is GNU 7.4.0
+[0.308s] -- Check for working C compiler: /usr/bin/cc
+[0.405s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.405s] -- Detecting C compiler ABI info
+[0.491s] -- Detecting C compiler ABI info - done
+[0.496s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.757s] -- Check for working CXX compiler: /usr/bin/c++
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.855s] -- Detecting CXX compiler ABI info
+[0.967s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Detecting CXX compile features
+[1.473s] -- Detecting CXX compile features - done
+[1.490s] -- Configuring incomplete, errors occurred!
+[1.490s] See also "/home/common/colcon_ws/build/dynamixel_sdk/CMakeFiles/CMakeOutput.log".

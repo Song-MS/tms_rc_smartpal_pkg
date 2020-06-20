@@ -1,0 +1,15 @@
+[0.035s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ur': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur -- -j8 -l8
+[0.279s] [  1%] Built target tms_msg_ur__cpp
+[0.295s] [ 13%] Built target tms_msg_ur__rosidl_generator_c
+[0.399s] [ 24%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_cpp
+[0.405s] [ 35%] Built target tms_msg_ur__rosidl_typesupport_introspection_c
+[0.428s] [ 47%] Built target tms_msg_ur__rosidl_typesupport_introspection_cpp
+[0.534s] [ 58%] Built target tms_msg_ur__rosidl_typesupport_cpp
+[0.544s] [ 69%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_c
+[0.701s] [ 81%] Built target tms_msg_ur__rosidl_typesupport_c
+[0.736s] [ 81%] Built target tms_msg_ur
+[0.775s] [ 83%] Built target tms_msg_ur__py
+[0.813s] [ 92%] Built target tms_msg_ur__python
+[0.845s] [ 96%] Built target tms_msg_ur__rosidl_typesupport_c__pyext
+[0.859s] [100%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_c__pyext
+[1.372s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ur' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur -- -j8 -l8

@@ -1,0 +1,15 @@
+[3.065s] running develop
+[3.250s] running egg_info
+[3.250s] writing tms_ur_speaker.egg-info/PKG-INFO
+[3.250s] writing dependency_links to tms_ur_speaker.egg-info/dependency_links.txt
+[3.251s] writing entry points to tms_ur_speaker.egg-info/entry_points.txt
+[3.251s] writing requirements to tms_ur_speaker.egg-info/requires.txt
+[3.251s] writing top-level names to tms_ur_speaker.egg-info/top_level.txt
+[3.289s] reading manifest file 'tms_ur_speaker.egg-info/SOURCES.txt'
+[3.290s] writing manifest file 'tms_ur_speaker.egg-info/SOURCES.txt'
+[3.292s] running build_ext
+[3.293s] Creating /home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages/tms-ur-speaker.egg-link (link to .)
+[3.293s] Installing tms_ur_speaker_node script to /home/common/colcon_ws/install/tms_ur_speaker/lib/tms_ur_speaker
+[3.294s] 
+[3.294s] Installed /home/common/colcon_ws/build/tms_ur_speaker
+[3.294s] running install_data

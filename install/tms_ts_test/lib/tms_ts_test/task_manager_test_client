@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'tms-ts-test','console_scripts','task_manager_test_client'
+__requires__ = 'tms-ts-test'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('tms-ts-test', 'console_scripts', 'task_manager_test_client')()
+    )

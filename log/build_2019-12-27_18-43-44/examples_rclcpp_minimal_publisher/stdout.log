@@ -1,0 +1,23 @@
+[0.137s] [ 33%] Built target publisher_member_function
+[0.145s] [ 66%] Built target publisher_lambda
+[0.145s] [100%] Built target publisher_not_composable
+[0.379s] [ 33%] Built target publisher_member_function
+[0.394s] [ 66%] Built target publisher_lambda
+[0.409s] [100%] Built target publisher_not_composable
+[0.439s] [36mInstall the project...[0m
+[0.450s] -- Install configuration: ""
+[0.450s] -- Execute custom install script
+[0.451s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[0.451s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[0.451s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[0.451s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[0.452s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[0.452s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[0.453s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[0.453s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[0.453s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[0.453s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[0.454s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[0.459s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[0.460s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[0.460s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml

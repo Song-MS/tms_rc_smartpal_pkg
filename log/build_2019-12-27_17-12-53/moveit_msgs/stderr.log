@@ -1,0 +1,12 @@
+[40.970s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__struct.h:26[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.h:19[m[K,
+[40.970s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c:4[m[K:
+[40.970s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[40.970s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[40.970s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[40.971s] compilation terminated.
+[40.971s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o] Error 1
+[40.971s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all] Error 2
+[40.971s] make: *** [all] Error 2

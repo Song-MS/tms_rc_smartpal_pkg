@@ -1,0 +1,78 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetCartesianPath.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Define the frame for the specified waypoints")
+    struct GetCartesianPath_Request {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The start at which to start the Cartesian path")
+      moveit_msgs::msg::RobotState start_state;
+
+      @verbatim (language="comment", text=
+        " Mandatory name of group to compute the path for")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        " Optional name of IK link for which waypoints are specified." "\n"
+        " If not specified, the tip of the group (which is assumed to be a chain)" "\n"
+        " is assumed to be the link")
+      string link_name;
+
+      @verbatim (language="comment", text=
+        " A sequence of waypoints to be followed by the specified link," "\n"
+        " while moving the specified group, such that the group moves only" "\n"
+        " in a straight line between waypoints")
+      sequence<geometry_msgs::msg::Pose> waypoints;
+
+      @verbatim (language="comment", text=
+        " The maximum distance (in Cartesian space) between consecutive points" "\n"
+        " in the returned path. This must always be specified and > 0")
+      double max_step;
+
+      @verbatim (language="comment", text=
+        " If above 0, this value is assumed to be the maximum allowed distance" "\n"
+        " (L infinity) in configuration space, between consecutive points." "\n"
+        " If this distance is found to be above the maximum threshold, the path" "\n"
+        " computation fails.")
+      double jump_threshold;
+
+      @verbatim (language="comment", text=
+        " Set to true if collisions should be avoided when possible")
+      boolean avoid_collisions;
+
+      @verbatim (language="comment", text=
+        " Specify additional constraints to be met by the Cartesian path")
+      moveit_msgs::msg::Constraints path_constraints;
+    };
+    struct GetCartesianPath_Response {
+      @verbatim (language="comment", text=
+        " The state at which the computed path starts")
+      moveit_msgs::msg::RobotState start_state;
+
+      @verbatim (language="comment", text=
+        " The computed solution trajectory, for the desired group, in configuration space")
+      moveit_msgs::msg::RobotTrajectory solution;
+
+      @verbatim (language="comment", text=
+        " If the computation was incomplete, this value indicates the fraction of the path" "\n"
+        " that was in fact computed (nr of waypoints traveled through)")
+      double fraction;
+
+      @verbatim (language="comment", text=
+        " The error code of the computation")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

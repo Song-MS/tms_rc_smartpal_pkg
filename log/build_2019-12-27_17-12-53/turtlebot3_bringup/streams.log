@@ -1,0 +1,22 @@
+[0.097s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/dynamixel_sdk:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:/home/common/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_bringup
+[0.204s] -- The C compiler identification is GNU 7.4.0
+[0.303s] -- The CXX compiler identification is GNU 7.4.0
+[0.310s] -- Check for working C compiler: /usr/bin/cc
+[0.449s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.450s] -- Detecting C compiler ABI info
+[0.572s] -- Detecting C compiler ABI info - done
+[0.581s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.915s] -- Check for working CXX compiler: /usr/bin/c++
+[1.031s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.032s] -- Detecting CXX compiler ABI info
+[1.156s] -- Detecting CXX compiler ABI info - done
+[1.161s] -- Detecting CXX compile features
+[1.647s] -- Detecting CXX compile features - done
+[1.651s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.696s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.696s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.049s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.168s] -- Configuring done
+[2.170s] -- Generating done
+[2.172s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_bringup

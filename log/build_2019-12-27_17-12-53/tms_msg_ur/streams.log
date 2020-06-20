@@ -1,0 +1,119 @@
+[0.019s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ur': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ur
+[0.101s] -- The C compiler identification is GNU 7.4.0
+[0.180s] -- The CXX compiler identification is GNU 7.4.0
+[0.186s] -- Check for working C compiler: /usr/bin/cc
+[0.307s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.308s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.417s] -- Detecting C compile features
+[0.726s] -- Detecting C compile features - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++
+[0.860s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.861s] -- Detecting CXX compiler ABI info
+[0.980s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Detecting CXX compile features
+[1.685s] -- Detecting CXX compile features - done
+[1.688s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.737s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.425s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.478s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[2.498s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.556s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[3.070s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[3.143s] -- Found FastRTPS: /opt/ros/dashing/include  
+[3.448s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[4.117s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[4.152s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[4.574s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.684s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[4.686s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[4.774s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[4.774s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.774s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[4.774s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[4.872s] -- Found PythonExtra: .so  
+[5.379s] -- Configuring done
+[5.701s] -- Generating done
+[5.706s] -- Build files have been written to: /home/common/colcon_ws/build/tms_msg_ur
+[5.737s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ur
+[5.739s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ur': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur -- -j8 -l8
+[6.113s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.119s] [35m[1mScanning dependencies of target tms_msg_ur__cpp[0m
+[6.198s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.571s] [  3%] Built target tms_msg_ur__cpp
+[8.592s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_generator_c[0m
+[8.672s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.675s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.684s] [  9%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_generator_c.dir/rosidl_generator_c/tms_msg_ur/msg/julius_msg__functions.c.o[0m
+[8.702s] [ 11%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_generator_c.dir/rosidl_generator_c/tms_msg_ur/srv/g_speech_srv__functions.c.o[0m
+[8.703s] [ 13%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_generator_c.dir/rosidl_generator_c/tms_msg_ur/srv/slack_srv__functions.c.o[0m
+[9.102s] [ 15%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_generator_c.dir/rosidl_generator_c/tms_msg_ur/srv/speaker_srv__functions.c.o[0m
+[9.371s] [ 16%] [32m[1mLinking C shared library libtms_msg_ur__rosidl_generator_c.so[0m
+[9.640s] [ 16%] Built target tms_msg_ur__rosidl_generator_c
+[9.731s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.196s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_introspection_cpp[0m
+[11.288s] [ 20%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tms_msg_ur/msg/julius_msg__type_support.cpp.o[0m
+[11.522s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_fastrtps_cpp[0m
+[11.654s] [ 22%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tms_msg_ur/msg/dds_fastrtps/julius_msg__type_support.cpp.o[0m
+[12.099s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_introspection_c[0m
+[12.214s] [ 24%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tms_msg_ur/msg/julius_msg__type_support.c.o[0m
+[12.215s] [ 26%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tms_msg_ur/srv/speaker_srv__type_support.cpp.o[0m
+[12.395s] [ 28%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tms_msg_ur/srv/g_speech_srv__type_support.c.o[0m
+[12.627s] [ 30%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tms_msg_ur/srv/slack_srv__type_support.c.o[0m
+[12.806s] [ 32%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tms_msg_ur/srv/speaker_srv__type_support.c.o[0m
+[13.010s] [ 33%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tms_msg_ur/srv/dds_fastrtps/speaker_srv__type_support.cpp.o[0m
+[13.020s] [ 35%] [32m[1mLinking C shared library libtms_msg_ur__rosidl_typesupport_introspection_c.so[0m
+[13.090s] [ 37%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tms_msg_ur/srv/slack_srv__type_support.cpp.o[0m
+[13.171s] [ 37%] Built target tms_msg_ur__rosidl_typesupport_introspection_c
+[13.812s] [ 39%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tms_msg_ur/srv/g_speech_srv__type_support.cpp.o[0m
+[13.827s] [ 41%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tms_msg_ur/srv/dds_fastrtps/slack_srv__type_support.cpp.o[0m
+[14.395s] [ 43%] [32m[1mLinking CXX shared library libtms_msg_ur__rosidl_typesupport_introspection_cpp.so[0m
+[14.580s] [ 43%] Built target tms_msg_ur__rosidl_typesupport_introspection_cpp
+[14.631s] [ 45%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tms_msg_ur/srv/dds_fastrtps/g_speech_srv__type_support.cpp.o[0m
+[15.375s] [ 47%] [32m[1mLinking CXX shared library libtms_msg_ur__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.602s] [ 47%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_cpp
+[15.676s] [ 49%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.423s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_cpp[0m
+[16.469s] [ 50%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tms_msg_ur/msg/julius_msg__type_support.cpp.o[0m
+[17.112s] [ 52%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tms_msg_ur/srv/speaker_srv__type_support.cpp.o[0m
+[17.777s] [ 54%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tms_msg_ur/srv/slack_srv__type_support.cpp.o[0m
+[18.425s] [ 56%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tms_msg_ur/srv/g_speech_srv__type_support.cpp.o[0m
+[19.037s] [ 58%] [32m[1mLinking CXX shared library libtms_msg_ur__rosidl_typesupport_cpp.so[0m
+[19.207s] [ 58%] Built target tms_msg_ur__rosidl_typesupport_cpp
+[19.243s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.172s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_fastrtps_c[0m
+[20.228s] [ 62%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tms_msg_ur/msg/julius_msg__type_support_c.cpp.o[0m
+[20.806s] [ 64%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tms_msg_ur/srv/speaker_srv__type_support_c.cpp.o[0m
+[21.392s] [ 66%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tms_msg_ur/srv/slack_srv__type_support_c.cpp.o[0m
+[21.960s] [ 67%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tms_msg_ur/srv/g_speech_srv__type_support_c.cpp.o[0m
+[22.518s] [ 69%] [32m[1mLinking CXX shared library libtms_msg_ur__rosidl_typesupport_fastrtps_c.so[0m
+[22.658s] [ 69%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_c
+[22.677s] [ 71%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.334s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_c[0m
+[23.380s] [ 73%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_c.dir/rosidl_typesupport_c/tms_msg_ur/msg/julius_msg__type_support.cpp.o[0m
+[23.437s] [ 75%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_c.dir/rosidl_typesupport_c/tms_msg_ur/srv/speaker_srv__type_support.cpp.o[0m
+[23.487s] [ 77%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_c.dir/rosidl_typesupport_c/tms_msg_ur/srv/slack_srv__type_support.cpp.o[0m
+[23.534s] [ 79%] [32mBuilding CXX object CMakeFiles/tms_msg_ur__rosidl_typesupport_c.dir/rosidl_typesupport_c/tms_msg_ur/srv/g_speech_srv__type_support.cpp.o[0m
+[23.598s] [ 81%] [32m[1mLinking CXX shared library libtms_msg_ur__rosidl_typesupport_c.so[0m
+[23.699s] [ 81%] Built target tms_msg_ur__rosidl_typesupport_c
+[23.717s] [35m[1mScanning dependencies of target tms_msg_ur[0m
+[23.733s] [ 81%] Built target tms_msg_ur
+[23.753s] [35m[1mScanning dependencies of target tms_msg_ur__py[0m
+[23.769s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.423s] [ 83%] Built target tms_msg_ur__py
+[25.441s] [35m[1mScanning dependencies of target tms_msg_ur__python[0m
+[25.492s] [ 84%] [32mBuilding C object CMakeFiles/tms_msg_ur__python.dir/rosidl_generator_py/tms_msg_ur/msg/_julius_msg_s.c.o[0m
+[25.638s] [ 86%] [32mBuilding C object CMakeFiles/tms_msg_ur__python.dir/rosidl_generator_py/tms_msg_ur/srv/_speaker_srv_s.c.o[0m
+[25.790s] [ 88%] [32mBuilding C object CMakeFiles/tms_msg_ur__python.dir/rosidl_generator_py/tms_msg_ur/srv/_slack_srv_s.c.o[0m
+[25.940s] [ 90%] [32mBuilding C object CMakeFiles/tms_msg_ur__python.dir/rosidl_generator_py/tms_msg_ur/srv/_g_speech_srv_s.c.o[0m
+[26.062s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/tms_msg_ur/libtms_msg_ur__python.so[0m
+[26.143s] [ 92%] Built target tms_msg_ur__python
+[26.160s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_fastrtps_c__pyext[0m
+[26.189s] [ 94%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tms_msg_ur/_tms_msg_ur_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.342s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tms_msg_ur/tms_msg_ur_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[26.398s] [ 96%] Built target tms_msg_ur__rosidl_typesupport_fastrtps_c__pyext
+[26.415s] [35m[1mScanning dependencies of target tms_msg_ur__rosidl_typesupport_c__pyext[0m
+[26.445s] [ 98%] [32mBuilding C object CMakeFiles/tms_msg_ur__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tms_msg_ur/_tms_msg_ur_s.ep.rosidl_typesupport_c.c.o[0m
+[26.606s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tms_msg_ur/tms_msg_ur_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[26.673s] [100%] Built target tms_msg_ur__rosidl_typesupport_c__pyext

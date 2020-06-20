@@ -1,0 +1,16 @@
+[0.174s] -- The C compiler identification is GNU 7.4.0
+[0.298s] -- The CXX compiler identification is GNU 7.4.0
+[0.300s] -- Check for working C compiler: /usr/bin/cc
+[0.394s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.488s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.853s] -- Detecting CXX compiler ABI info
+[0.970s] -- Detecting CXX compiler ABI info - done
+[0.979s] -- Detecting CXX compile features
+[1.480s] -- Detecting CXX compile features - done
+[1.484s] -- Configuring incomplete, errors occurred!
+[1.484s] See also "/home/common/colcon_ws/build/tms_msg_ss/CMakeFiles/CMakeOutput.log".

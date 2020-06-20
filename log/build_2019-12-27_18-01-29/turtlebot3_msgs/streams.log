@@ -1,0 +1,15 @@
+[0.065s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8
+[0.135s] [ 11%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.139s] [ 13%] Built target turtlebot3_msgs__cpp
+[0.184s] [ 30%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.184s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.195s] [ 47%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.248s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.258s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.290s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.370s] [ 81%] Built target turtlebot3_msgs
+[0.410s] [ 83%] Built target turtlebot3_msgs__py
+[0.486s] [ 92%] Built target turtlebot3_msgs__python
+[0.536s] [ 96%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.557s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.797s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8

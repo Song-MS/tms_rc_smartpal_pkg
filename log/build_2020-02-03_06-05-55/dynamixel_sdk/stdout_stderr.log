@@ -1,0 +1,33 @@
+[0.139s] [100%] Built target dynamixel_sdk
+[0.492s] [100%] Built target dynamixel_sdk
+[0.534s] [36mInstall the project...[0m
+[0.553s] -- Install configuration: ""
+[0.553s] -- Execute custom install script
+[0.554s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[0.555s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[0.555s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[0.555s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[0.556s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[0.556s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[0.556s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[0.556s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[0.557s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[0.557s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[0.557s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[0.558s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[0.558s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[0.558s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[0.559s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[0.561s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[0.561s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[0.562s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[0.562s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[0.563s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[0.567s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[0.568s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[0.568s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.569s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[0.569s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[0.569s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[0.570s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml

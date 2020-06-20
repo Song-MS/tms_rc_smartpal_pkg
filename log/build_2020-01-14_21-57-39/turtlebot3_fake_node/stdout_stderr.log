@@ -1,0 +1,67 @@
+[0.136s] -- The C compiler identification is GNU 7.4.0
+[0.227s] -- The CXX compiler identification is GNU 7.4.0
+[0.235s] -- Check for working C compiler: /usr/bin/cc
+[0.357s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.358s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.494s] -- Detecting C compile features
+[0.852s] -- Detecting C compile features - done
+[0.855s] -- Check for working CXX compiler: /usr/bin/c++
+[0.976s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.977s] -- Detecting CXX compiler ABI info
+[1.107s] -- Detecting CXX compiler ABI info - done
+[1.115s] -- Detecting CXX compile features
+[1.685s] -- Detecting CXX compile features - done
+[1.689s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.778s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.199s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.244s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[2.280s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.366s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[2.389s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.417s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.424s] -- Looking for pthread.h
+[2.556s] -- Looking for pthread.h - found
+[2.566s] -- Looking for pthread_create
+[2.695s] -- Looking for pthread_create - not found
+[2.696s] -- Looking for pthread_create in pthreads
+[2.797s] -- Looking for pthread_create in pthreads - not found
+[2.797s] -- Looking for pthread_create in pthread
+[2.909s] -- Looking for pthread_create in pthread - found
+[2.910s] -- Found Threads: TRUE  
+[2.965s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.988s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[2.998s] -- Found tf2_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_msgs/cmake)
+[3.044s] -- Found turtlebot3_msgs: 2.1.0 (/home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.355s] -- Configuring done
+[3.388s] -- Generating done
+[3.390s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_fake_node
+[3.478s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[3.524s] [100%] Built target turtlebot3_fake_node
+[3.698s] [100%] Built target turtlebot3_fake_node
+[3.734s] [36mInstall the project...[0m
+[3.751s] -- Install configuration: ""
+[3.752s] -- Execute custom install script
+[3.752s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[3.753s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[3.754s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[3.754s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[3.755s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[3.755s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[3.756s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[3.756s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[3.757s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[3.757s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[3.758s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[3.759s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[3.759s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[3.759s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[3.760s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[3.760s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[3.761s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.761s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.762s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[3.762s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[3.762s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml

@@ -1,0 +1,6 @@
+[0.506s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.973s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.166s] -- Configuring done
+[1.168s] -- Generating done
+[1.170s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_gazebo

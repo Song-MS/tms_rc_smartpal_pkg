@@ -1,0 +1,4 @@
+[0.076s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[0.201s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[0.275s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher --target install -- -j8 -l8
+[0.463s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher --target install -- -j8 -l8

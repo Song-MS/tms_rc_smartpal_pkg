@@ -1,0 +1,1 @@
+[0.363s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_gazebo -- -j8 -l8

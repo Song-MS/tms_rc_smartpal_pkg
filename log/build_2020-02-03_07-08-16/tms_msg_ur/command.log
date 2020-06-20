@@ -1,0 +1,4 @@
+[0.045s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ur': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur -- -j8 -l8
+[0.726s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ur' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur -- -j8 -l8
+[1.231s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ur': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur --target install -- -j8 -l8
+[1.895s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ur' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ur --target install -- -j8 -l8

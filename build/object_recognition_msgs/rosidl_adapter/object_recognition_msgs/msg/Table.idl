@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_recognition_msgs/msg/Table.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module object_recognition_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Informs that a planar table has been detected at a given location")
+    struct Table {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The pose gives you the transform that take you to the coordinate system" "\n"
+        " of the table, with the origin somewhere in the table plane and the" "\n"
+        " z axis normal to the plane")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        " There is no guarantee that the table does NOT extend further than the" "\n"
+        " convex hull; this is just as far as we've observed it." "\n"
+        " The origin of the table coordinate system is inside the convex hull" "\n"
+        " Set of points forming the convex hull of the table")
+      sequence<geometry_msgs::msg::Point> convex_hull;
+    };
+  };
+};

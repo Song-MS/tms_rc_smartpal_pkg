@@ -1,0 +1,22 @@
+[3.969s] running develop
+[4.191s] running egg_info
+[4.192s] writing tms_db_manager.egg-info/PKG-INFO
+[4.192s] writing dependency_links to tms_db_manager.egg-info/dependency_links.txt
+[4.192s] writing entry points to tms_db_manager.egg-info/entry_points.txt
+[4.193s] writing requirements to tms_db_manager.egg-info/requires.txt
+[4.193s] writing top-level names to tms_db_manager.egg-info/top_level.txt
+[4.234s] reading manifest file 'tms_db_manager.egg-info/SOURCES.txt'
+[4.236s] writing manifest file 'tms_db_manager.egg-info/SOURCES.txt'
+[4.238s] running build_ext
+[4.239s] Creating /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/site.py
+[4.240s] Creating /home/common/colcon_ws/install/tms_db_manager/lib/python3.6/site-packages/tms-db-manager.egg-link (link to .)
+[4.242s] Installing tms_db_publisher script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[4.242s] Installing tms_db_reader script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[4.242s] Installing tms_db_reader_debug script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[4.242s] Installing tms_db_writer script to /home/common/colcon_ws/install/tms_db_manager/lib/tms_db_manager
+[4.243s] 
+[4.243s] Installed /home/common/colcon_ws/build/tms_db_manager
+[4.243s] running install_data
+[4.243s] copying resource/tms_db_manager -> /home/common/colcon_ws/install/tms_db_manager/share/ament_index/resource_index/packages
+[4.243s] copying package.xml -> /home/common/colcon_ws/install/tms_db_manager/share/tms_db_manager
+[4.243s] copying launch/tms_db_manager_launch.launch.py -> /home/common/colcon_ws/install/tms_db_manager/share/tms_db_manager

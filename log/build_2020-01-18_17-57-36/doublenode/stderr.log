@@ -1,0 +1,27 @@
+[2.406s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/odometry.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Odometry doublenode::Odometry::getOdom(rclcpp::Time, double, geometry_msgs::msg::Vector3_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.407s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/odometry.cpp:8:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwheel_radius[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.407s]  nav_msgs::msg::Odometry Odometry::getOdom(const rclcpp::Time now, const double [01;35m[Kwheel_radius[m[K, const geometry_msgs::msg::Vector3::SharedPtr input_odom)
+[2.407s]                                                                                 [01;35m[K^~~~~~~~~~~~[m[K
+[3.825s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/node_main.cpp:[m[K In constructor ‘[01m[Kdoublenode::DoubleNode::DoubleNode(const string&)[m[K’:
+[3.826s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/node_main.cpp:81:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = doublenode::DoubleNode::DoubleNode(const string&)::<lambda(geometry_msgs::msg::Vector3_<std::allocator<void> >::SharedPtr)>&; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Vector3_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.826s]  iption<geometry_msgs::msg::Vector3>("/odom", odom_to_footprint_callback[01;35m[K)[m[K;
+[3.826s]                                                                         [01;35m[K^[m[K
+[3.826s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[3.826s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.826s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[3.826s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.827s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/node_main.cpp:5[m[K:
+[3.827s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.827s]  [01;36m[KNode[m[K::create_subscription(
+[3.827s]  [01;36m[K^~~~[m[K
+[3.827s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/node_main.cpp:82:102:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.827s]  ublisher<nav_msgs::msg::Odometry>("odom/wheel", rmw_qos_profile_default[01;35m[K)[m[K;
+[3.828s]                                                                         [01;35m[K^[m[K
+[3.828s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[3.828s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.828s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[3.828s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.828s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/double_node/src/node_main.cpp:5[m[K:
+[3.828s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.828s]  [01;36m[KNode[m[K::create_publisher(
+[3.828s]  [01;36m[K^~~~[m[K

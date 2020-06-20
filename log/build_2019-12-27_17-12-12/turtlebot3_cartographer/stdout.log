@@ -1,0 +1,16 @@
+[0.165s] -- The C compiler identification is GNU 7.4.0
+[0.294s] -- The CXX compiler identification is GNU 7.4.0
+[0.294s] -- Check for working C compiler: /usr/bin/cc
+[0.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.389s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.477s] -- Detecting C compile features
+[0.732s] -- Detecting C compile features - done
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++
+[0.842s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.845s] -- Detecting CXX compiler ABI info
+[0.958s] -- Detecting CXX compiler ABI info - done
+[0.967s] -- Detecting CXX compile features
+[1.472s] -- Detecting CXX compile features - done
+[1.481s] -- Configuring incomplete, errors occurred!
+[1.481s] See also "/home/common/colcon_ws/build/turtlebot3_cartographer/CMakeFiles/CMakeOutput.log".

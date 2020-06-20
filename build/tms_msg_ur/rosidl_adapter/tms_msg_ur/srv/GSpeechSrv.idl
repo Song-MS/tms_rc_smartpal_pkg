@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ur/srv/GSpeechSrv.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ur {
+  module srv {
+    struct GSpeechSrv_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GSpeechSrv_Response {
+      string data;
+
+      float value;
+    };
+  };
+};

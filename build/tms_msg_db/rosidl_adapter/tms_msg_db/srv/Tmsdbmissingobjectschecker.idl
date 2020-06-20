@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbmissingobjectschecker.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbmissingobjectschecker_Request {
+      sequence<uint32> objects_id;
+    };
+    struct Tmsdbmissingobjectschecker_Response {
+      sequence<uint32> missing_objects_id;
+
+      sequence<uint64> missing_objects_time;
+    };
+  };
+};

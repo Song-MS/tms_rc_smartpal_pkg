@@ -1,0 +1,14 @@
+source;share/tms_nw_rp/hook/cmake_prefix_path.ps1
+source;share/tms_nw_rp/hook/cmake_prefix_path.dsv
+source;share/tms_nw_rp/hook/cmake_prefix_path.sh
+source;share/tms_nw_rp/hook/ld_library_path_lib.ps1
+source;share/tms_nw_rp/hook/ld_library_path_lib.dsv
+source;share/tms_nw_rp/hook/ld_library_path_lib.sh
+source;share/tms_nw_rp/hook/pythonpath.ps1
+source;share/tms_nw_rp/hook/pythonpath.dsv
+source;share/tms_nw_rp/hook/pythonpath.sh
+source;share/tms_nw_rp/local_setup.bash
+source;share/tms_nw_rp/local_setup.dsv
+source;share/tms_nw_rp/local_setup.ps1
+source;share/tms_nw_rp/local_setup.sh
+source;share/tms_nw_rp/local_setup.zsh

@@ -1,0 +1,1 @@
+[0.033s] Invoking command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/hls_lfcd_lds_driver

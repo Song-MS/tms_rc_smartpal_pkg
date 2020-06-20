@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from object_recognition_msgs/action/ObjectRecognition.action
+// generated code does not contain a copyright notice
+
+#include "object_recognition_msgs/msg/RecognizedObjectArray.idl"
+
+module object_recognition_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " Optional ROI to use for the object detection")
+    struct ObjectRecognition_Goal {
+      boolean use_roi;
+
+      sequence<float> filter_limits;
+    };
+    struct ObjectRecognition_Result {
+      @verbatim (language="comment", text=
+        " Send the found objects, see the msg files for docs")
+      object_recognition_msgs::msg::RecognizedObjectArray recognized_objects;
+    };
+    struct ObjectRecognition_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

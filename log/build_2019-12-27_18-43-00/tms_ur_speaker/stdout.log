@@ -1,0 +1,19 @@
+[3.133s] running egg_info
+[3.134s] writing /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/PKG-INFO
+[3.134s] writing dependency_links to /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/dependency_links.txt
+[3.135s] writing entry points to /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/entry_points.txt
+[3.135s] writing requirements to /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/requires.txt
+[3.136s] writing top-level names to /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/top_level.txt
+[3.136s] reading manifest file '/home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/SOURCES.txt'
+[3.137s] writing manifest file '/home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info/SOURCES.txt'
+[3.137s] running build
+[3.137s] running build_py
+[3.137s] running install
+[3.138s] running install_lib
+[3.138s] running install_data
+[3.138s] running install_egg_info
+[3.139s] removing '/home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages/tms_ur_speaker-0.1.0-py3.6.egg-info' (and everything under it)
+[3.139s] Copying /home/common/colcon_ws/build/tms_ur_speaker/tms_ur_speaker.egg-info to /home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages/tms_ur_speaker-0.1.0-py3.6.egg-info
+[3.140s] running install_scripts
+[3.141s] Installing tms_ur_speaker_node script to /home/common/colcon_ws/install/tms_ur_speaker/lib/tms_ur_speaker
+[3.141s] writing list of installed files to '/home/common/colcon_ws/build/tms_ur_speaker/install.log'

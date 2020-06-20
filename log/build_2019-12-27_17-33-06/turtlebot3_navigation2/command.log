@@ -1,0 +1,4 @@
+[0.075s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[0.135s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[0.214s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8
+[0.576s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8

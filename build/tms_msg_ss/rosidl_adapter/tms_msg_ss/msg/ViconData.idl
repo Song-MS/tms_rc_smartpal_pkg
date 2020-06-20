@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tms_msg_ss/msg/ViconData.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "std_msgs/msg/Header.idl"
+
+module tms_msg_ss {
+  module msg {
+    typedef double double__3[3];
+    struct ViconData {
+      std_msgs::msg::Header header;
+
+      string measuredtime;
+
+      string subjectname;
+
+      string segmentname;
+
+      geometry_msgs::msg::Point translation;
+
+      geometry_msgs::msg::Quaternion rotation;
+
+      double__3 eulerxyz;
+    };
+  };
+};

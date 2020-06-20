@@ -1,0 +1,10 @@
+{
+  "package_name": "tms_msg_ts",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ts:msg/Arg.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ts:srv/TmsSaFindObjects.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ts:srv/TsReq.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ts:srv/TsStateControl.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ts:srv/TsDoTask.srv"
+  ]
+}

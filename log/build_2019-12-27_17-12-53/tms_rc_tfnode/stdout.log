@@ -1,0 +1,40 @@
+[0.128s] -- The C compiler identification is GNU 7.4.0
+[0.231s] -- The CXX compiler identification is GNU 7.4.0
+[0.237s] -- Check for working C compiler: /usr/bin/cc
+[0.370s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.371s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.506s] -- Detecting C compile features
+[0.945s] -- Detecting C compile features - done
+[0.948s] -- Check for working CXX compiler: /usr/bin/c++
+[1.129s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.130s] -- Detecting CXX compiler ABI info
+[1.314s] -- Detecting CXX compiler ABI info - done
+[1.323s] -- Detecting CXX compile features
+[2.015s] -- Detecting CXX compile features - done
+[2.018s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.062s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.442s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.470s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.498s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.564s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.568s] -- Looking for pthread.h
+[2.715s] -- Looking for pthread.h - found
+[2.716s] -- Looking for pthread_create
+[2.866s] -- Looking for pthread_create - not found
+[2.867s] -- Looking for pthread_create in pthreads
+[2.961s] -- Looking for pthread_create in pthreads - not found
+[2.962s] -- Looking for pthread_create in pthread
+[3.086s] -- Looking for pthread_create in pthread - found
+[3.088s] -- Found Threads: TRUE  
+[3.139s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[3.161s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[3.401s] -- Configuring done
+[3.427s] -- Generating done
+[3.429s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_tfnode
+[3.543s] [35m[1mScanning dependencies of target Tfnode[0m
+[3.594s] [ 50%] [32mBuilding CXX object CMakeFiles/Tfnode.dir/Tfnode.cpp.o[0m
+[7.274s] [100%] [32m[1mLinking CXX executable Tfnode[0m
+[7.449s] [100%] Built target Tfnode

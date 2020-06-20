@@ -1,0 +1,41 @@
+[0.065s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_msgs
+[0.120s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.121s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.462s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.554s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.647s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.720s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.026s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.039s] -- Found ament_cmake_cppcheck: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[1.040s] -- Found ament_cmake_cpplint: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[1.041s] -- Found ament_cmake_uncrustify: 0.7.11 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[1.075s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.318s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.352s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.392s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.393s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.393s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.577s] -- Found ament_cmake_flake8: 0.7.11 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[1.578s] -- Found ament_cmake_pep257: 0.7.11 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[1.590s] -- Configuring done
+[1.730s] -- Generating done
+[1.733s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_msgs
+[1.864s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_msgs
+[1.869s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8
+[2.003s] [  1%] Built target turtlebot3_msgs__cpp
+[2.004s] [ 13%] Built target turtlebot3_msgs__rosidl_generator_c
+[2.068s] [ 24%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[2.069s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[2.083s] [ 47%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[2.140s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[2.149s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[2.195s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[2.241s] [ 81%] Built target turtlebot3_msgs
+[2.306s] [ 83%] Built target turtlebot3_msgs__py
+[2.466s] [ 92%] Built target turtlebot3_msgs__python
+[2.598s] [ 96%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[2.703s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.744s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8

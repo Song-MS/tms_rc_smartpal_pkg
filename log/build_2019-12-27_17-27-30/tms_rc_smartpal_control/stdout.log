@@ -1,0 +1,25 @@
+[0.342s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.382s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.770s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.792s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.849s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.921s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/tms_rc_smartpal_control/devel
+[0.922s] -- Using CMAKE_PREFIX_PATH: /home/common/catkin_ws/devel;/opt/ros/melodic
+[0.922s] -- This workspace overlays: /home/common/catkin_ws/devel;/opt/ros/melodic
+[0.974s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.975s] -- Using Debian Python package layout
+[0.977s] -- Using empy: /usr/bin/empy
+[1.223s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.223s] -- Call enable_testing()
+[1.223s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/tms_rc_smartpal_control/test_results
+[1.254s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.254s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.294s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.303s] -- Using Python nosetests: /usr/bin/nosetests
+[1.397s] -- catkin 0.7.19
+[1.397s] -- BUILD_SHARED_LIBS is on
+[1.662s] -- Configuring incomplete, errors occurred!
+[1.662s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeOutput.log".
+[1.662s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeError.log".

@@ -1,0 +1,1 @@
+/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot/launch/guidebot_bringup.launch.py

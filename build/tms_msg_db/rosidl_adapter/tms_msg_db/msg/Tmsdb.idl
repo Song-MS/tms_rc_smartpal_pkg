@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tms_msg_db/msg/Tmsdb.msg
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module msg {
+    struct Tmsdb {
+      string time;
+
+      string type;
+
+      int32 id;
+
+      string name;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      double rr;
+
+      double rp;
+
+      double ry;
+
+      double offset_x;
+
+      double offset_y;
+
+      double offset_z;
+
+      string joint;
+
+      double weight;
+
+      string rfid;
+
+      string etcdata;
+
+      int32 place;
+
+      string extfile;
+
+      int32 sensor;
+
+      double probability;
+
+      int32 state;
+
+      string task;
+
+      string note;
+
+      string tag;
+
+      string announce;
+    };
+  };
+};

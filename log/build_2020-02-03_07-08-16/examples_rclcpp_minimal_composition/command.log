@@ -1,0 +1,4 @@
+[0.040s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[0.275s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[0.359s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_composition --target install -- -j8 -l8
+[0.637s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_composition --target install -- -j8 -l8

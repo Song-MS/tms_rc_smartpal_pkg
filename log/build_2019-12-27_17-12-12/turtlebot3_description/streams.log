@@ -1,0 +1,35 @@
+[0.034s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_description': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_description
+[0.185s] -- The C compiler identification is GNU 7.4.0
+[0.306s] -- The CXX compiler identification is GNU 7.4.0
+[0.308s] -- Check for working C compiler: /usr/bin/cc
+[0.402s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.403s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.499s] -- Detecting C compile features
+[0.756s] -- Detecting C compile features - done
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.854s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.978s] -- Detecting CXX compile features
+[1.466s] -- Detecting CXX compile features - done
+[1.478s] CMake Error at CMakeLists.txt:18 (find_package):
+[1.478s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.479s]   has asked CMake to find a package configuration file provided by
+[1.479s]   "ament_cmake", but CMake did not find one.
+[1.479s] 
+[1.479s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.479s]   any of the following names:
+[1.479s] 
+[1.479s]     ament_cmakeConfig.cmake
+[1.480s]     ament_cmake-config.cmake
+[1.480s] 
+[1.480s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.480s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.480s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.480s]   has been installed.
+[1.480s] 
+[1.480s] 
+[1.485s] -- Configuring incomplete, errors occurred!
+[1.485s] See also "/home/common/colcon_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[1.490s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_description

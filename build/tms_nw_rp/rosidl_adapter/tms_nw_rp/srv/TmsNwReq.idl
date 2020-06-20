@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_nw_rp/srv/TmsNwReq.srv
+// generated code does not contain a copyright notice
+
+
+module tms_nw_rp {
+  module srv {
+    struct TmsNwReq_Request {
+      string url;
+
+      string service_name;
+
+      string service_type;
+
+      int32 task_id;
+
+      int32 robot_id;
+
+      int32 object_id;
+
+      int32 user_id;
+
+      int32 place_id;
+
+      int32 priority;
+    };
+    struct TmsNwReq_Response {
+      int32 result;
+
+      sequence<float> val;
+    };
+  };
+};

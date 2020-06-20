@@ -1,0 +1,2 @@
+[0.028s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8
+[1.231s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '2': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8

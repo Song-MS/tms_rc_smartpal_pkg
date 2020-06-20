@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgetrobotsinfo.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgetrobotsinfo_Request {
+      uint32 robots_id;
+    };
+    struct Tmsdbgetrobotsinfo_Response {
+      uint64 rostime;
+
+      float robots_x;
+
+      float robots_y;
+
+      float robots_z;
+
+      float robots_theta;
+
+      uint32 robots_state;
+
+      uint32 robots_place;
+    };
+  };
+};

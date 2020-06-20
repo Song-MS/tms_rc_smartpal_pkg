@@ -1,0 +1,28 @@
+[3.992s] Traceback (most recent call last):
+[3.992s]   File "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[3.993s]     code = generate_environment_script('/home/common/colcon_ws/build/tms_rc_smartpal_control/devel/env.sh')
+[3.993s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/catkin/environment_cache.py", line 62, in generate_environment_script
+[3.993s]     env_after = ast.literal_eval(output.decode('utf8'))
+[3.993s]   File "/usr/lib/python3.6/ast.py", line 48, in literal_eval
+[3.993s]     node_or_string = parse(node_or_string, mode='eval')
+[3.993s]   File "/usr/lib/python3.6/ast.py", line 35, in parse
+[3.994s]     return compile(source, filename, mode, PyCF_ONLY_AST)
+[3.994s]   File "<unknown>", line 1
+[3.994s]     ROS_DISTRO was set to 'dashing' before. Please make sure that the environment does not mix paths from different distributions.
+[3.994s]                  ^
+[3.994s] SyntaxError: invalid syntax
+[4.007s] CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[4.007s]   execute_process(/usr/bin/python3
+[4.008s]   "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py")
+[4.008s]   returned error code 1
+[4.008s] Call Stack (most recent call first):
+[4.008s]   /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[4.008s]   /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[4.008s]   /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:9 (find_package)
+[4.008s]   /opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+[4.009s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+[4.009s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+[4.009s]   /opt/ros/melodic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake:197 (find_package)
+[4.009s]   CMakeLists.txt:19 (find_package)
+[4.009s] 
+[4.009s] 

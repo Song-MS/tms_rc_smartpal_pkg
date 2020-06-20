@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgettasklist.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgettasklist_Request {
+      uint32 task_id;
+    };
+    struct Tmsdbgettasklist_Response {
+      string task_name;
+
+      uint32 priority;
+
+      uint64 time;
+
+      string sub_task;
+
+      uint32 robot_id;
+
+      string sensor;
+
+      string robot_func;
+
+      string sensor_func;
+    };
+  };
+};

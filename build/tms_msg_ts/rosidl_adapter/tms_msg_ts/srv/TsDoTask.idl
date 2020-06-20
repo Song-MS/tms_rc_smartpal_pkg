@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ts/srv/TsDoTask.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ts {
+  module srv {
+    struct TsDoTask_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TsDoTask_Response {
+      string message;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[0.962s] Invoking command in '/home/common/colcon_ws/build/tms_rc_double': PYTHONPATH=/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_rc_double --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_rc_double/build
+[1.435s] running develop
+[1.707s] Removing /home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms-rc-double.egg-link (link to .)

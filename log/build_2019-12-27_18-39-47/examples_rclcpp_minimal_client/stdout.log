@@ -1,0 +1,11 @@
+[0.050s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.621s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[0.643s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.721s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.730s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.899s] -- Configuring done
+[0.918s] -- Generating done
+[0.919s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_client

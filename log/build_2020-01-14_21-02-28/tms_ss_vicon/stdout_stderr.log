@@ -1,0 +1,125 @@
+[1.871s] -- The C compiler identification is GNU 7.4.0
+[1.939s] -- The CXX compiler identification is GNU 7.4.0
+[1.945s] -- Check for working C compiler: /usr/bin/cc
+[2.037s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.038s] -- Detecting C compiler ABI info
+[2.139s] -- Detecting C compiler ABI info - done
+[2.147s] -- Detecting C compile features
+[2.501s] -- Detecting C compile features - done
+[2.505s] -- Check for working CXX compiler: /usr/bin/c++
+[2.667s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.668s] -- Detecting CXX compiler ABI info
+[2.796s] -- Detecting CXX compiler ABI info - done
+[2.804s] -- Detecting CXX compile features
+[3.262s] -- Detecting CXX compile features - done
+[3.269s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[3.340s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.756s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[3.822s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[3.928s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[3.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.935s] -- Looking for pthread.h
+[4.036s] -- Looking for pthread.h - found
+[4.037s] -- Looking for pthread_create
+[4.151s] -- Looking for pthread_create - not found
+[4.151s] -- Looking for pthread_create in pthreads
+[4.245s] -- Looking for pthread_create in pthreads - not found
+[4.246s] -- Looking for pthread_create in pthread
+[4.343s] -- Looking for pthread_create in pthread - found
+[4.345s] -- Found Threads: TRUE  
+[4.412s] -- Found tms_msg_ss: 1.0.2 (/home/common/colcon_ws/install/tms_msg_ss/share/tms_msg_ss/cmake)
+[4.495s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[4.527s] -- Found visualization_msgs: 0.7.0 (/opt/ros/dashing/share/visualization_msgs/cmake)
+[4.760s] -- Configuring done
+[4.805s] -- Generating done
+[4.807s] -- Build files have been written to: /home/common/colcon_ws/build/tms_ss_vicon
+[4.886s] [35m[1mScanning dependencies of target vicon_stream[0m
+[4.917s] [ 50%] [32mBuilding CXX object CMakeFiles/vicon_stream.dir/src/vicon_stream.cpp.o[0m
+[7.127s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:[m[K In constructor ‘[01m[KViconStream::ViconStream()[m[K’:
+[7.127s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:462:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::count_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.127s]    size_t [01;35m[Kcount_[m[K;
+[7.127s]           [01;35m[K^~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:106:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t ViconStream::idPlace[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.128s]    int32_t [01;35m[KidPlace[m[K;
+[7.128s]            [01;35m[K^~~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.128s]    [01;35m[KViconStream[m[K()
+[7.128s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:461:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::frame_id[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.129s]    string [01;35m[Kframe_id[m[K;
+[7.129s]           [01;35m[K^~~~~~~~[m[K
+[7.129s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:113:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble ViconStream::update_time[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.129s]    double [01;35m[Kupdate_time[m[K;
+[7.129s]           [01;35m[K^~~~~~~~~~~[m[K
+[7.129s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.129s]    [01;35m[KViconStream[m[K()
+[7.129s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:113:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::update_time[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.130s]    double [01;35m[Kupdate_time[m[K;
+[7.130s]           [01;35m[K^~~~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:109:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::__cxx11::string ViconStream::host_name[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.130s]    string [01;35m[Khost_name[m[K;
+[7.130s]           [01;35m[K^~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.131s]    [01;35m[KViconStream[m[K()
+[7.131s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.132s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:92:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = tms_msg_ss::msg::ViconData_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tms_msg_ss::msg::ViconData_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.133s]        posepub = this->create_publisher<tms_msg_ss::msg::ViconData>("~/output"[01;35m[K)[m[K;
+[7.133s]                                                                               [01;35m[K^[m[K
+[7.133s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.133s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.134s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.134s]  [01;36m[KNode[m[K::create_publisher(
+[7.134s]  [01;36m[K^~~~[m[K
+[7.134s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:93:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tms_msg_db::msg::TmsdbStamped_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.134s]        dbpub = this->create_publisher<tms_msg_db::msg::TmsdbStamped>("~/tms_db_data"[01;35m[K)[m[K;
+[7.134s]                                                                                     [01;35m[K^[m[K
+[7.135s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.135s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.135s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.135s]  [01;36m[KNode[m[K::create_publisher(
+[7.136s]  [01;36m[K^~~~[m[K
+[7.136s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:94:96:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = visualization_msgs::msg::MarkerArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.136s]     checkerpub = this->create_publisher<visualization_msgs::msg::MarkerArray>("~/checker_box"[01;35m[K)[m[K;
+[7.136s]                                                                                              [01;35m[K^[m[K
+[7.136s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.136s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.136s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.137s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.137s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.137s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.137s]  [01;36m[KNode[m[K::create_publisher(
+[7.137s]  [01;36m[K^~~~[m[K
+[7.211s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:[m[K In member function ‘[01m[Kvoid ViconStream::updateCallback()[m[K’:
+[7.211s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:207:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[K_Output_GetFrameNumber[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[7.211s]      Output_GetFrameNumber [01;35m[K_Output_GetFrameNumber[m[K = MyClient.GetFrameNumber();
+[7.211s]                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.997s] [100%] [32m[1mLinking CXX executable bin/vicon_stream[0m
+[11.418s] [100%] Built target vicon_stream
+[11.958s] [100%] Built target vicon_stream
+[12.042s] [36mInstall the project...[0m
+[12.057s] -- Install configuration: ""
+[12.058s] -- Execute custom install script
+[12.059s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/bin/vicon_stream
+[12.076s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/lib/tms_ss_vicon/vicon_stream
+[12.108s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/package_run_dependencies/tms_ss_vicon
+[12.140s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/parent_prefix_path/tms_ss_vicon
+[12.159s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/ament_prefix_path.sh
+[12.176s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/path.sh
+[12.193s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.bash
+[12.210s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.sh
+[12.227s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.zsh
+[12.244s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/packages/tms_ss_vicon
+[12.293s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.332s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.364s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig.cmake
+[12.396s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig-version.cmake
+[12.453s] -- Symlinking: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/package.xml

@@ -1,0 +1,107 @@
+[0.314s] [  0%] Built target moveit_msgs__cpp
+[0.375s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_options__functions.c.o[0m
+[0.375s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene__functions.c.o[0m
+[0.378s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/get_state_validity__functions.c.o[0m
+[0.378s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__functions.c.o[0m
+[0.388s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/get_cartesian_path__functions.c.o[0m
+[0.391s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/execute_known_trajectory__functions.c.o[0m
+[0.416s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene__struct.h:37:0[m[K,
+[0.416s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_options__struct.h:22[m[K,
+[0.417s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_options__functions.h:19[m[K,
+[0.417s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_options__functions.c:4[m[K:
+[0.417s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.h: No such file or directory
+[0.417s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.h"[m[K
+[0.417s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.417s] compilation terminated.
+[0.418s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__functions.h:19:0[m[K,
+[0.418s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__functions.c:4[m[K:
+[0.419s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.h: No such file or directory
+[0.419s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.h"[m[K
+[0.419s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.419s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1937: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_options__functions.c.o' failed
+[0.419s] compilation terminated.
+[0.419s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_options__functions.c.o] Error 1
+[0.420s] make[2]: *** Waiting for unfinished jobs....
+[0.420s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__functions.c.o] Error 1
+[0.420s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1913: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__functions.c.o' failed
+[0.422s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene__struct.h:37:0[m[K,
+[0.422s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene__functions.h:19[m[K,
+[0.422s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene__functions.c:4[m[K:
+[0.422s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/planning_scene_world__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.h: No such file or directory
+[0.422s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.h"[m[K
+[0.423s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.423s] compilation terminated.
+[0.424s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1865: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene__functions.c.o' failed
+[0.424s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/planning_scene__functions.c.o] Error 1
+[0.490s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/srv/dds_fastrtps/get_motion_plan__type_support.cpp.o[0m
+[0.497s] CMakeFiles/Makefile2:270: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all' failed
+[0.497s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all] Error 2
+[0.498s] make[1]: *** Waiting for unfinished jobs....
+[0.501s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/srv/dds_fastrtps/execute_known_trajectory__type_support.cpp.o[0m
+[0.501s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene__type_support.cpp.o[0m
+[0.505s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_options__type_support.cpp.o[0m
+[0.516s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene_world__type_support.cpp.o[0m
+[0.530s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene_world__type_support.cpp.o[0m
+[0.541s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene__type_support.cpp.o[0m
+[0.547s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_options__type_support.cpp.o[0m
+[0.628s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene__struct.hpp:41:0[m[K,
+[0.628s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/planning_scene__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.628s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene__type_support.cpp:4[m[K:
+[0.628s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.629s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.629s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.629s] compilation terminated.
+[0.631s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:1293: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene__type_support.cpp.o' failed
+[0.631s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene__type_support.cpp.o] Error 1
+[0.631s] make[2]: *** Waiting for unfinished jobs....
+[0.635s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene__struct.hpp:41:0[m[K,
+[0.635s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_options__struct.hpp:29[m[K,
+[0.635s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/planning_options__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.635s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_options__type_support.cpp:4[m[K:
+[0.635s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.636s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.636s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.636s] compilation terminated.
+[0.638s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:1365: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_options__type_support.cpp.o' failed
+[0.638s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_options__type_support.cpp.o] Error 1
+[0.648s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene_world__type_support.cpp:12:0[m[K:
+[0.648s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.648s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.648s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.648s] compilation terminated.
+[0.649s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1341: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene_world__type_support.cpp.o' failed
+[0.649s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene_world__type_support.cpp.o] Error 1
+[0.649s] make[2]: *** Waiting for unfinished jobs....
+[0.650s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/planning_scene_world__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[0.650s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene_world__type_support.cpp:4[m[K:
+[0.650s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.650s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.651s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.651s] compilation terminated.
+[0.652s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene_world__type_support.cpp.o] Error 1
+[0.652s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:1341: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/planning_scene_world__type_support.cpp.o' failed
+[0.664s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/visibility_constraint__type_support.cpp.o[0m
+[0.692s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene__struct.hpp:41:0[m[K,
+[0.692s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_options__struct.hpp:29[m[K,
+[0.692s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_options__type_support.cpp:12[m[K:
+[0.693s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.693s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.693s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.693s] compilation terminated.
+[0.693s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1365: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_options__type_support.cpp.o' failed
+[0.694s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_options__type_support.cpp.o] Error 1
+[0.712s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/workspace_parameters__type_support.cpp.o[0m
+[0.729s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene__struct.hpp:41:0[m[K,
+[0.729s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene__type_support.cpp:12[m[K:
+[0.729s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/planning_scene_world__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Koctomap_msgs/msg/octomap_with_pose__struct.hpp: No such file or directory
+[0.729s]  #include [01;31m[K"octomap_msgs/msg/octomap_with_pose__struct.hpp"[m[K
+[0.729s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.729s] compilation terminated.
+[0.730s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1293: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene__type_support.cpp.o' failed
+[0.730s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/planning_scene__type_support.cpp.o] Error 1
+[1.152s] CMakeFiles/Makefile2:609: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all' failed
+[1.152s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[1.234s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[1.236s] make: *** [all] Error 2
+[1.236s] CMakeFiles/Makefile2:459: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[1.236s] Makefile:140: recipe for target 'all' failed

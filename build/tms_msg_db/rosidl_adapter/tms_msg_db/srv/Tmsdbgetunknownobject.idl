@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgetunknownobject.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgetunknownobject_Request {
+      uint32 unknown_object_id;
+    };
+    struct Tmsdbgetunknownobject_Response {
+      float unknown_object_x;
+
+      float unknown_object_y;
+
+      float unknown_object_z;
+    };
+  };
+};

@@ -1,0 +1,40 @@
+[0.058s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber
+[0.097s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.562s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.571s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.594s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.649s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.696s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.893s] -- Configuring done
+[0.933s] -- Generating done
+[0.938s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber
+[0.941s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber
+[0.945s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[1.071s] [ 33%] Built target subscriber_not_composable
+[1.084s] [ 66%] Built target subscriber_member_function
+[1.092s] [100%] Built target subscriber_lambda
+[1.113s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[1.220s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8
+[1.299s] [ 33%] Built target subscriber_member_function
+[1.300s] [ 66%] Built target subscriber_not_composable
+[1.304s] [100%] Built target subscriber_lambda
+[1.339s] [36mInstall the project...[0m
+[1.356s] -- Install configuration: ""
+[1.356s] -- Execute custom install script
+[1.357s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[1.358s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[1.358s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[1.359s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[1.360s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[1.361s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[1.361s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[1.361s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[1.361s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[1.364s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[1.364s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[1.364s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[1.364s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[1.364s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[1.368s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8

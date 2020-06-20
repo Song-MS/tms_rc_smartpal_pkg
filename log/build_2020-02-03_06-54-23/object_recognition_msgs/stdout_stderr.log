@@ -1,0 +1,179 @@
+[0.183s] [ 11%] Built target object_recognition_msgs__rosidl_generator_c
+[0.183s] [ 12%] Built target object_recognition_msgs__cpp
+[0.270s] [ 24%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c
+[0.334s] [ 36%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp
+[0.347s] [ 48%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[0.407s] [ 60%] Built target object_recognition_msgs__rosidl_typesupport_cpp
+[0.415s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c
+[0.472s] [ 83%] Built target object_recognition_msgs__rosidl_typesupport_c
+[0.551s] [ 83%] Built target object_recognition_msgs
+[0.606s] [ 84%] Built target object_recognition_msgs__py
+[0.662s] [ 95%] Built target object_recognition_msgs__python
+[0.709s] [ 97%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext
+[0.712s] [100%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.247s] [  1%] Built target object_recognition_msgs__cpp
+[1.263s] [ 12%] Built target object_recognition_msgs__rosidl_generator_c
+[1.317s] [ 24%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp
+[1.323s] [ 36%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[1.329s] [ 48%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c
+[1.376s] [ 60%] Built target object_recognition_msgs__rosidl_typesupport_cpp
+[1.383s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c
+[1.424s] [ 83%] Built target object_recognition_msgs__rosidl_typesupport_c
+[1.452s] [ 83%] Built target object_recognition_msgs
+[1.483s] [ 84%] Built target object_recognition_msgs__py
+[1.535s] [ 95%] Built target object_recognition_msgs__python
+[1.580s] [ 97%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.584s] [100%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext
+[1.612s] [36mInstall the project...[0m
+[1.624s] -- Install configuration: ""
+[1.624s] -- Execute custom install script
+[1.624s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/rosidl_interfaces/object_recognition_msgs
+[1.624s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_c.so
+[1.625s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/library_path.sh
+[1.625s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_cpp.so
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_c.h
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_c.h
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_c.h
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_c.h
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_c.h
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_c.h
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_c.h
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_c.h
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_c.so
+[1.629s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.h
+[1.629s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__functions.h
+[1.630s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.h
+[1.630s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__type_support.h
+[1.630s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.h
+[1.630s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__functions.h
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.h
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__type_support.h
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.h
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__functions.h
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.h
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__type_support.h
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.h
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__functions.h
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.h
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__type_support.h
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.h
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__functions.h
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.h
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__type_support.h
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.h
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__functions.h
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.h
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__type_support.h
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.h
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__functions.h
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.h
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__type_support.h
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.h
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__functions.h
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.h
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__type_support.h
+[1.638s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_generator_c.so
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_cpp.hpp
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_cpp.hpp
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_cpp.hpp
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_cpp.hpp
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_cpp.hpp
+[1.642s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.642s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.hpp
+[1.643s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.hpp
+[1.643s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__traits.hpp
+[1.643s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.hpp
+[1.644s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.hpp
+[1.644s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__traits.hpp
+[1.645s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.hpp
+[1.645s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.hpp
+[1.646s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__traits.hpp
+[1.646s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.hpp
+[1.647s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.hpp
+[1.647s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__traits.hpp
+[1.649s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.hpp
+[1.649s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.hpp
+[1.650s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__traits.hpp
+[1.651s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.hpp
+[1.652s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.hpp
+[1.654s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__traits.hpp
+[1.655s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.hpp
+[1.655s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.hpp
+[1.655s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__traits.hpp
+[1.655s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.hpp
+[1.656s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.hpp
+[1.656s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__traits.hpp
+[1.656s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_c.h
+[1.656s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_c.h
+[1.657s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_c.h
+[1.657s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_c.h
+[1.657s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_c.h
+[1.658s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.658s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_c.h
+[1.658s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_c.h
+[1.658s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_c.h
+[1.658s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_c.so
+[1.659s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_cpp.hpp
+[1.659s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_cpp.hpp
+[1.662s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_cpp.hpp
+[1.662s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_cpp.hpp
+[1.663s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_cpp.so
+[1.663s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/pythonpath.sh
+[1.664s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/__init__.py
+[1.664s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/__init__.py
+[1.664s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_information.py
+[1.665s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_type.py
+[1.666s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object.py
+[1.667s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object_array.py
+[1.668s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table.py
+[1.669s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table_array.py
+[1.669s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/__init__.py
+[1.669s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/_get_object_information.py
+[1.669s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/__init__.py
+[1.670s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/_object_recognition.py
+[1.670s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[1.670s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[1.670s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__python.so
+[1.670s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.idl
+[1.671s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.idl
+[1.671s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.idl
+[1.671s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.idl
+[1.671s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.idl
+[1.671s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.idl
+[1.672s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.idl
+[1.673s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.idl
+[1.673s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.msg
+[1.674s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.msg
+[1.674s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.msg
+[1.674s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.msg
+[1.674s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.msg
+[1.674s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.msg
+[1.675s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.srv
+[1.675s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Request.msg
+[1.675s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Response.msg
+[1.676s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.action
+[1.677s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/package_run_dependencies/object_recognition_msgs
+[1.677s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/parent_prefix_path/object_recognition_msgs
+[1.677s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/ament_prefix_path.sh
+[1.678s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/path.sh
+[1.678s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.bash
+[1.678s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.sh
+[1.678s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.zsh
+[1.679s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/packages/object_recognition_msgs
+[1.679s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/rosidl_cmake-extras.cmake
+[1.679s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.679s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.680s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.680s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig.cmake
+[1.680s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake
+[1.680s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/package.xml

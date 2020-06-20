@@ -1,0 +1,38 @@
+[0.249s] [  0%] Built target moveit_msgs__cpp
+[0.281s] [  0%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.301s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c.o[0m
+[0.301s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.305s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/allowed_collision_matrix__functions.c.o[0m
+[0.307s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/bounding_volume__functions.c.o[0m
+[0.311s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c.o[0m
+[0.315s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o[0m
+[0.336s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o[0m
+[0.367s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1233: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c.o' failed
+[0.367s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1425: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c.o' failed
+[0.400s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1401: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o' failed
+[0.404s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1281: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o' failed
+[0.418s] CMakeFiles/Makefile2:698: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all' failed
+[7.431s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.549s] [  2%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/allowed_collision_matrix__type_support.cpp.o[0m
+[7.551s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/allowed_collision_entry__type_support.cpp.o[0m
+[7.553s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp.o[0m
+[7.553s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/bounding_volume__type_support.cpp.o[0m
+[7.553s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o[0m
+[7.555s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/constraint_eval_result__type_support.cpp.o[0m
+[7.557s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/constraints__type_support.cpp.o[0m
+[7.626s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:661: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp.o' failed
+[7.627s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:709: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o' failed
+[8.113s] CMakeFiles/Makefile2:110: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all' failed
+[8.626s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[8.697s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/allowed_collision_matrix__type_support.cpp.o[0m
+[8.697s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/allowed_collision_entry__type_support.cpp.o[0m
+[8.698s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp.o[0m
+[8.698s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/bounding_volume__type_support.cpp.o[0m
+[8.698s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/constraint_eval_result__type_support.cpp.o[0m
+[8.699s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/constraints__type_support.cpp.o[0m
+[8.699s] [  4%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/cost_source__type_support.cpp.o[0m
+[8.699s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o[0m
+[8.770s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:661: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp.o' failed
+[8.771s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:709: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o' failed
+[9.353s] CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[9.354s] Makefile:140: recipe for target 'all' failed

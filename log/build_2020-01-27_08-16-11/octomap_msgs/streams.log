@@ -1,0 +1,131 @@
+[0.042s] Invoking command in '/home/common/colcon_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/colcon_ws/install/tms_rc_smartpal_control:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/moveit_msgs:/home/common/colcon_ws/install/octomap_msgs:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs -- -j8 -l8
+[0.141s] [  1%] Built target octomap_msgs__cpp
+[0.152s] [ 13%] Built target octomap_msgs__rosidl_generator_c
+[0.236s] [ 24%] Built target octomap_msgs__rosidl_typesupport_fastrtps_cpp
+[0.248s] [ 35%] Built target octomap_msgs__rosidl_typesupport_introspection_cpp
+[0.261s] [ 47%] Built target octomap_msgs__rosidl_typesupport_introspection_c
+[0.311s] [ 58%] Built target octomap_msgs__rosidl_typesupport_cpp
+[0.311s] [ 69%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c
+[0.367s] [ 81%] Built target octomap_msgs__rosidl_typesupport_c
+[0.405s] [ 81%] Built target octomap_msgs
+[0.442s] [ 83%] Built target octomap_msgs__py
+[0.494s] [ 92%] Built target octomap_msgs__python
+[0.577s] [ 96%] Built target octomap_msgs__rosidl_typesupport_c__pyext
+[0.592s] [100%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.631s] Invoked command in '/home/common/colcon_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/colcon_ws/install/tms_rc_smartpal_control:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/moveit_msgs:/home/common/colcon_ws/install/octomap_msgs:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs -- -j8 -l8
+[1.187s] Invoking command in '/home/common/colcon_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/colcon_ws/install/tms_rc_smartpal_control:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/moveit_msgs:/home/common/colcon_ws/install/octomap_msgs:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs --target install -- -j8 -l8
+[1.272s] [  1%] Built target octomap_msgs__cpp
+[1.278s] [ 13%] Built target octomap_msgs__rosidl_generator_c
+[1.333s] [ 24%] Built target octomap_msgs__rosidl_typesupport_fastrtps_cpp
+[1.337s] [ 35%] Built target octomap_msgs__rosidl_typesupport_introspection_cpp
+[1.344s] [ 47%] Built target octomap_msgs__rosidl_typesupport_introspection_c
+[1.386s] [ 58%] Built target octomap_msgs__rosidl_typesupport_cpp
+[1.392s] [ 69%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c
+[1.432s] [ 81%] Built target octomap_msgs__rosidl_typesupport_c
+[1.456s] [ 81%] Built target octomap_msgs
+[1.481s] [ 83%] Built target octomap_msgs__py
+[1.515s] [ 92%] Built target octomap_msgs__python
+[1.552s] [ 96%] Built target octomap_msgs__rosidl_typesupport_c__pyext
+[1.561s] [100%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.593s] [36mInstall the project...[0m
+[1.603s] -- Install configuration: ""
+[1.604s] -- Execute custom install script
+[1.605s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/ament_index/resource_index/rosidl_interfaces/octomap_msgs
+[1.605s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_c.so
+[1.605s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/environment/library_path.sh
+[1.606s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_cpp.so
+[1.607s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__rosidl_typesupport_fastrtps_c.h
+[1.607s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__rosidl_typesupport_fastrtps_c.h
+[1.608s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.608s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__rosidl_typesupport_fastrtps_c.h
+[1.608s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__rosidl_typesupport_fastrtps_c.h
+[1.609s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so
+[1.609s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap.h
+[1.610s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__functions.h
+[1.610s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__struct.h
+[1.610s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__type_support.h
+[1.611s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose.h
+[1.611s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__functions.h
+[1.611s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__struct.h
+[1.612s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__type_support.h
+[1.612s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.612s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query.h
+[1.613s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__functions.h
+[1.613s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__struct.h
+[1.613s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__type_support.h
+[1.614s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap.h
+[1.614s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__functions.h
+[1.614s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__struct.h
+[1.615s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__type_support.h
+[1.616s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_c.so
+[1.617s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[1.617s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.617s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.618s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__rosidl_typesupport_fastrtps_cpp.hpp
+[1.618s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[1.619s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.620s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap.hpp
+[1.620s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__struct.hpp
+[1.621s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__traits.hpp
+[1.621s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose.hpp
+[1.621s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__struct.hpp
+[1.622s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__traits.hpp
+[1.622s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query.hpp
+[1.622s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__struct.hpp
+[1.623s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__traits.hpp
+[1.623s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap.hpp
+[1.623s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__struct.hpp
+[1.624s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__traits.hpp
+[1.625s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__rosidl_typesupport_introspection_c.h
+[1.625s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__rosidl_typesupport_introspection_c.h
+[1.625s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__rosidl_typesupport_introspection_c.h
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__rosidl_typesupport_introspection_c.h
+[1.626s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap__rosidl_typesupport_introspection_cpp.hpp
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/msg/octomap_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.627s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/bounding_box_query__rosidl_typesupport_introspection_cpp.hpp
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/srv/get_octomap__rosidl_typesupport_introspection_cpp.hpp
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so
+[1.628s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.sh
+[1.629s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/__init__.py
+[1.629s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/msg/__init__.py
+[1.629s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/msg/_octomap.py
+[1.630s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/msg/_octomap_with_pose.py
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/srv/__init__.py
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/srv/_bounding_box_query.py
+[1.631s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/srv/_get_octomap.py
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[1.632s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/python3.6/site-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/lib/liboctomap_msgs__python.so
+[1.633s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.idl
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.idl
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.idl
+[1.634s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.idl
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.msg
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.msg
+[1.635s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.srv
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Request.msg
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Response.msg
+[1.636s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.srv
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Request.msg
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Response.msg
+[1.637s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/ament_index/resource_index/package_run_dependencies/octomap_msgs
+[1.638s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/ament_index/resource_index/parent_prefix_path/octomap_msgs
+[1.638s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.sh
+[1.638s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/environment/path.sh
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/local_setup.bash
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/local_setup.sh
+[1.639s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/local_setup.zsh
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/ament_index/resource_index/packages/octomap_msgs
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake-extras.cmake
+[1.640s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.641s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig.cmake
+[1.642s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake
+[1.642s] -- Up-to-date symlink: /home/common/colcon_ws/install/octomap_msgs/share/octomap_msgs/package.xml
+[1.709s] -- Up-to-date: /home/common/colcon_ws/install/octomap_msgs/include
+[1.712s] -- Up-to-date: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs
+[1.712s] -- Up-to-date: /home/common/colcon_ws/install/octomap_msgs/include/octomap_msgs/conversions.h
+[1.737s] Invoked command in '/home/common/colcon_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/colcon_ws/install/tms_rc_smartpal_control:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/moveit_msgs:/home/common/colcon_ws/install/octomap_msgs:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/octomap_msgs --target install -- -j8 -l8

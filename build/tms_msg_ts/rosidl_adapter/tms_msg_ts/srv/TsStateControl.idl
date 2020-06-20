@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ts/srv/TsStateControl.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ts {
+  module srv {
+    struct TsStateControl_Request {
+      uint64 rostime;
+
+      int32 type;
+
+      int32 state;
+
+      int32 cc_subtasks;
+
+      string error_msg;
+    };
+    struct TsStateControl_Response {
+      int32 result;
+    };
+  };
+};

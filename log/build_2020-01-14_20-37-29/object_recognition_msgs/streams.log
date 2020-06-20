@@ -1,0 +1,239 @@
+[0.062s] Invoking command in '/home/common/colcon_ws/build/object_recognition_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake /home/common/colcon_ws/src/object_recognition_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/object_recognition_msgs
+[0.138s] -- The C compiler identification is GNU 7.4.0
+[0.209s] -- The CXX compiler identification is GNU 7.4.0
+[0.215s] -- Check for working C compiler: /usr/bin/cc
+[0.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.308s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.410s] -- Detecting C compile features
+[0.687s] -- Detecting C compile features - done
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++
+[0.802s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.803s] -- Detecting CXX compiler ABI info
+[0.931s] -- Detecting CXX compiler ABI info - done
+[0.937s] -- Detecting CXX compile features
+[1.470s] -- Detecting CXX compile features - done
+[1.477s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.563s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.967s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.049s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.264s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.309s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.417s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.693s] -- Found action_msgs: 0.7.4 (/opt/ros/dashing/share/action_msgs/cmake)
+[2.748s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.763s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[2.780s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.817s] -- Found shape_msgs: 0.7.0 (/opt/ros/dashing/share/shape_msgs/cmake)
+[2.905s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.501s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[3.659s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[4.681s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.753s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[4.761s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[4.842s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[4.842s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.842s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[4.842s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[4.910s] -- Found PythonExtra: .so  
+[5.407s] -- Configuring done
+[5.966s] -- Generating done
+[5.966s] -- Build files have been written to: /home/common/colcon_ws/build/object_recognition_msgs
+[5.978s] Invoked command in '/home/common/colcon_ws/build/object_recognition_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake /home/common/colcon_ws/src/object_recognition_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/object_recognition_msgs
+[5.979s] Invoking command in '/home/common/colcon_ws/build/object_recognition_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/object_recognition_msgs -- -j8 -l8
+[6.089s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_generator_c[0m
+[6.089s] [35m[1mScanning dependencies of target object_recognition_msgs__cpp[0m
+[6.116s] [  1%] Built target object_recognition_msgs__cpp
+[6.131s] [ 12%] Built target object_recognition_msgs__rosidl_generator_c
+[6.156s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.161s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.179s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_introspection_c[0m
+[6.219s] [ 24%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp
+[6.235s] [ 36%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[6.239s] [ 48%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c
+[6.273s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_cpp[0m
+[6.275s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.340s] [ 60%] Built target object_recognition_msgs__rosidl_typesupport_cpp
+[6.359s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c
+[6.393s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_c[0m
+[6.449s] [ 83%] Built target object_recognition_msgs__rosidl_typesupport_c
+[6.477s] [35m[1mScanning dependencies of target object_recognition_msgs[0m
+[6.518s] [ 83%] Built target object_recognition_msgs
+[6.572s] [ 84%] Built target object_recognition_msgs__py
+[6.604s] [35m[1mScanning dependencies of target object_recognition_msgs__python[0m
+[6.722s] [ 95%] Built target object_recognition_msgs__python
+[6.763s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.767s] [35m[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_c__pyext[0m
+[6.812s] [ 97%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.834s] [100%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext
+[6.858s] Invoked command in '/home/common/colcon_ws/build/object_recognition_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/object_recognition_msgs -- -j8 -l8
+[7.609s] Invoking command in '/home/common/colcon_ws/build/object_recognition_msgs': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/object_recognition_msgs --target install -- -j8 -l8
+[7.736s] [  1%] Built target object_recognition_msgs__cpp
+[7.745s] [ 12%] Built target object_recognition_msgs__rosidl_generator_c
+[7.814s] [ 25%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp
+[7.815s] [ 36%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[7.853s] [ 48%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c
+[7.900s] [ 60%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c
+[7.920s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_cpp
+[7.977s] [ 83%] Built target object_recognition_msgs__rosidl_typesupport_c
+[8.018s] [ 83%] Built target object_recognition_msgs
+[8.060s] [ 84%] Built target object_recognition_msgs__py
+[8.125s] [ 95%] Built target object_recognition_msgs__python
+[8.203s] [ 97%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext
+[8.208s] [100%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.250s] [36mInstall the project...[0m
+[8.266s] -- Install configuration: ""
+[8.267s] -- Execute custom install script
+[8.268s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/rosidl_interfaces/object_recognition_msgs
+[8.268s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_c.so
+[8.269s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/library_path.sh
+[8.270s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_cpp.so
+[8.271s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_c.h
+[8.272s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_c.h
+[8.272s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_c.h
+[8.273s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_c.h
+[8.273s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_c.h
+[8.273s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.274s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_c.h
+[8.274s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_c.h
+[8.275s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_c.h
+[8.275s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_c.so
+[8.277s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.h
+[8.277s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__functions.h
+[8.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.h
+[8.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__type_support.h
+[8.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.h
+[8.279s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__functions.h
+[8.279s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.h
+[8.279s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__type_support.h
+[8.280s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.h
+[8.280s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__functions.h
+[8.280s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.h
+[8.281s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__type_support.h
+[8.281s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.h
+[8.282s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__functions.h
+[8.282s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.h
+[8.283s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__type_support.h
+[8.283s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.h
+[8.283s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__functions.h
+[8.284s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.h
+[8.285s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__type_support.h
+[8.287s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.287s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.h
+[8.287s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__functions.h
+[8.287s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.h
+[8.288s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__type_support.h
+[8.288s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.h
+[8.288s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__functions.h
+[8.288s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.h
+[8.289s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__type_support.h
+[8.289s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.h
+[8.289s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__functions.h
+[8.290s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.h
+[8.290s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__type_support.h
+[8.291s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_generator_c.so
+[8.293s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_cpp.hpp
+[8.293s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_cpp.hpp
+[8.294s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_cpp.hpp
+[8.294s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_cpp.hpp
+[8.295s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.295s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.295s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_cpp.hpp
+[8.296s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.297s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_cpp.hpp
+[8.297s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.299s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.hpp
+[8.299s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.hpp
+[8.299s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__traits.hpp
+[8.300s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.hpp
+[8.300s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.hpp
+[8.301s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__traits.hpp
+[8.301s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.hpp
+[8.301s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.hpp
+[8.302s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__traits.hpp
+[8.302s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.hpp
+[8.303s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.hpp
+[8.303s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__traits.hpp
+[8.304s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.hpp
+[8.304s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.hpp
+[8.304s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__traits.hpp
+[8.305s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.hpp
+[8.305s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.hpp
+[8.305s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__traits.hpp
+[8.306s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.hpp
+[8.306s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.hpp
+[8.306s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__traits.hpp
+[8.307s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.hpp
+[8.307s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.hpp
+[8.307s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__traits.hpp
+[8.308s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_c.h
+[8.309s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_c.h
+[8.309s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_c.h
+[8.309s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_c.h
+[8.310s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_c.h
+[8.310s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.311s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_c.h
+[8.311s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_c.h
+[8.311s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_c.h
+[8.312s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_c.so
+[8.313s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_cpp.hpp
+[8.314s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_cpp.hpp
+[8.314s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp
+[8.314s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_cpp.hpp
+[8.314s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_cpp.hpp
+[8.314s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_cpp.hpp
+[8.315s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_cpp.hpp
+[8.315s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_cpp.hpp
+[8.315s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_cpp.so
+[8.316s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/pythonpath.sh
+[8.316s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/__init__.py
+[8.317s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/__init__.py
+[8.317s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_information.py
+[8.317s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_type.py
+[8.318s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object.py
+[8.318s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object_array.py
+[8.318s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table.py
+[8.319s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table_array.py
+[8.319s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/__init__.py
+[8.320s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/_get_object_information.py
+[8.320s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/__init__.py
+[8.321s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/_object_recognition.py
+[8.321s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[8.322s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[8.322s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__python.so
+[8.323s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.idl
+[8.323s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.idl
+[8.324s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.idl
+[8.325s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.idl
+[8.325s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.idl
+[8.326s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.idl
+[8.326s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.idl
+[8.327s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.idl
+[8.327s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.msg
+[8.328s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.msg
+[8.328s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.msg
+[8.328s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.msg
+[8.329s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.msg
+[8.329s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.msg
+[8.330s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.srv
+[8.330s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Request.msg
+[8.331s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Response.msg
+[8.331s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.action
+[8.332s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/package_run_dependencies/object_recognition_msgs
+[8.332s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/parent_prefix_path/object_recognition_msgs
+[8.333s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/ament_prefix_path.sh
+[8.333s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/path.sh
+[8.334s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.bash
+[8.335s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.sh
+[8.335s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.zsh
+[8.336s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/packages/object_recognition_msgs
+[8.336s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/rosidl_cmake-extras.cmake
+[8.337s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.337s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.338s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.338s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig.cmake
+[8.339s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake
+[8.339s] -- Up-to-date symlink: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/package.xml
+[8.430s] Compiling '/home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/__init__.py'...
+[8.448s] Invoked command in '/home/common/colcon_ws/build/object_recognition_msgs' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/home/common/catkin_ws/devel:/opt/ros/melodic /usr/bin/cmake --build /home/common/colcon_ws/build/object_recognition_msgs --target install -- -j8 -l8

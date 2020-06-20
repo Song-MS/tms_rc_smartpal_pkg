@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgetrobotinfo.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgetrobotinfo_Request {
+      sequence<uint32> id;
+    };
+    struct Tmsdbgetrobotinfo_Response {
+      sequence<uint64> rostime;
+
+      sequence<uint32> id;
+
+      sequence<float> x;
+
+      sequence<float> y;
+
+      sequence<float> z;
+
+      sequence<float> theta;
+
+      sequence<float> joint_waist_low;
+
+      sequence<float> joint_waist_high;
+
+      sequence<float> joint_arm_right_1;
+
+      sequence<float> joint_arm_right_2;
+
+      sequence<float> joint_arm_right_3;
+
+      sequence<float> joint_arm_right_4;
+
+      sequence<float> joint_arm_right_5;
+
+      sequence<float> joint_arm_right_6;
+
+      sequence<float> joint_arm_right_7;
+
+      sequence<float> joint_arm_right_g;
+
+      sequence<float> joint_arm_left_1;
+
+      sequence<float> joint_arm_left_2;
+
+      sequence<float> joint_arm_left_3;
+
+      sequence<float> joint_arm_left_4;
+
+      sequence<float> joint_arm_left_5;
+
+      sequence<float> joint_arm_left_6;
+
+      sequence<float> joint_arm_left_7;
+
+      sequence<float> joint_arm_left_g;
+
+      sequence<uint32> state;
+
+      sequence<uint32> place;
+    };
+  };
+};

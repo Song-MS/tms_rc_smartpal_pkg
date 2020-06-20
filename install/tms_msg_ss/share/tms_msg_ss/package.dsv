@@ -1,0 +1,14 @@
+source;share/tms_msg_ss/hook/cmake_prefix_path.ps1
+source;share/tms_msg_ss/hook/cmake_prefix_path.dsv
+source;share/tms_msg_ss/hook/cmake_prefix_path.sh
+source;share/tms_msg_ss/hook/ld_library_path_lib.ps1
+source;share/tms_msg_ss/hook/ld_library_path_lib.dsv
+source;share/tms_msg_ss/hook/ld_library_path_lib.sh
+source;share/tms_msg_ss/hook/pythonpath.ps1
+source;share/tms_msg_ss/hook/pythonpath.dsv
+source;share/tms_msg_ss/hook/pythonpath.sh
+source;share/tms_msg_ss/local_setup.bash
+source;share/tms_msg_ss/local_setup.dsv
+source;share/tms_msg_ss/local_setup.ps1
+source;share/tms_msg_ss/local_setup.sh
+source;share/tms_msg_ss/local_setup.zsh

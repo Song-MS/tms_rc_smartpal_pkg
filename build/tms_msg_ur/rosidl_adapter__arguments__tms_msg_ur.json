@@ -1,0 +1,9 @@
+{
+  "package_name": "tms_msg_ur",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ur:msg/JuliusMsg.msg",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ur:srv/GSpeechSrv.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ur:srv/SlackSrv.srv",
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ur:srv/SpeakerSrv.srv"
+  ]
+}

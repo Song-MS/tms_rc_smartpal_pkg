@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/srv/get_robot_state_from_warehouse__rosidl_typesupport_introspection_cpp.hpp

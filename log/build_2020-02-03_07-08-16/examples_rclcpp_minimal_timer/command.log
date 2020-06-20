@@ -1,0 +1,4 @@
+[0.047s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[0.173s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[0.256s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer --target install -- -j8 -l8
+[0.460s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer --target install -- -j8 -l8

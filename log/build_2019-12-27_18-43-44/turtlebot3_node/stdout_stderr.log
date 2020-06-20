@@ -1,0 +1,23 @@
+[0.191s] [ 85%] Built target turtlebot3_node_lib
+[0.247s] [100%] Built target turtlebot3_ros
+[0.658s] [ 85%] Built target turtlebot3_node_lib
+[0.730s] [100%] Built target turtlebot3_ros
+[0.768s] [36mInstall the project...[0m
+[0.788s] -- Install configuration: ""
+[0.789s] -- Execute custom install script
+[0.789s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[0.789s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[0.789s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[0.789s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[0.790s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[0.791s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[0.791s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[0.792s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[0.792s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[0.792s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[0.793s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[0.795s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[0.795s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.795s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[0.796s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[0.796s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml

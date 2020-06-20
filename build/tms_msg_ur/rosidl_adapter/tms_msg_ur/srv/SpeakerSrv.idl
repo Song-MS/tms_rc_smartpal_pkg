@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ur/srv/SpeakerSrv.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ur {
+  module srv {
+    struct SpeakerSrv_Request {
+      string data;
+    };
+    struct SpeakerSrv_Response {
+      double sec;
+    };
+  };
+};

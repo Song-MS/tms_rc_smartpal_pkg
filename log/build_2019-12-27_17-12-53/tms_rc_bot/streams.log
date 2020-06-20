@@ -1,0 +1,72 @@
+[0.045s] Invoking command in '/home/common/colcon_ws/build/tms_rc_bot': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_bot
+[0.153s] -- The C compiler identification is GNU 7.4.0
+[0.246s] -- The CXX compiler identification is GNU 7.4.0
+[0.252s] -- Check for working C compiler: /usr/bin/cc
+[0.382s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.383s] -- Detecting C compiler ABI info
+[0.549s] -- Detecting C compiler ABI info - done
+[0.559s] -- Detecting C compile features
+[1.092s] -- Detecting C compile features - done
+[1.095s] -- Check for working CXX compiler: /usr/bin/c++
+[1.283s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.285s] -- Detecting CXX compiler ABI info
+[1.478s] -- Detecting CXX compiler ABI info - done
+[1.486s] -- Detecting CXX compile features
+[2.515s] -- Detecting CXX compile features - done
+[2.518s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.959s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.999s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.148s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.154s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.155s] -- Added test 'lint_cmake' to check CMake code style
+[3.157s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.160s] -- Added test 'xmllint' to check XML markup files
+[3.164s] -- Configuring done
+[3.167s] -- Generating done
+[3.169s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_bot
+[3.382s] Invoked command in '/home/common/colcon_ws/build/tms_rc_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_bot
+[3.384s] Invoking command in '/home/common/colcon_ws/build/tms_rc_bot': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot -- -j8 -l8
+[3.467s] Invoked command in '/home/common/colcon_ws/build/tms_rc_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot -- -j8 -l8
+[3.567s] Invoking command in '/home/common/colcon_ws/build/tms_rc_bot': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot --target install -- -j8 -l8
+[3.711s] [36mInstall the project...[0m
+[3.740s] -- Install configuration: ""
+[3.741s] -- Execute custom install script
+[3.742s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_bringup.launch.py
+[3.757s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_navigation.launch.py
+[3.772s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_navigation_prev.launch.py
+[3.786s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/navigation2.launch.py
+[3.803s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/maps/map.pgm
+[3.818s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/maps/map.yaml
+[3.834s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/burger.yaml
+[3.849s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/burger_params.yaml
+[3.863s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/guidebot_params.yaml
+[3.880s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/guidebot_params_back.yaml
+[3.895s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/waffle_params.yaml
+[3.910s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/waffle_pi_params.yaml
+[3.925s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/nav2_default_view.rviz
+[3.940s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/tb3_navigation2.rviz
+[3.955s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/tb3_navigation2_prev.rviz
+[3.971s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/auto_localization.xml
+[3.985s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/auto_localization_w_parallel_recovery.xml
+[4.001s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/bt_navigator_params.yaml
+[4.015s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_recovery_retry.xml
+[4.030s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_replanning.xml
+[4.045s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_replanning_and_recovery.xml
+[4.060s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/parallel.xml
+[4.075s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/parallel_w_recovery.xml
+[4.089s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/simple_sequential.xml
+[4.104s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/simple_sequential_w_recovery.xml
+[4.119s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/package_run_dependencies/tms_rc_bot
+[4.139s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/parent_prefix_path/tms_rc_bot
+[4.153s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/environment/ament_prefix_path.sh
+[4.169s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/environment/path.sh
+[4.184s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.bash
+[4.202s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.sh
+[4.218s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.zsh
+[4.234s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/packages/tms_rc_bot
+[4.252s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/cmake/tms_rc_botConfig.cmake
+[4.267s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/cmake/tms_rc_botConfig-version.cmake
+[4.284s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/package.xml
+[4.310s] Invoked command in '/home/common/colcon_ws/build/tms_rc_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot --target install -- -j8 -l8

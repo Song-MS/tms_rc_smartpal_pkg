@@ -1,0 +1,4 @@
+[0.040s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_cartographer': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.121s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_cartographer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.156s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_cartographer': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer --target install -- -j8 -l8
+[0.245s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_cartographer' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_cartographer --target install -- -j8 -l8

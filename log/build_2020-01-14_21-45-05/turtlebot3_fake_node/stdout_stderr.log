@@ -1,0 +1,42 @@
+[0.059s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.573s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.591s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.651s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.669s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.684s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.731s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.749s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.754s] -- Found tf2_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_msgs/cmake)
+[0.794s] -- Found turtlebot3_msgs: 2.1.0 (/home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.098s] -- Configuring done
+[1.131s] -- Generating done
+[1.132s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_fake_node
+[1.288s] [100%] Built target turtlebot3_fake_node
+[1.482s] [100%] Built target turtlebot3_fake_node
+[1.509s] [36mInstall the project...[0m
+[1.521s] -- Install configuration: ""
+[1.522s] -- Execute custom install script
+[1.522s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[1.523s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[1.523s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[1.523s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[1.524s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[1.524s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[1.524s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[1.525s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[1.525s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[1.526s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[1.526s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[1.527s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[1.527s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[1.527s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[1.528s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[1.528s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[1.528s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.529s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.529s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[1.529s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[1.530s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml

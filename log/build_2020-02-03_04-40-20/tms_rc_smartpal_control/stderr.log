@@ -1,0 +1,18 @@
+[2.108s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In function ‘[01m[Kvoid robotControl(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Request_<std::allocator<void> > >, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Response_<std::allocator<void> > >)[m[K’:
+[2.108s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:809:28:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[2.108s]              for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[2.108s]                            [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[2.108s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:822:28:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[2.108s]              for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[2.108s]                            [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[2.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kvoid SmartpalControl::timer_callback()[m[K’:
+[2.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:1513:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[2.128s]    [01;31m[Krclcpp[m[K::WallRate loop_rate(500ms);
+[2.128s]    [01;31m[K^~~~~~[m[K
+[2.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:1653:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[2.173s]    [01;31m[Kloop_rate[m[K.sleep();
+[2.173s]    [01;31m[K^~~~~~~~~[m[K
+[3.561s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[3.561s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[3.561s] make: *** [all] Error 2

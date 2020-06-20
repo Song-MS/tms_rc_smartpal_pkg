@@ -1,0 +1,6 @@
+{
+  "package_name": "tms_msg_ss",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/ros_tms/tms_msg/tms_msg_ss:msg/ViconData.msg"
+  ]
+}

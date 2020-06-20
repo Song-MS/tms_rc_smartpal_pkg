@@ -1,0 +1,1 @@
+[0.032s] Invoking command in '/home/common/colcon_ws/build/dynamixel_sdk': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/dynamixel_sdk

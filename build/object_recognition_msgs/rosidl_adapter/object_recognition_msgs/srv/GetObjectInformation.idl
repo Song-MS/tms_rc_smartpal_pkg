@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from object_recognition_msgs/srv/GetObjectInformation.srv
+// generated code does not contain a copyright notice
+
+#include "object_recognition_msgs/msg/ObjectInformation.idl"
+#include "object_recognition_msgs/msg/ObjectType.idl"
+
+module object_recognition_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Retrieve extra data from the DB for a given object")
+    struct GetObjectInformation_Request {
+      @verbatim (language="comment", text=
+        " The type of the object to retrieve info from")
+      object_recognition_msgs::msg::ObjectType type;
+    };
+    struct GetObjectInformation_Response {
+      @verbatim (language="comment", text=
+        " Extra object info")
+      object_recognition_msgs::msg::ObjectInformation information;
+    };
+  };
+};

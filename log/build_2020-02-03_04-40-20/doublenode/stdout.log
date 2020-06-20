@@ -1,0 +1,20 @@
+[1.690s] [ 60%] Built target doublenode
+[1.691s] [100%] Built target double_odom
+[2.601s] [ 60%] Built target doublenode
+[2.643s] [100%] Built target double_odom
+[2.672s] [36mInstall the project...[0m
+[2.686s] -- Install configuration: ""
+[2.687s] -- Execute custom install script
+[2.688s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/lib/doublenode/double_odom
+[2.688s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/package_run_dependencies/doublenode
+[2.688s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/parent_prefix_path/doublenode
+[2.689s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/ament_prefix_path.sh
+[2.689s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/path.sh
+[2.690s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.bash
+[2.690s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.sh
+[2.690s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.zsh
+[2.691s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/packages/doublenode
+[2.691s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.692s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig.cmake
+[2.692s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig-version.cmake
+[2.692s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/package.xml

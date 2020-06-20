@@ -1,0 +1,36 @@
+[0.025s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/octomap_msgs:/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:/opt/ros/melodic:/home/common/colcon_ws/install/turtlebot3:/home/common/colcon_ws/install/turtlebot3_simulations:/home/common/colcon_ws/install/turtlebot3_bringup:/home/common/colcon_ws/install/turtlebot3_node:/home/common/colcon_ws/install/turtlebot3_navigation2:/home/common/colcon_ws/install/turtlebot3_fake_node:/home/common/colcon_ws/install/doublenode:/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/turtlebot3_gazebo:/home/common/colcon_ws/install/turtlebot3_description:/home/common/colcon_ws/install/turtlebot3_cartographer:/home/common/colcon_ws/install/tms_ss_vicon:/home/common/colcon_ws/install/tms_rc_tfnode:/home/common/colcon_ws/install/tms_rc_bot:/home/common/colcon_ws/install/tms_nw_rp:/home/common/colcon_ws/install/tms_msg_ur:/home/common/colcon_ws/install/tms_msg_ts:/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_rc:/home/common/colcon_ws/install/tms_msg_db:/home/common/colcon_ws/install/object_recognition_msgs:/home/common/colcon_ws/install/hls_lfcd_lds_driver:/home/common/colcon_ws/install/examples_rclcpp_minimal_timer:/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber:/home/common/colcon_ws/install/examples_rclcpp_minimal_service:/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher:/home/common/colcon_ws/install/examples_rclcpp_minimal_composition:/home/common/colcon_ws/install/examples_rclcpp_minimal_client:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server:/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client:/home/common/colcon_ws/install/dynamixel_sdk /usr/bin/cmake /home/common/colcon_ws/src/ros_tms/rclcpp/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber
+[0.140s] -- The C compiler identification is GNU 7.4.0
+[0.227s] -- The CXX compiler identification is GNU 7.4.0
+[0.234s] -- Check for working C compiler: /usr/bin/cc
+[0.333s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.334s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.444s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.727s] -- Check for working CXX compiler: /usr/bin/c++
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.837s] -- Detecting CXX compiler ABI info
+[0.944s] -- Detecting CXX compiler ABI info - done
+[0.952s] -- Detecting CXX compile features
+[1.324s] -- Detecting CXX compile features - done
+[1.327s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.377s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.377s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.630s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.654s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.677s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.712s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.715s] -- Looking for pthread.h
+[1.786s] -- Looking for pthread.h - found
+[1.786s] -- Looking for pthread_create
+[1.848s] -- Looking for pthread_create - not found
+[1.848s] -- Looking for pthread_create in pthreads
+[1.900s] -- Looking for pthread_create in pthreads - not found
+[1.900s] -- Looking for pthread_create in pthread
+[1.972s] -- Looking for pthread_create in pthread - found
+[1.973s] -- Found Threads: TRUE  
+[2.003s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.090s] -- Configuring done
+[2.110s] -- Generating done
+[2.111s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber

@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/tms_nw_rp/ament_cmake_environment_hooks/pythonpath.sh

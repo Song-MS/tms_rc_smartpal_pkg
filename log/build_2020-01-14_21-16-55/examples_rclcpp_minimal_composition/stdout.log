@@ -1,0 +1,27 @@
+[0.311s] [ 33%] Built target composition_nodes
+[0.423s] [ 55%] Built target composition_publisher
+[0.436s] [ 77%] Built target composition_composed
+[0.438s] [100%] Built target composition_subscriber
+[0.844s] [ 33%] Built target composition_nodes
+[0.888s] [ 55%] Built target composition_subscriber
+[0.889s] [ 77%] Built target composition_composed
+[0.893s] [100%] Built target composition_publisher
+[0.917s] [36mInstall the project...[0m
+[0.929s] -- Install configuration: ""
+[0.930s] -- Execute custom install script
+[0.930s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[0.930s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[0.931s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[0.931s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[0.932s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[0.932s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[0.932s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[0.933s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[0.933s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[0.933s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[0.934s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[0.934s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[0.934s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[0.934s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[0.934s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[0.935s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

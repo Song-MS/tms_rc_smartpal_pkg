@@ -1,0 +1,4 @@
+[0.466s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[0.601s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[0.699s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client --target install -- -j8 -l8
+[0.889s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client --target install -- -j8 -l8

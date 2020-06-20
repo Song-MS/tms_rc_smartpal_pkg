@@ -1,0 +1,32 @@
+[1.838s] In file included from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:6:0[m[K:
+[1.838s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:[m[K In constructor ‘[01m[KClient::Client()[m[K’:
+[1.839s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:206:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KClient::bInitialize[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[1.839s]    bool [01;35m[KbInitialize[m[K;
+[1.839s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.839s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:182:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCORBA::ORB_var Client::orb[m[K’ [[01;35m[K-Wreorder[m[K]
+[1.839s]    CORBA::ORB_var [01;35m[Korb[m[K;
+[1.839s]                   [01;35m[K^~~[m[K
+[1.839s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[1.840s]  [01;35m[KClient[m[K::Client()
+[1.840s]  [01;35m[K^~~~~~[m[K
+[1.900s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:[m[K In member function ‘[01m[Kint8_t Client::gripperSetPower(int8_t, double)[m[K’:
+[1.900s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRL[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.900s]  int8_t Client::gripperSetPower(int8_t [01;35m[KRL[m[K, double OnOff)
+[1.900s]                                        [01;35m[K^~[m[K
+[1.900s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KOnOff[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.900s]  int8_t Client::gripperSetPower(int8_t RL, double [01;35m[KOnOff[m[K)
+[1.901s]                                                   [01;35m[K^~~~~[m[K
+[1.906s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:[m[K In member function ‘[01m[Kint8_t Client::armGetActiveAlarm(int8_t, u_int32_t, double*)[m[K’:
+[1.906s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:315:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreturn_code[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.906s]  int8_t Client::armGetActiveAlarm(int8_t RL, u_int32_t num_request, double *[01;35m[Kreturn_code[m[K)
+[1.906s]                                                                             [01;35m[K^~~~~~~~~~~[m[K
+[3.922s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In function ‘[01m[Kvoid robotControl(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Request_<std::allocator<void> > >, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Response_<std::allocator<void> > >)[m[K’:
+[3.922s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:629:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[3.922s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[3.922s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[3.923s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:642:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[3.923s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[3.923s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[5.397s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kvoid SmartpalControl::armcallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.397s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:329:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kai[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[5.397s]        ai->gripper_left = msg->position[0];

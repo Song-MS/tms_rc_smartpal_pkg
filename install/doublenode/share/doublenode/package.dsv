@@ -1,0 +1,8 @@
+source;share/doublenode/hook/cmake_prefix_path.ps1
+source;share/doublenode/hook/cmake_prefix_path.dsv
+source;share/doublenode/hook/cmake_prefix_path.sh
+source;share/doublenode/local_setup.bash
+source;share/doublenode/local_setup.dsv
+source;share/doublenode/local_setup.ps1
+source;share/doublenode/local_setup.sh
+source;share/doublenode/local_setup.zsh

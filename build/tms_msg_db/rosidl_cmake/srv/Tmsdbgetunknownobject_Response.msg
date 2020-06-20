@@ -1,0 +1,4 @@
+
+float32 unknown_object_x
+float32 unknown_object_y
+float32 unknown_object_z

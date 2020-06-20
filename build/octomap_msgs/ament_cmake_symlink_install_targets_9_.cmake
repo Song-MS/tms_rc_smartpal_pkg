@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/common/colcon_ws/build/octomap_msgs/rosidl_generator_py/octomap_msgs/liboctomap_msgs__python.so" "TARGETS" "octomap_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

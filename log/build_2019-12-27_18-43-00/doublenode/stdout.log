@@ -1,0 +1,27 @@
+[1.476s] [35m[1mScanning dependencies of target doublenode[0m
+[1.490s] [ 20%] [32mBuilding CXX object CMakeFiles/doublenode.dir/src/constants.cpp.o[0m
+[1.497s] [ 40%] [32mBuilding CXX object CMakeFiles/doublenode.dir/src/odometry.cpp.o[0m
+[1.904s] [ 60%] [32m[1mLinking CXX static library libdoublenode.a[0m
+[1.994s] [ 60%] Built target doublenode
+[2.005s] [35m[1mScanning dependencies of target double_odom[0m
+[2.041s] [ 80%] [32mBuilding CXX object CMakeFiles/double_odom.dir/src/node_main.cpp.o[0m
+[5.367s] [100%] [32m[1mLinking CXX executable double_odom[0m
+[5.549s] [100%] Built target double_odom
+[5.647s] [ 60%] Built target doublenode
+[5.681s] [100%] Built target double_odom
+[5.699s] [36mInstall the project...[0m
+[5.708s] -- Install configuration: ""
+[5.708s] -- Installing: /home/common/colcon_ws/install/doublenode/lib/doublenode/double_odom
+[5.709s] -- Set runtime path of "/home/common/colcon_ws/install/doublenode/lib/doublenode/double_odom" to ""
+[5.709s] -- Installing: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/package_run_dependencies/doublenode
+[5.709s] -- Installing: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/parent_prefix_path/doublenode
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/ament_prefix_path.sh
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/path.sh
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.bash
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.sh
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.zsh
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/packages/doublenode
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig.cmake
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig-version.cmake
+[5.710s] -- Installing: /home/common/colcon_ws/install/doublenode/share/doublenode/package.xml

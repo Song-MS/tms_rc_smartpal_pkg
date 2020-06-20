@@ -1,0 +1,18 @@
+[2.312s] running develop
+[2.468s] running egg_info
+[2.468s] writing tms_ts_test.egg-info/PKG-INFO
+[2.468s] writing dependency_links to tms_ts_test.egg-info/dependency_links.txt
+[2.468s] writing entry points to tms_ts_test.egg-info/entry_points.txt
+[2.469s] writing requirements to tms_ts_test.egg-info/requires.txt
+[2.469s] writing top-level names to tms_ts_test.egg-info/top_level.txt
+[2.496s] reading manifest file 'tms_ts_test.egg-info/SOURCES.txt'
+[2.497s] writing manifest file 'tms_ts_test.egg-info/SOURCES.txt'
+[2.499s] running build_ext
+[2.499s] Creating /home/common/colcon_ws/install/tms_ts_test/lib/python3.6/site-packages/tms-ts-test.egg-link (link to .)
+[2.500s] Installing task_manager script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.500s] Installing task_manager_recursion script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.500s] Installing task_manager_test_client script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.500s] Installing task_viewer script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.500s] 
+[2.500s] Installed /home/common/colcon_ws/build/tms_ts_test
+[2.500s] running install_data

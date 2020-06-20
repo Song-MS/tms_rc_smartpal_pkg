@@ -1,0 +1,4 @@
+[console_scripts]
+convert_twist2vector3 = tms_rc_double.convert_twist2vector3:main
+vicon_control = tms_rc_double.vicon_control:main
+

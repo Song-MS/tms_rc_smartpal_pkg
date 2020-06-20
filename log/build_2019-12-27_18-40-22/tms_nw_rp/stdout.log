@@ -1,0 +1,32 @@
+[0.070s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.130s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.453s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.499s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.712s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.975s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.985s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.097s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.136s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.136s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.196s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.197s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.197s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.381s] -- Configuring done
+[1.485s] -- Generating done
+[1.490s] -- Build files have been written to: /home/common/colcon_ws/build/tms_nw_rp
+[1.612s] [ 10%] Built target tms_nw_rp__rosidl_generator_c
+[1.633s] [ 13%] Built target tms_nw_rp__cpp
+[1.662s] [ 24%] Built target tms_nw_rp__rosidl_typesupport_introspection_c
+[1.695s] [ 34%] Built target tms_nw_rp__rosidl_typesupport_introspection_cpp
+[1.718s] [ 44%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_cpp
+[1.802s] [ 55%] Built target tms_nw_rp__rosidl_typesupport_cpp
+[1.818s] [ 65%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c
+[1.885s] [ 75%] Built target tms_nw_rp__rosidl_typesupport_c
+[1.928s] [ 75%] Built target tms_nw_rp
+[1.961s] [ 79%] Built target tms_nw_rp__py
+[1.996s] [ 86%] Built target tms_nw_rp__python
+[2.030s] [ 93%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext
+[2.040s] [100%] Built target tms_nw_rp__rosidl_typesupport_c__pyext

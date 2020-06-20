@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/doublenode/ament_cmake_core/doublenodeConfig-version.cmake

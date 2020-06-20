@@ -1,0 +1,9 @@
+source;share/tms_ts_ts/hook/pythonpath.ps1
+source;share/tms_ts_ts/hook/pythonpath.dsv
+source;share/tms_ts_ts/hook/pythonpath.sh
+source;share/tms_ts_ts/hook/ament_prefix_path.ps1
+source;share/tms_ts_ts/hook/ament_prefix_path.dsv
+source;share/tms_ts_ts/hook/ament_prefix_path.sh
+source;../../build/tms_ts_ts/share/tms_ts_ts/hook/pythonpath_develop.ps1
+source;../../build/tms_ts_ts/share/tms_ts_ts/hook/pythonpath_develop.dsv
+source;../../build/tms_ts_ts/share/tms_ts_ts/hook/pythonpath_develop.sh

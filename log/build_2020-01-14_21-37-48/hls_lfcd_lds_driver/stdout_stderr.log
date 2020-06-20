@@ -1,0 +1,61 @@
+[0.128s] -- The C compiler identification is GNU 7.4.0
+[0.201s] -- The CXX compiler identification is GNU 7.4.0
+[0.207s] -- Check for working C compiler: /usr/bin/cc
+[0.297s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.298s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.402s] -- Detecting C compile features
+[0.686s] -- Detecting C compile features - done
+[0.689s] -- Check for working CXX compiler: /usr/bin/c++
+[0.805s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.805s] -- Detecting CXX compiler ABI info
+[0.937s] -- Detecting CXX compiler ABI info - done
+[0.945s] -- Detecting CXX compile features
+[1.539s] -- Detecting CXX compile features - done
+[1.543s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.631s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.050s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.091s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.136s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.215s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.222s] -- Looking for pthread.h
+[2.351s] -- Looking for pthread.h - found
+[2.352s] -- Looking for pthread_create
+[2.472s] -- Looking for pthread_create - not found
+[2.472s] -- Looking for pthread_create in pthreads
+[2.569s] -- Looking for pthread_create in pthreads - not found
+[2.570s] -- Looking for pthread_create in pthread
+[2.693s] -- Looking for pthread_create in pthread - found
+[2.695s] -- Found Threads: TRUE  
+[2.753s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.961s] -- Boost version: 1.65.1
+[2.961s] -- Found the following Boost libraries:
+[2.961s] --   system
+[3.151s] -- Configuring done
+[3.172s] -- Generating done
+[3.175s] -- Build files have been written to: /home/common/colcon_ws/build/hls_lfcd_lds_driver
+[3.262s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[3.310s] [100%] Built target hlds_laser_publisher
+[3.467s] [100%] Built target hlds_laser_publisher
+[3.502s] [36mInstall the project...[0m
+[3.518s] -- Install configuration: ""
+[3.519s] -- Execute custom install script
+[3.520s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[3.520s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[3.521s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[3.522s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[3.522s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[3.523s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[3.523s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[3.524s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[3.524s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[3.525s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[3.525s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[3.526s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[3.526s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.527s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.527s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[3.528s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[3.528s] -- Up-to-date symlink: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml

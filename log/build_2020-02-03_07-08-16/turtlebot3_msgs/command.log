@@ -1,0 +1,4 @@
+[0.065s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8
+[0.531s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_msgs' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs -- -j8 -l8
+[0.716s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs --target install -- -j8 -l8
+[1.494s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_msgs' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_msgs --target install -- -j8 -l8

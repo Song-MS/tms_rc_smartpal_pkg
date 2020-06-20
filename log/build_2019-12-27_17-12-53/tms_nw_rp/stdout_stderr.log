@@ -1,0 +1,159 @@
+[0.099s] -- The C compiler identification is GNU 7.4.0
+[0.178s] -- The CXX compiler identification is GNU 7.4.0
+[0.184s] -- Check for working C compiler: /usr/bin/cc
+[0.285s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.286s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.400s] -- Detecting C compile features
+[0.758s] -- Detecting C compile features - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.998s] -- Detecting CXX compiler ABI info
+[1.134s] -- Detecting CXX compiler ABI info - done
+[1.140s] -- Detecting CXX compile features
+[2.826s] -- Detecting CXX compile features - done
+[2.829s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.939s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.940s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.717s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.786s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[3.816s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[3.933s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[4.636s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[4.754s] -- Found FastRTPS: /opt/ros/dashing/include  
+[5.163s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[5.822s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[5.858s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[6.235s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[6.359s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[6.361s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[6.522s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[6.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.522s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[6.522s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[6.651s] -- Found PythonExtra: .so  
+[7.209s] -- Configuring done
+[7.425s] -- Generating done
+[7.446s] -- Build files have been written to: /home/common/colcon_ws/build/tms_nw_rp
+[7.758s] [35m[1mScanning dependencies of target tms_nw_rp__cpp[0m
+[7.758s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.825s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.422s] [  6%] Built target tms_nw_rp__cpp
+[9.466s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_generator_c[0m
+[9.515s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.530s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.587s] [ 17%] [32mBuilding C object CMakeFiles/tms_nw_rp__rosidl_generator_c.dir/rosidl_generator_c/tms_nw_rp/srv/tms_nw_req__functions.c.o[0m
+[9.842s] [ 20%] [32m[1mLinking C shared library libtms_nw_rp__rosidl_generator_c.so[0m
+[10.067s] [ 20%] Built target tms_nw_rp__rosidl_generator_c
+[10.998s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_introspection_cpp[0m
+[11.015s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_fastrtps_cpp[0m
+[11.119s] [ 24%] [32mBuilding CXX object CMakeFiles/tms_nw_rp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tms_nw_rp/srv/dds_fastrtps/tms_nw_req__type_support.cpp.o[0m
+[11.121s] [ 27%] [32mBuilding CXX object CMakeFiles/tms_nw_rp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tms_nw_rp/srv/tms_nw_req__type_support.cpp.o[0m
+[12.217s] [ 31%] [32m[1mLinking CXX shared library libtms_nw_rp__rosidl_typesupport_introspection_cpp.so[0m
+[12.550s] [ 31%] Built target tms_nw_rp__rosidl_typesupport_introspection_cpp
+[12.683s] [ 34%] [32m[1mLinking CXX shared library libtms_nw_rp__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.039s] [ 34%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_cpp
+[13.111s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.914s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_introspection_c[0m
+[13.977s] [ 41%] [32mBuilding C object CMakeFiles/tms_nw_rp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tms_nw_rp/srv/tms_nw_req__type_support.c.o[0m
+[14.025s] [ 44%] [32m[1mLinking C shared library libtms_nw_rp__rosidl_typesupport_introspection_c.so[0m
+[14.164s] [ 44%] Built target tms_nw_rp__rosidl_typesupport_introspection_c
+[14.193s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.790s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_fastrtps_c[0m
+[14.817s] [ 51%] [32mBuilding CXX object CMakeFiles/tms_nw_rp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tms_nw_rp/srv/tms_nw_req__type_support_c.cpp.o[0m
+[15.447s] [ 55%] [32m[1mLinking CXX shared library libtms_nw_rp__rosidl_typesupport_fastrtps_c.so[0m
+[15.634s] [ 55%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c
+[15.669s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.151s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_cpp[0m
+[16.203s] [ 62%] [32mBuilding CXX object CMakeFiles/tms_nw_rp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tms_nw_rp/srv/tms_nw_req__type_support.cpp.o[0m
+[16.814s] [ 65%] [32m[1mLinking CXX shared library libtms_nw_rp__rosidl_typesupport_cpp.so[0m
+[16.970s] [ 65%] Built target tms_nw_rp__rosidl_typesupport_cpp
+[17.000s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.453s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_c[0m
+[17.506s] [ 72%] [32mBuilding CXX object CMakeFiles/tms_nw_rp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tms_nw_rp/srv/tms_nw_req__type_support.cpp.o[0m
+[17.581s] [ 75%] [32m[1mLinking CXX shared library libtms_nw_rp__rosidl_typesupport_c.so[0m
+[17.718s] [ 75%] Built target tms_nw_rp__rosidl_typesupport_c
+[17.770s] [35m[1mScanning dependencies of target tms_nw_rp[0m
+[17.793s] [ 75%] Built target tms_nw_rp
+[17.822s] [35m[1mScanning dependencies of target tms_nw_rp__py[0m
+[17.841s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.859s] [ 79%] Built target tms_nw_rp__py
+[18.876s] [35m[1mScanning dependencies of target tms_nw_rp__python[0m
+[18.944s] [ 82%] [32mBuilding C object CMakeFiles/tms_nw_rp__python.dir/rosidl_generator_py/tms_nw_rp/srv/_tms_nw_req_s.c.o[0m
+[19.130s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/tms_nw_rp/libtms_nw_rp__python.so[0m
+[19.265s] [ 86%] Built target tms_nw_rp__python
+[19.326s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_c__pyext[0m
+[19.385s] [ 89%] [32mBuilding C object CMakeFiles/tms_nw_rp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tms_nw_rp/_tms_nw_rp_s.ep.rosidl_typesupport_c.c.o[0m
+[19.518s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tms_nw_rp/tms_nw_rp_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[19.598s] [ 93%] Built target tms_nw_rp__rosidl_typesupport_c__pyext
+[19.617s] [35m[1mScanning dependencies of target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.678s] [ 96%] [32mBuilding C object CMakeFiles/tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tms_nw_rp/_tms_nw_rp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.838s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tms_nw_rp/tms_nw_rp_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[19.964s] [100%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext
+[20.706s] [  3%] Built target tms_nw_rp__cpp
+[20.765s] [ 13%] Built target tms_nw_rp__rosidl_generator_c
+[20.811s] [ 24%] Built target tms_nw_rp__rosidl_typesupport_introspection_cpp
+[20.851s] [ 34%] Built target tms_nw_rp__rosidl_typesupport_introspection_c
+[20.914s] [ 44%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_cpp
+[20.985s] [ 55%] Built target tms_nw_rp__rosidl_typesupport_cpp
+[21.060s] [ 65%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c
+[21.108s] [ 75%] Built target tms_nw_rp__rosidl_typesupport_c
+[21.195s] [ 75%] Built target tms_nw_rp
+[21.253s] [ 79%] Built target tms_nw_rp__py
+[21.301s] [ 86%] Built target tms_nw_rp__python
+[21.364s] [ 93%] Built target tms_nw_rp__rosidl_typesupport_c__pyext
+[21.418s] [100%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext
+[21.457s] [36mInstall the project...[0m
+[21.471s] -- Install configuration: ""
+[21.472s] -- Execute custom install script
+[21.473s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/ament_index/resource_index/rosidl_interfaces/tms_nw_rp
+[21.491s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req.hpp
+[21.508s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__struct.hpp
+[21.523s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__traits.hpp
+[21.539s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/msg/rosidl_generator_c__visibility_control.h
+[21.556s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req.h
+[21.571s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__functions.h
+[21.586s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__struct.h
+[21.615s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__type_support.h
+[21.631s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/environment/library_path.sh
+[21.646s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_generator_c.so
+[21.662s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_c.so
+[21.680s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_cpp.so
+[21.696s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.712s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__rosidl_typesupport_introspection_c.h
+[21.729s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_introspection_c.so
+[21.747s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__rosidl_typesupport_introspection_cpp.hpp
+[21.763s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_introspection_cpp.so
+[21.781s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.796s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__rosidl_typesupport_fastrtps_c.h
+[21.812s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_fastrtps_c.so
+[21.829s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.846s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/include/tms_nw_rp/srv/tms_nw_req__rosidl_typesupport_fastrtps_cpp.hpp
+[21.861s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__rosidl_typesupport_fastrtps_cpp.so
+[21.878s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/environment/pythonpath.sh
+[21.894s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/__init__.py
+[21.910s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/srv/__init__.py
+[21.925s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/srv/_tms_nw_req.py
+[21.941s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/tms_nw_rp_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[21.957s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/tms_nw_rp_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[21.973s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/lib/libtms_nw_rp__python.so
+[21.989s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/srv/TmsNwReq.idl
+[22.005s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/srv/TmsNwReq.srv
+[22.020s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/srv/TmsNwReq_Request.msg
+[22.036s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/srv/TmsNwReq_Response.msg
+[22.061s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/ament_index/resource_index/package_run_dependencies/tms_nw_rp
+[22.084s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/ament_index/resource_index/parent_prefix_path/tms_nw_rp
+[22.099s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/environment/ament_prefix_path.sh
+[22.113s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/environment/path.sh
+[22.128s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/local_setup.bash
+[22.144s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/local_setup.sh
+[22.158s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/local_setup.zsh
+[22.179s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/ament_index/resource_index/packages/tms_nw_rp
+[22.195s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/rosidl_cmake-extras.cmake
+[22.210s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.227s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.243s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/ament_cmake_export_libraries-extras.cmake
+[22.258s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/tms_nw_rpConfig.cmake
+[22.274s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/cmake/tms_nw_rpConfig-version.cmake
+[22.301s] -- Symlinking: /home/common/colcon_ws/install/tms_nw_rp/share/tms_nw_rp/package.xml
+[22.375s] Compiling '/home/common/colcon_ws/install/tms_nw_rp/lib/python3.6/site-packages/tms_nw_rp/__init__.py'...

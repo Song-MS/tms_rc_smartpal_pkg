@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_recognition_msgs/msg/RecognizedObjectArray.msg
+// generated code does not contain a copyright notice
+
+#include "object_recognition_msgs/msg/RecognizedObject.idl"
+#include "std_msgs/msg/Header.idl"
+
+module object_recognition_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "#################################################### HEADER ###########################################################")
+    struct RecognizedObjectArray {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " This message type describes a potential scene configuration: a set of objects that can explain the scene")
+      sequence<object_recognition_msgs::msg::RecognizedObject> objects;
+
+      @verbatim (language="comment", text=
+        "#################################################### SEARCH ###########################################################" "\n"
+        " The co-occurrence matrix between the recognized objects")
+      sequence<float> cooccurrence;
+    };
+  };
+};

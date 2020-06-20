@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_rc/srv/TurtlebotControl.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_rc {
+  module srv {
+    struct TurtlebotControl_Request {
+      int8 unit;
+
+      int8 cmd;
+
+      sequence<double> arg;
+    };
+    struct TurtlebotControl_Response {
+      int8 result;
+
+      sequence<double> val;
+    };
+  };
+};

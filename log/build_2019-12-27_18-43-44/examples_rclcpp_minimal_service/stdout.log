@@ -1,0 +1,17 @@
+[0.229s] [100%] Built target service_main
+[0.450s] [100%] Built target service_main
+[0.488s] [36mInstall the project...[0m
+[0.506s] -- Install configuration: ""
+[0.507s] -- Execute custom install script
+[0.507s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[0.507s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[0.508s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[0.508s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[0.509s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[0.510s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[0.510s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[0.510s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[0.511s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[0.511s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[0.511s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[0.512s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

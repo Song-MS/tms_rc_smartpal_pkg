@@ -1,0 +1,24 @@
+[0.708s] Invoking command in '/home/common/colcon_ws/build/tms_rc_double': PYTHONPATH=/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_rc_double --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_rc_double/build
+[1.233s] running develop
+[1.769s] Invoked command in '/home/common/colcon_ws/build/tms_rc_double' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_rc_double --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_rc_double/build
+[1.770s] Invoking command in '/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_double_project': PYTHONPATH=/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/common/colcon_ws/build/tms_rc_double build --build-base /home/common/colcon_ws/build/tms_rc_double/build install --prefix /home/common/colcon_ws/install/tms_rc_double --record /home/common/colcon_ws/build/tms_rc_double/install.log --single-version-externally-managed
+[1.992s] running egg_info
+[1.993s] writing /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/PKG-INFO
+[1.993s] writing dependency_links to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/dependency_links.txt
+[1.993s] writing entry points to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/entry_points.txt
+[1.993s] writing requirements to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/requires.txt
+[1.993s] writing top-level names to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/top_level.txt
+[2.019s] reading manifest file '/home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/SOURCES.txt'
+[2.019s] writing manifest file '/home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/SOURCES.txt'
+[2.020s] running build
+[2.020s] running build_py
+[2.020s] running install
+[2.020s] running install_lib
+[2.021s] running install_data
+[2.022s] running install_egg_info
+[2.023s] removing '/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms_rc_double-0.1.0-py3.6.egg-info' (and everything under it)
+[2.023s] Copying /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info to /home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms_rc_double-0.1.0-py3.6.egg-info
+[2.024s] running install_scripts
+[2.038s] Installing convert_twist2vector3 script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[2.038s] Installing vicon_control script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[2.038s] writing list of installed files to '/home/common/colcon_ws/build/tms_rc_double/install.log'

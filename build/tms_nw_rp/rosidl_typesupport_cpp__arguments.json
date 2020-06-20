@@ -1,0 +1,23 @@
+{
+  "package_name": "tms_nw_rp",
+  "output_dir": "/home/common/colcon_ws/build/tms_nw_rp/rosidl_typesupport_cpp/tms_nw_rp",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/common/colcon_ws/build/tms_nw_rp/rosidl_adapter/tms_nw_rp:srv/TmsNwReq.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/common/colcon_ws/build/tms_nw_rp/rosidl_adapter/tms_nw_rp/srv/TmsNwReq.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

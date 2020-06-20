@@ -1,0 +1,4 @@
+[0.060s] Invoking command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[0.160s] Invoked command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[0.241s] Invoking command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver --target install -- -j8 -l8
+[0.442s] Invoked command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver --target install -- -j8 -l8

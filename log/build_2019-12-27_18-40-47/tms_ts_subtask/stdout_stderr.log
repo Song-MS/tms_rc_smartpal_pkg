@@ -1,0 +1,30 @@
+[2.931s] running develop
+[2.932s] Removing /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms-ts-subtask.egg-link (link to .)
+[3.208s] running egg_info
+[3.209s] writing /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/PKG-INFO
+[3.209s] writing dependency_links to /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/dependency_links.txt
+[3.209s] writing entry points to /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/entry_points.txt
+[3.210s] writing requirements to /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/requires.txt
+[3.210s] writing top-level names to /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/top_level.txt
+[3.239s] reading manifest file '/home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/SOURCES.txt'
+[3.240s] writing manifest file '/home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info/SOURCES.txt'
+[3.240s] running build
+[3.240s] running build_py
+[3.240s] creating /home/common/colcon_ws/build/tms_ts_subtask/build
+[3.240s] creating /home/common/colcon_ws/build/tms_ts_subtask/build/lib
+[3.241s] creating /home/common/colcon_ws/build/tms_ts_subtask/build/lib/tms_ts_subtask
+[3.241s] copying tms_ts_subtask/tms_ts_subtask.py -> /home/common/colcon_ws/build/tms_ts_subtask/build/lib/tms_ts_subtask
+[3.241s] copying tms_ts_subtask/__init__.py -> /home/common/colcon_ws/build/tms_ts_subtask/build/lib/tms_ts_subtask
+[3.241s] running install
+[3.241s] running install_lib
+[3.241s] creating /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask
+[3.241s] copying /home/common/colcon_ws/build/tms_ts_subtask/build/lib/tms_ts_subtask/tms_ts_subtask.py -> /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask
+[3.242s] copying /home/common/colcon_ws/build/tms_ts_subtask/build/lib/tms_ts_subtask/__init__.py -> /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask
+[3.242s] byte-compiling /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask/tms_ts_subtask.py to tms_ts_subtask.cpython-36.pyc
+[3.243s] byte-compiling /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask/__init__.py to __init__.cpython-36.pyc
+[3.243s] running install_data
+[3.243s] running install_egg_info
+[3.245s] Copying /home/common/colcon_ws/build/tms_ts_subtask/tms_ts_subtask.egg-info to /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms_ts_subtask-0.1.0-py3.6.egg-info
+[3.245s] running install_scripts
+[3.260s] Installing tms_ts_subtask script to /home/common/colcon_ws/install/tms_ts_subtask/lib/tms_ts_subtask
+[3.261s] writing list of installed files to '/home/common/colcon_ws/build/tms_ts_subtask/install.log'

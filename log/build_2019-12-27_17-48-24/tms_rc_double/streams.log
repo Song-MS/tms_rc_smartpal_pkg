@@ -1,0 +1,17 @@
+[0.846s] Invoking command in '/home/common/colcon_ws/build/tms_rc_double': PYTHONPATH=/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_rc_double --editable --build-directory /home/common/colcon_ws/build/tms_rc_double/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_rc_double
+[1.168s] running develop
+[1.330s] running egg_info
+[1.330s] writing tms_rc_double.egg-info/PKG-INFO
+[1.330s] writing dependency_links to tms_rc_double.egg-info/dependency_links.txt
+[1.330s] writing entry points to tms_rc_double.egg-info/entry_points.txt
+[1.330s] writing requirements to tms_rc_double.egg-info/requires.txt
+[1.330s] writing top-level names to tms_rc_double.egg-info/top_level.txt
+[1.353s] reading manifest file 'tms_rc_double.egg-info/SOURCES.txt'
+[1.353s] writing manifest file 'tms_rc_double.egg-info/SOURCES.txt'
+[1.354s] running build_ext
+[1.354s] Creating /home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms-rc-double.egg-link (link to .)
+[1.355s] Installing convert_twist2vector3 script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[1.355s] Installing vicon_control script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[1.355s] 
+[1.355s] Installed /home/common/colcon_ws/build/tms_rc_double
+[1.355s] running install_data

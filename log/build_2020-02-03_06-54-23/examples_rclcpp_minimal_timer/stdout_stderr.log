@@ -1,0 +1,20 @@
+[0.160s] [ 50%] Built target timer_member_function
+[0.163s] [100%] Built target timer_lambda
+[0.381s] [ 50%] Built target timer_member_function
+[0.382s] [100%] Built target timer_lambda
+[0.417s] [36mInstall the project...[0m
+[0.441s] -- Install configuration: ""
+[0.442s] -- Execute custom install script
+[0.443s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[0.443s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[0.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[0.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[0.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[0.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[0.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[0.447s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[0.447s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[0.448s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[0.448s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[0.449s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml

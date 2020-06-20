@@ -1,0 +1,50 @@
+[1.363s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.407s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.632s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.644s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.671s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.698s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.702s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.718s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[1.729s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[1.731s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.856s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.947s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.948s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.948s] -- Configured cppcheck include dirs: 
+[1.949s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.949s] -- Added test 'lint_cmake' to check CMake code style
+[1.950s] -- Added test 'uncrustify' to check C / C++ code style
+[1.950s] -- Added test 'xmllint' to check XML markup files
+[1.954s] -- Configuring done
+[1.980s] -- Generating done
+[1.981s] -- Build files have been written to: /home/common/colcon_ws/build/doublenode
+[2.017s] [35m[1mScanning dependencies of target doublenode[0m
+[2.038s] [ 20%] [32mBuilding CXX object CMakeFiles/doublenode.dir/src/constants.cpp.o[0m
+[2.042s] [ 40%] [32mBuilding CXX object CMakeFiles/doublenode.dir/src/odometry.cpp.o[0m
+[2.499s] [ 60%] [32m[1mLinking CXX static library libdoublenode.a[0m
+[2.540s] [ 60%] Built target doublenode
+[2.559s] [35m[1mScanning dependencies of target double_odom[0m
+[2.588s] [ 80%] [32mBuilding CXX object CMakeFiles/double_odom.dir/src/node_main.cpp.o[0m
+[6.501s] [100%] [32m[1mLinking CXX executable double_odom[0m
+[6.678s] [100%] Built target double_odom
+[6.775s] [ 60%] Built target doublenode
+[6.801s] [100%] Built target double_odom
+[6.819s] [36mInstall the project...[0m
+[6.828s] -- Install configuration: ""
+[6.828s] -- Execute custom install script
+[6.829s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/lib/doublenode/double_odom
+[6.829s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/package_run_dependencies/doublenode
+[6.830s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/parent_prefix_path/doublenode
+[6.830s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/ament_prefix_path.sh
+[6.830s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/path.sh
+[6.830s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.bash
+[6.830s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.sh
+[6.831s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.zsh
+[6.831s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/packages/doublenode
+[6.831s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.832s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig.cmake
+[6.832s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig-version.cmake
+[6.832s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/package.xml

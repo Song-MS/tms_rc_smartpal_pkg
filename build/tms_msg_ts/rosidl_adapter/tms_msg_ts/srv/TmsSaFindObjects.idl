@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ts/srv/TmsSaFindObjects.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ts {
+  module srv {
+    struct TmsSaFindObjects_Request {
+      sequence<uint32> search_furnitures_id;
+    };
+    struct TmsSaFindObjects_Response {
+      uint32 success;
+
+      string message;
+
+      sequence<uint32> object_id;
+
+      sequence<float> object_x;
+
+      sequence<float> object_y;
+
+      sequence<float> object_z;
+
+      sequence<uint32> furnitures_id;
+    };
+  };
+};

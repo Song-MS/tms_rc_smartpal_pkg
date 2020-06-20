@@ -1,0 +1,69 @@
+[2.280s] In file included from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:6:0[m[K:
+[2.281s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:[m[K In constructor ‘[01m[KClient::Client()[m[K’:
+[2.281s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:206:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KClient::bInitialize[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[2.281s]    bool [01;35m[KbInitialize[m[K;
+[2.281s]         [01;35m[K^~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:182:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCORBA::ORB_var Client::orb[m[K’ [[01;35m[K-Wreorder[m[K]
+[2.282s]    CORBA::ORB_var [01;35m[Korb[m[K;
+[2.282s]                   [01;35m[K^~~[m[K
+[2.282s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[2.282s]  [01;35m[KClient[m[K::Client()
+[2.283s]  [01;35m[K^~~~~~[m[K
+[2.284s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:[m[K In member function ‘[01m[Kint8_t Client::gripperSetPower(int8_t, double)[m[K’:
+[2.284s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRL[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.284s]  int8_t Client::gripperSetPower(int8_t [01;35m[KRL[m[K, double OnOff)
+[2.284s]                                        [01;35m[K^~[m[K
+[2.284s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KOnOff[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.284s]  int8_t Client::gripperSetPower(int8_t RL, double [01;35m[KOnOff[m[K)
+[2.284s]                                                   [01;35m[K^~~~~[m[K
+[2.288s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:[m[K In member function ‘[01m[Kint8_t Client::armGetActiveAlarm(int8_t, u_int32_t, double*)[m[K’:
+[2.288s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:315:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreturn_code[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.288s]  int8_t Client::armGetActiveAlarm(int8_t RL, u_int32_t num_request, double *[01;35m[Kreturn_code[m[K)
+[2.288s]                                                                             [01;35m[K^~~~~~~~~~~[m[K
+[4.583s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/context.hpp:19:0[m[K,
+[4.583s]                  from [01m[K/opt/ros/dashing/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[4.583s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:32[m[K,
+[4.583s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[4.583s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[4.583s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[4.583s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:6[m[K:
+[4.583s] /usr/include/c++/7/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (SmartpalControl::*)(tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >, tms_msg_db::msg::Tmsdb_<std::allocator<void> >), SmartpalControl*>[m[K’:
+[4.583s] [01m[K/usr/include/c++/7/functional:854:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (SmartpalControl::*)(tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >, tms_msg_db::msg::Tmsdb_<std::allocator<void> >), SmartpalControl*>[m[K’
+[4.583s] [01m[K/usr/include/c++/7/functional:875:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (SmartpalControl::*)(tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >, tms_msg_db::msg::Tmsdb_<std::allocator<void> >); _BoundArgs = {SmartpalControl*}][m[K’
+[4.583s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:105:100:[m[K   required from here
+[4.583s] [01m[K/usr/include/c++/7/functional:841:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+[4.583s]        [01;31m[Kstatic_assert[m[K(_Varargs::value
+[4.583s]        [01;31m[K^~~~~~~~~~~~~[m[K
+[4.587s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In constructor ‘[01m[KSmartpalControl::SmartpalControl()[m[K’:
+[4.587s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:105:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSmartpalControl::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (SmartpalControl::*)(tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >, tms_msg_db::msg::Tmsdb_<std::allocator<void> >), SmartpalControl*>::type)[m[K’
+[4.587s]  create_wall_timer(100ms, std::bind(&SmartpalControl::smartpalpub, this)[01;31m[K)[m[K;
+[4.587s]                                                                         [01;31m[K^[m[K
+[4.587s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[4.587s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[4.588s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[4.588s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:6[m[K:
+[4.588s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:335:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[4.588s]    [01;36m[Kcreate_wall_timer[m[K(
+[4.588s]    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.588s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:335:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.588s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[4.588s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.588s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[4.588s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[4.588s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:6[m[K:
+[4.588s] /opt/ros/dashing/include/rclcpp/node_impl.hpp: In substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::callback_group::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (SmartpalControl::*(SmartpalControl*))(tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >, tms_msg_db::msg::Tmsdb_<std::allocator<void> >)>][m[K’:
+[4.588s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:105:101:[m[K   required from here
+[4.588s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:194:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.588s]  [01;31m[KNode[m[K::create_wall_timer(
+[4.588s]  [01;31m[K^~~~[m[K
+[4.588s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:194:1:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[4.620s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kbool SmartpalControl::robotControl(std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Request_<std::allocator<void> > >, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Response_<std::allocator<void> > >)[m[K’:
+[4.620s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:349:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[4.620s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[4.620s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[4.620s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:362:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[4.620s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[4.621s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[6.060s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[6.060s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[6.060s] make: *** [all] Error 2

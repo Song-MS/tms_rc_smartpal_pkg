@@ -1,0 +1,27 @@
+[0.087s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[0.229s] [ 33%] Built target subscriber_member_function
+[0.241s] [ 66%] Built target subscriber_lambda
+[0.260s] [100%] Built target subscriber_not_composable
+[0.300s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[0.744s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8
+[1.006s] [ 33%] Built target subscriber_member_function
+[1.022s] [ 66%] Built target subscriber_not_composable
+[1.031s] [100%] Built target subscriber_lambda
+[1.064s] [36mInstall the project...[0m
+[1.079s] -- Install configuration: ""
+[1.080s] -- Execute custom install script
+[1.081s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[1.081s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[1.082s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[1.086s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[1.086s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[1.086s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[1.086s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[1.087s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[1.090s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[1.091s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[1.091s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[1.091s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[1.093s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[1.094s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[1.119s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8

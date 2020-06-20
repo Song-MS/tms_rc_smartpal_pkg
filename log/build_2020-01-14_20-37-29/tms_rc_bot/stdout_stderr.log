@@ -1,0 +1,66 @@
+[0.195s] -- The C compiler identification is GNU 7.4.0
+[0.312s] -- The CXX compiler identification is GNU 7.4.0
+[0.319s] -- Check for working C compiler: /usr/bin/cc
+[0.485s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.485s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.692s] -- Detecting C compile features
+[1.282s] -- Detecting C compile features - done
+[1.286s] -- Check for working CXX compiler: /usr/bin/c++
+[1.520s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.521s] -- Detecting CXX compiler ABI info
+[1.758s] -- Detecting CXX compiler ABI info - done
+[1.766s] -- Detecting CXX compile features
+[2.385s] -- Detecting CXX compile features - done
+[2.393s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.843s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.913s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.078s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.083s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.085s] -- Added test 'lint_cmake' to check CMake code style
+[3.087s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.090s] -- Added test 'xmllint' to check XML markup files
+[3.095s] -- Configuring done
+[3.099s] -- Generating done
+[3.100s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_bot
+[3.500s] [36mInstall the project...[0m
+[3.522s] -- Install configuration: ""
+[3.523s] -- Execute custom install script
+[3.527s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_bringup.launch.py
+[3.556s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_navigation.launch.py
+[3.576s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/guidebot_navigation_prev.launch.py
+[3.608s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/launch/navigation2.launch.py
+[3.626s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/maps/map.pgm
+[3.646s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/maps/map.yaml
+[3.660s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/burger.yaml
+[3.680s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/burger_params.yaml
+[3.697s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/guidebot_params.yaml
+[3.714s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/guidebot_params_back.yaml
+[3.735s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/waffle_params.yaml
+[3.757s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/params/waffle_pi_params.yaml
+[3.775s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/nav2_default_view.rviz
+[3.791s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/tb3_navigation2.rviz
+[3.831s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/rviz/tb3_navigation2_prev.rviz
+[3.866s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/auto_localization.xml
+[3.892s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/auto_localization_w_parallel_recovery.xml
+[3.909s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/bt_navigator_params.yaml
+[3.928s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_recovery_retry.xml
+[3.945s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_replanning.xml
+[3.962s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/navigate_w_replanning_and_recovery.xml
+[3.979s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/parallel.xml
+[3.996s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/parallel_w_recovery.xml
+[4.013s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/simple_sequential.xml
+[4.035s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/behavior_trees/simple_sequential_w_recovery.xml
+[4.050s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/package_run_dependencies/tms_rc_bot
+[4.050s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/parent_prefix_path/tms_rc_bot
+[4.050s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/environment/ament_prefix_path.sh
+[4.051s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/environment/path.sh
+[4.051s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.bash
+[4.052s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.sh
+[4.052s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/local_setup.zsh
+[4.053s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/ament_index/resource_index/packages/tms_rc_bot
+[4.054s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/cmake/tms_rc_botConfig.cmake
+[4.054s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/cmake/tms_rc_botConfig-version.cmake
+[4.054s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_bot/share/tms_rc_bot/package.xml

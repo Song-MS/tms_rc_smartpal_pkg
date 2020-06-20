@@ -1,0 +1,25 @@
+[0.063s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.134s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.527s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.619s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.680s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/tms_rc_smartpal_control/devel
+[0.680s] -- Using CMAKE_PREFIX_PATH: /home/common/colcon_ws/install/turtlebot3_bringup;/home/common/colcon_ws/install/turtlebot3_node;/home/common/colcon_ws/install/turtlebot3_navigation2;/home/common/colcon_ws/install/turtlebot3_fake_node;/home/common/colcon_ws/install/turtlebot3_msgs;/home/common/colcon_ws/install/turtlebot3_gazebo;/home/common/colcon_ws/install/turtlebot3_description;/home/common/colcon_ws/install/turtlebot3_cartographer;/home/common/colcon_ws/install/tms_rc_bot;/home/common/colcon_ws/install/tms_nw_rp;/home/common/colcon_ws/install/tms_msg_ss;/home/common/colcon_ws/install/tms_msg_rc;/home/common/colcon_ws/install/tms_msg_db;/home/common/colcon_ws/install/object_recognition_msgs;/home/common/colcon_ws/install/hls_lfcd_lds_driver;/home/common/colcon_ws/install/examples_rclcpp_minimal_timer;/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber;/home/common/colcon_ws/install/examples_rclcpp_minimal_service;/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher;/home/common/colcon_ws/install/examples_rclcpp_minimal_composition;/home/common/colcon_ws/install/examples_rclcpp_minimal_client;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client;/home/common/colcon_ws/install/dynamixel_sdk;/opt/ros/melodic
+[0.680s] -- This workspace overlays: /opt/ros/melodic
+[0.732s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.732s] -- Using Debian Python package layout
+[0.732s] -- Using empy: /usr/bin/empy
+[0.868s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.869s] -- Call enable_testing()
+[0.869s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/tms_rc_smartpal_control/test_results
+[0.897s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.897s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.928s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.933s] -- Using Python nosetests: /usr/bin/nosetests
+[0.987s] -- catkin 0.7.19
+[0.987s] -- BUILD_SHARED_LIBS is on
+[1.200s] -- Configuring incomplete, errors occurred!
+[1.200s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeOutput.log".
+[1.200s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeError.log".

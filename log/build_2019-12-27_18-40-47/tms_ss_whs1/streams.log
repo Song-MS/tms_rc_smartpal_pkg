@@ -1,0 +1,45 @@
+[0.819s] Invoking command in '/home/common/colcon_ws/build/tms_ss_whs1': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ss_whs1 --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_ss_whs1/build
+[1.050s] running develop
+[1.190s] Removing /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms-ss-whs1.egg-link (link to .)
+[2.003s] Invoked command in '/home/common/colcon_ws/build/tms_ss_whs1' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ss_whs1 --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_ss_whs1/build
+[2.004s] Invoking command in '/home/common/colcon_ws/src/ros2_tms/tms_ss/tms_ss_whs1_project': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/common/colcon_ws/build/tms_ss_whs1 build --build-base /home/common/colcon_ws/build/tms_ss_whs1/build install --prefix /home/common/colcon_ws/install/tms_ss_whs1 --record /home/common/colcon_ws/build/tms_ss_whs1/install.log --single-version-externally-managed
+[3.469s] running egg_info
+[3.469s] writing /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/PKG-INFO
+[3.469s] writing dependency_links to /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/dependency_links.txt
+[3.470s] writing entry points to /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/entry_points.txt
+[3.470s] writing requirements to /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/requires.txt
+[3.470s] writing top-level names to /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/top_level.txt
+[3.470s] reading manifest file '/home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/SOURCES.txt'
+[3.470s] writing manifest file '/home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info/SOURCES.txt'
+[3.471s] running build
+[3.471s] running build_py
+[3.471s] creating /home/common/colcon_ws/build/tms_ss_whs1/build
+[3.472s] creating /home/common/colcon_ws/build/tms_ss_whs1/build/lib
+[3.473s] creating /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.473s] copying tms_ss_whs1/tms_ss_whs1_monitor.py -> /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.474s] copying tms_ss_whs1/tms_ss_whs1.py -> /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.474s] copying tms_ss_whs1/__init__.py -> /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.474s] copying tms_ss_whs1/socket_test.py -> /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.474s] copying tms_ss_whs1/double_whs1_control.py -> /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1
+[3.474s] running install
+[3.474s] running install_lib
+[3.474s] creating /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.475s] copying /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1/tms_ss_whs1_monitor.py -> /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.475s] copying /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1/tms_ss_whs1.py -> /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.475s] copying /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1/__init__.py -> /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.475s] copying /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1/socket_test.py -> /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.475s] copying /home/common/colcon_ws/build/tms_ss_whs1/build/lib/tms_ss_whs1/double_whs1_control.py -> /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1
+[3.476s] byte-compiling /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1/tms_ss_whs1_monitor.py to tms_ss_whs1_monitor.cpython-36.pyc
+[3.476s] byte-compiling /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1/tms_ss_whs1.py to tms_ss_whs1.cpython-36.pyc
+[3.476s] byte-compiling /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1/__init__.py to __init__.cpython-36.pyc
+[3.476s] byte-compiling /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1/socket_test.py to socket_test.cpython-36.pyc
+[3.476s] byte-compiling /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1/double_whs1_control.py to double_whs1_control.cpython-36.pyc
+[3.476s] running install_data
+[3.477s] running install_egg_info
+[3.477s] Copying /home/common/colcon_ws/build/tms_ss_whs1/tms_ss_whs1.egg-info to /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms_ss_whs1-0.1.0-py3.6.egg-info
+[3.477s] running install_scripts
+[3.477s] Installing double_whs1_control script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[3.477s] Installing tms_ss_whs1 script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[3.477s] Installing tms_ss_whs1_monitor script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[3.477s] writing list of installed files to '/home/common/colcon_ws/build/tms_ss_whs1/install.log'
+[3.526s] Invoked command in '/home/common/colcon_ws/src/ros2_tms/tms_ss/tms_ss_whs1_project' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/common/colcon_ws/build/tms_ss_whs1 build --build-base /home/common/colcon_ws/build/tms_ss_whs1/build install --prefix /home/common/colcon_ws/install/tms_ss_whs1 --record /home/common/colcon_ws/build/tms_ss_whs1/install.log --single-version-externally-managed

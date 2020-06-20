@@ -1,0 +1,16 @@
+[2.260s] running develop
+[2.397s] running egg_info
+[2.397s] writing tms_ur_listener.egg-info/PKG-INFO
+[2.398s] writing dependency_links to tms_ur_listener.egg-info/dependency_links.txt
+[2.398s] writing entry points to tms_ur_listener.egg-info/entry_points.txt
+[2.398s] writing requirements to tms_ur_listener.egg-info/requires.txt
+[2.398s] writing top-level names to tms_ur_listener.egg-info/top_level.txt
+[2.421s] reading manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[2.422s] writing manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[2.423s] running build_ext
+[2.423s] Creating /home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages/tms-ur-listener.egg-link (link to .)
+[2.424s] Installing tms_ur_listener_client script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[2.424s] Installing tms_ur_listener_server script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[2.424s] 
+[2.425s] Installed /home/common/colcon_ws/build/tms_ur_listener
+[2.425s] running install_data

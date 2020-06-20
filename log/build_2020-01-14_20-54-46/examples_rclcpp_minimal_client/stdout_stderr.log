@@ -1,0 +1,54 @@
+[0.115s] -- The C compiler identification is GNU 7.4.0
+[0.199s] -- The CXX compiler identification is GNU 7.4.0
+[0.206s] -- Check for working C compiler: /usr/bin/cc
+[0.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.321s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.437s] -- Detecting C compile features
+[0.776s] -- Detecting C compile features - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++
+[0.929s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.931s] -- Detecting CXX compiler ABI info
+[1.184s] -- Detecting CXX compiler ABI info - done
+[1.192s] -- Detecting CXX compile features
+[1.822s] -- Detecting CXX compile features - done
+[1.830s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.913s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.913s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.314s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.396s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[2.451s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.570s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.612s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.616s] -- Looking for pthread.h
+[2.733s] -- Looking for pthread.h - found
+[2.734s] -- Looking for pthread_create
+[2.848s] -- Looking for pthread_create - not found
+[2.849s] -- Looking for pthread_create in pthreads
+[3.170s] -- Looking for pthread_create in pthreads - not found
+[3.170s] -- Looking for pthread_create in pthread
+[3.537s] -- Looking for pthread_create in pthread - found
+[3.539s] -- Found Threads: TRUE  
+[4.110s] -- Configuring done
+[4.172s] -- Generating done
+[4.174s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_client
+[4.438s] [35m[1mScanning dependencies of target client_main[0m
+[4.603s] [ 50%] [32m[1mLinking CXX executable client_main[0m
+[5.229s] [100%] Built target client_main
+[6.106s] [100%] Built target client_main
+[6.271s] [36mInstall the project...[0m
+[6.339s] -- Install configuration: ""
+[6.340s] -- Execute custom install script
+[6.341s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[6.341s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[6.342s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[6.343s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[6.343s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[6.344s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[6.344s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[6.345s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[6.345s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[6.346s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[6.346s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[6.347s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml

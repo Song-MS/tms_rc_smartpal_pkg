@@ -1,0 +1,49 @@
+[0.075s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.090s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.818s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.827s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.827s] -- Looking for pthread.h
+[1.096s] -- Looking for pthread.h - found
+[1.097s] -- Looking for pthread_create
+[1.342s] -- Looking for pthread_create - not found
+[1.342s] -- Looking for pthread_create in pthreads
+[1.482s] -- Looking for pthread_create in pthreads - not found
+[1.489s] -- Looking for pthread_create in pthread
+[1.580s] -- Looking for pthread_create in pthread - found
+[1.582s] -- Found Threads: TRUE  
+[1.628s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.720s] -- Boost version: 1.65.1
+[1.721s] -- Found the following Boost libraries:
+[1.721s] --   system
+[1.818s] -- Configuring done
+[1.852s] -- Generating done
+[1.854s] -- Build files have been written to: /home/common/colcon_ws/build/hls_lfcd_lds_driver
+[2.314s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[8.595s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[9.404s] [100%] Built target hlds_laser_publisher
+[10.339s] [100%] Built target hlds_laser_publisher
+[10.496s] [36mInstall the project...[0m
+[10.526s] -- Install configuration: ""
+[10.527s] -- Execute custom install script
+[10.528s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[10.584s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[10.625s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[10.640s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[10.677s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[10.705s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[10.725s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[10.782s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[10.828s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[10.870s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[10.911s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[10.940s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[10.956s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.971s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.986s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[11.050s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[11.101s] -- Symlinking: /home/common/colcon_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml

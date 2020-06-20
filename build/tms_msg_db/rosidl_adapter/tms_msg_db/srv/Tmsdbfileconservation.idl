@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbfileconservation.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbfileconservation_Request {
+      uint64 rostime;
+
+      uint32 id;
+
+      string filename;
+
+      float get_x;
+
+      float get_y;
+
+      float get_z;
+
+      float get_theta;
+
+      uint32 get_place;
+
+      sensor_msgs::msg::PointCloud2 cloud;
+    };
+    struct Tmsdbfileconservation_Response {
+      uint32 success;
+
+      string message;
+    };
+  };
+};

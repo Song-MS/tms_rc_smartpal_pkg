@@ -1,0 +1,177 @@
+[0.134s] -- The C compiler identification is GNU 7.4.0
+[0.207s] -- The CXX compiler identification is GNU 7.4.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.306s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.309s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.408s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++
+[0.811s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.812s] -- Detecting CXX compiler ABI info
+[0.941s] -- Detecting CXX compiler ABI info - done
+[0.950s] -- Detecting CXX compile features
+[1.459s] -- Detecting CXX compile features - done
+[1.463s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.019s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.197s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.242s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.271s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.396s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.502s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.916s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.935s] -- Found ament_cmake_cppcheck: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[2.939s] -- Found ament_cmake_cpplint: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[2.944s] -- Found ament_cmake_uncrustify: 0.7.11 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[2.994s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[3.458s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[3.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[3.543s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[3.633s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[3.633s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.633s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[3.633s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[3.712s] -- Found PythonExtra: .so  
+[4.030s] -- Found ament_cmake_flake8: 0.7.11 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[4.035s] -- Found ament_cmake_pep257: 0.7.11 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[4.056s] -- Configuring done
+[4.246s] -- Generating done
+[4.253s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_msgs
+[4.346s] [35m[1mScanning dependencies of target turtlebot3_msgs__cpp[0m
+[4.363s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[4.379s] [  1%] Built target turtlebot3_msgs__cpp
+[4.390s] [ 13%] Built target turtlebot3_msgs__rosidl_generator_c
+[4.407s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.422s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.446s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[4.472s] [ 24%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[4.473s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[4.480s] [ 47%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[4.506s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.520s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[4.566s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[4.580s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[4.601s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[4.638s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[4.657s] [35m[1mScanning dependencies of target turtlebot3_msgs[0m
+[4.677s] [ 81%] Built target turtlebot3_msgs
+[4.716s] [ 83%] Built target turtlebot3_msgs__py
+[4.740s] [35m[1mScanning dependencies of target turtlebot3_msgs__python[0m
+[4.791s] [ 92%] Built target turtlebot3_msgs__python
+[4.810s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[4.815s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.922s] [ 96%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[4.937s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.447s] [  1%] Built target turtlebot3_msgs__cpp
+[5.455s] [ 13%] Built target turtlebot3_msgs__rosidl_generator_c
+[5.509s] [ 24%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[5.516s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[5.520s] [ 47%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[5.568s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[5.572s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[5.620s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[5.657s] [ 81%] Built target turtlebot3_msgs
+[5.697s] [ 83%] Built target turtlebot3_msgs__py
+[5.749s] [ 92%] Built target turtlebot3_msgs__python
+[5.787s] [ 96%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.801s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[5.824s] [36mInstall the project...[0m
+[5.834s] -- Install configuration: ""
+[5.834s] -- Execute custom install script
+[5.835s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[5.835s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[5.835s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[5.836s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[5.836s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.836s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__rosidl_typesupport_fastrtps_c.h
+[5.837s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__rosidl_typesupport_fastrtps_c.h
+[5.837s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__rosidl_typesupport_fastrtps_c.h
+[5.837s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__rosidl_typesupport_fastrtps_c.h
+[5.837s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[5.838s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.838s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[5.838s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__functions.h
+[5.838s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__struct.h
+[5.839s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__type_support.h
+[5.839s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[5.839s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__functions.h
+[5.839s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__struct.h
+[5.839s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__type_support.h
+[5.840s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[5.840s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__functions.h
+[5.840s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__struct.h
+[5.840s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__type_support.h
+[5.840s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[5.841s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__functions.h
+[5.841s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__struct.h
+[5.841s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__type_support.h
+[5.841s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[5.841s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.842s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.842s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[5.842s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.842s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[5.843s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.844s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[5.844s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__struct.hpp
+[5.844s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__traits.hpp
+[5.845s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[5.845s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__struct.hpp
+[5.845s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__traits.hpp
+[5.845s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[5.846s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__struct.hpp
+[5.846s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__traits.hpp
+[5.846s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[5.846s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__struct.hpp
+[5.847s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__traits.hpp
+[5.848s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.848s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__rosidl_typesupport_introspection_c.h
+[5.848s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__rosidl_typesupport_introspection_c.h
+[5.848s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__rosidl_typesupport_introspection_c.h
+[5.849s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__rosidl_typesupport_introspection_c.h
+[5.849s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[5.850s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[5.850s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound__rosidl_typesupport_introspection_cpp.hpp
+[5.851s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info__rosidl_typesupport_introspection_cpp.hpp
+[5.851s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound__rosidl_typesupport_introspection_cpp.hpp
+[5.851s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[5.852s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[5.852s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/__init__.py
+[5.853s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/msg/__init__.py
+[5.853s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[5.854s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/msg/_sound.py
+[5.854s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/msg/_version_info.py
+[5.855s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/srv/__init__.py
+[5.855s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/srv/_sound.py
+[5.856s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[5.856s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[5.857s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[5.857s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[5.858s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[5.858s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[5.858s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[5.859s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[5.859s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[5.860s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[5.860s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[5.860s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[5.861s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[5.861s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[5.862s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[5.862s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[5.863s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[5.863s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[5.863s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[5.864s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[5.864s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[5.865s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[5.865s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.865s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.866s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.866s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[5.867s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[5.867s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[5.935s] Compiling '/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages/turtlebot3_msgs/__init__.py'...

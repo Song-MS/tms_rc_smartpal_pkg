@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/common/colcon_ws/build/tms_nw_rp/rosidl_generator_py/tms_nw_rp/libtms_nw_rp__python.so" "TARGETS" "tms_nw_rp__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

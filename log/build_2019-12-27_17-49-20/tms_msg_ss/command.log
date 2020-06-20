@@ -1,0 +1,4 @@
+[0.061s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss -- -j8 -l8
+[0.613s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ss' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss -- -j8 -l8
+[0.893s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss --target install -- -j8 -l8
+[1.538s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ss' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ss --target install -- -j8 -l8

@@ -1,0 +1,42 @@
+[0.112s] -- The C compiler identification is GNU 7.4.0
+[0.198s] -- The CXX compiler identification is GNU 7.4.0
+[0.204s] -- Check for working C compiler: /usr/bin/cc
+[0.309s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.309s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.419s] -- Detecting C compile features
+[0.699s] -- Detecting C compile features - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++
+[0.823s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.823s] -- Detecting CXX compiler ABI info
+[0.945s] -- Detecting CXX compiler ABI info - done
+[0.953s] -- Detecting CXX compile features
+[1.505s] -- Detecting CXX compile features - done
+[1.513s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.596s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.597s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.010s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.211s] -- Configuring done
+[2.214s] -- Generating done
+[2.216s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_navigation2
+[2.393s] [36mInstall the project...[0m
+[2.393s] -- Install configuration: ""
+[2.393s] -- Execute custom install script
+[2.393s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.394s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[2.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[2.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.396s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.396s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.396s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.398s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.398s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.399s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml

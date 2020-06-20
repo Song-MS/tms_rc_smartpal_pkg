@@ -1,0 +1,20 @@
+[0.412s] [ 50%] Built target action_server_not_composable
+[0.418s] [100%] Built target action_server_member_functions
+[0.688s] [ 50%] Built target action_server_member_functions
+[0.688s] [100%] Built target action_server_not_composable
+[0.723s] [36mInstall the project...[0m
+[0.739s] -- Install configuration: ""
+[0.739s] -- Execute custom install script
+[0.740s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[0.741s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[0.741s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[0.742s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[0.742s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[0.743s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[0.743s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[0.744s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[0.744s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[0.744s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[0.745s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[0.745s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[0.746s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml

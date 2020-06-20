@@ -1,0 +1,80 @@
+[0.461s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client
+[0.534s] -- The C compiler identification is GNU 7.4.0
+[0.590s] -- The CXX compiler identification is GNU 7.4.0
+[0.594s] -- Check for working C compiler: /usr/bin/cc
+[0.680s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.680s] -- Detecting C compiler ABI info
+[0.775s] -- Detecting C compiler ABI info - done
+[0.783s] -- Detecting C compile features
+[1.078s] -- Detecting C compile features - done
+[1.082s] -- Check for working CXX compiler: /usr/bin/c++
+[1.201s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.202s] -- Detecting CXX compiler ABI info
+[1.355s] -- Detecting CXX compiler ABI info - done
+[1.363s] -- Detecting CXX compile features
+[2.085s] -- Detecting CXX compile features - done
+[2.088s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.137s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.531s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[2.560s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.665s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.689s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.693s] -- Looking for pthread.h
+[2.950s] -- Looking for pthread.h - found
+[2.950s] -- Looking for pthread_create
+[3.256s] -- Looking for pthread_create - not found
+[3.256s] -- Looking for pthread_create in pthreads
+[3.696s] -- Looking for pthread_create in pthreads - not found
+[3.705s] -- Looking for pthread_create in pthread
+[4.043s] -- Looking for pthread_create in pthread - found
+[4.044s] -- Found Threads: TRUE  
+[4.116s] -- Found rclcpp_action: 0.7.12 (/opt/ros/dashing/share/rclcpp_action/cmake)
+[5.186s] -- Configuring done
+[5.322s] -- Generating done
+[5.325s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client
+[5.337s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client
+[5.338s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[5.534s] [35m[1mScanning dependencies of target action_client_not_composable_with_feedback[0m
+[5.536s] [35m[1mScanning dependencies of target action_client_not_composable[0m
+[5.542s] [35m[1mScanning dependencies of target action_client_member_functions[0m
+[5.572s] [35m[1mScanning dependencies of target action_client_not_composable_with_cancel[0m
+[5.659s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[5.684s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[5.701s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[5.741s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[13.117s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[13.668s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[13.705s] [ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[13.853s] [ 87%] Built target action_client_not_composable_with_feedback
+[13.948s] [100%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[14.271s] [100%] Built target action_client_not_composable_with_cancel
+[14.291s] [100%] Built target action_client_member_functions
+[14.400s] [100%] Built target action_client_not_composable
+[14.433s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[15.025s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client --target install -- -j8 -l8
+[15.332s] [ 25%] Built target action_client_not_composable_with_feedback
+[15.336s] [ 50%] Built target action_client_not_composable
+[15.348s] [ 75%] Built target action_client_member_functions
+[15.434s] [100%] Built target action_client_not_composable_with_cancel
+[15.565s] [36mInstall the project...[0m
+[15.632s] -- Install configuration: ""
+[15.633s] -- Execute custom install script
+[15.634s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[15.680s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[15.718s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[15.770s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[15.803s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[15.860s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[15.914s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[15.974s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[16.047s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[16.100s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[16.149s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[16.189s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[16.223s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[16.302s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[16.362s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[16.422s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client --target install -- -j8 -l8

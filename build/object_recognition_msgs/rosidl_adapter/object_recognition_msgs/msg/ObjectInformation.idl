@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_recognition_msgs/msg/ObjectInformation.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+#include "shape_msgs/msg/Mesh.idl"
+
+module object_recognition_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "############################################# VISUALIZATION INFO ######################################################" "\n"
+      "################## THIS INFO SHOULD BE OBTAINED INDEPENDENTLY FROM THE CORE, LIKE IN AN RVIZ PLUGIN ###################")
+    struct ObjectInformation {
+      @verbatim (language="comment", text=
+        " The human readable name of the object")
+      string name;
+
+      @verbatim (language="comment", text=
+        " The full mesh of the object: this can be useful for display purposes, augmented reality ... but it can be big" "\n"
+        " Make sure the type is MESH")
+      shape_msgs::msg::Mesh ground_truth_mesh;
+
+      @verbatim (language="comment", text=
+        " Sometimes, you only have a cloud in the DB" "\n"
+        " Make sure the type is POINTS")
+      sensor_msgs::msg::PointCloud2 ground_truth_point_cloud;
+    };
+  };
+};

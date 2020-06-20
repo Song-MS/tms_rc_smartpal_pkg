@@ -1,0 +1,4 @@
+[0.060s] Invoking command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver': /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[0.170s] Invoked command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[0.273s] Invoking command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver': /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver --target install -- -j8 -l8
+[0.419s] Invoked command in '/home/common/colcon_ws/build/hls_lfcd_lds_driver' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/hls_lfcd_lds_driver --target install -- -j8 -l8

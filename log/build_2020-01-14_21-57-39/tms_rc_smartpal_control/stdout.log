@@ -1,0 +1,74 @@
+[0.062s] -- The C compiler identification is GNU 7.4.0
+[0.104s] -- The CXX compiler identification is GNU 7.4.0
+[0.108s] -- Check for working C compiler: /usr/bin/cc
+[0.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.163s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.226s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.486s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Detecting CXX compile features
+[0.859s] -- Detecting CXX compile features - done
+[0.861s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.906s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.906s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.078s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.101s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.121s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.155s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.157s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.158s] -- Looking for pthread.h
+[1.215s] -- Looking for pthread.h - found
+[1.215s] -- Looking for pthread_create
+[1.274s] -- Looking for pthread_create - not found
+[1.274s] -- Looking for pthread_create in pthreads
+[1.325s] -- Looking for pthread_create in pthreads - not found
+[1.325s] -- Looking for pthread_create in pthread
+[1.385s] -- Looking for pthread_create in pthread - found
+[1.385s] -- Found Threads: TRUE  
+[1.413s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.418s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.431s] -- Found tms_msg_rc: 1.0.2 (/home/common/colcon_ws/install/tms_msg_rc/share/tms_msg_rc/cmake)
+[1.441s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[1.451s] -- Found moveit_msgs: 0.10.0 (/home/common/colcon_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[1.569s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.838s] -- Configuring done
+[1.865s] -- Generating done
+[1.866s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_smartpal_control
+[1.910s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[1.948s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_client.cpp.o[0m
+[1.948s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_gripper.cpp.o[0m
+[1.948s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_lumbar.cpp.o[0m
+[1.948s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_arm.cpp.o[0m
+[1.948s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[1.948s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_mobility.cpp.o[0m
+[1.948s] [ 50%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/CommonSK.cc.o[0m
+[1.949s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/MobilitySK.cc.o[0m
+[2.514s] [ 64%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/ArmUnitSK.cc.o[0m
+[2.773s] [ 71%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperUnitSK.cc.o[0m
+[2.844s] [ 78%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperExtAxesSK.cc.o[0m
+[2.859s] [ 85%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarUnitSK.cc.o[0m
+[2.890s] [ 92%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarExtAxesSK.cc.o[0m
+[7.991s] [100%] [32m[1mLinking CXX executable smartpal5_control[0m
+[8.331s] [100%] Built target smartpal5_control
+[8.447s] [100%] Built target smartpal5_control
+[8.465s] [36mInstall the project...[0m
+[8.474s] -- Install configuration: ""
+[8.474s] -- Execute custom install script
+[8.475s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/library_path.sh
+[8.484s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/lib/tms_rc_smartpal_control/smartpal5_control
+[8.492s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/package_run_dependencies/tms_rc_smartpal_control
+[8.501s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/parent_prefix_path/tms_rc_smartpal_control
+[8.510s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/ament_prefix_path.sh
+[8.519s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/path.sh
+[8.528s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.bash
+[8.536s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.sh
+[8.545s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.zsh
+[8.554s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/packages/tms_rc_smartpal_control
+[8.563s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/ament_cmake_export_libraries-extras.cmake
+[8.572s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig.cmake
+[8.580s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig-version.cmake
+[8.589s] -- Symlinking: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/package.xml

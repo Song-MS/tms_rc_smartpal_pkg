@@ -1,0 +1,8 @@
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/ObjectInformation.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/ObjectType.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/RecognizedObject.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/RecognizedObjectArray.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/Table.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:msg/TableArray.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:srv/GetObjectInformation.idl
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_adapter/object_recognition_msgs:action/ObjectRecognition.idl

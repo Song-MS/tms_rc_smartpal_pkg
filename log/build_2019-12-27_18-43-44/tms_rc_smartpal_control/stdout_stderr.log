@@ -1,0 +1,11 @@
+[0.214s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[0.880s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Ktms_msg_db/msg/tmsdb_stamped.hpp: No such file or directory
+[0.880s]  #include [01;31m[K<tms_msg_db/msg/tmsdb_stamped.hpp>[m[K
+[0.880s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.880s] compilation terminated.
+[0.884s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[0.884s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[0.884s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[0.884s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[0.884s] make: *** [all] Error 2
+[0.884s] Makefile:140: recipe for target 'all' failed

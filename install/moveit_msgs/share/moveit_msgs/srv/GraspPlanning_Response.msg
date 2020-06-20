@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/moveit_msgs/rosidl_cmake/srv/GraspPlanning_Response.msg

@@ -1,0 +1,84 @@
+[0.403s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_gazebo
+[0.486s] -- The C compiler identification is GNU 7.4.0
+[0.565s] -- The CXX compiler identification is GNU 7.4.0
+[0.571s] -- Check for working C compiler: /usr/bin/cc
+[0.674s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.675s] -- Detecting C compiler ABI info
+[0.783s] -- Detecting C compiler ABI info - done
+[0.792s] -- Detecting C compile features
+[1.255s] -- Detecting C compile features - done
+[1.258s] -- Check for working CXX compiler: /usr/bin/c++
+[1.407s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.408s] -- Detecting CXX compiler ABI info
+[1.562s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Detecting CXX compile features
+[2.468s] -- Detecting CXX compile features - done
+[2.471s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.542s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.543s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.999s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.230s] -- Configuring done
+[3.233s] -- Generating done
+[3.237s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_gazebo
+[3.244s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_gazebo
+[3.245s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.446s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.718s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_gazebo --target install -- -j8 -l8
+[4.018s] [36mInstall the project...[0m
+[4.068s] -- Install configuration: ""
+[4.069s] -- Execute custom install script
+[4.070s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[4.136s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[4.179s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/left_tire.dae
+[4.236s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/right_tire.dae
+[4.284s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[4.339s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[4.395s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[4.443s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[4.484s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[4.559s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[4.591s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/left_tire.dae
+[4.627s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[4.671s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/right_tire.dae
+[4.699s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[4.750s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[4.790s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[4.828s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[4.845s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[4.863s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/left_tire.dae
+[4.878s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/right_tire.dae
+[4.894s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[4.909s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+[4.924s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[4.940s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[4.955s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[4.999s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[5.032s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[5.062s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[5.109s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[5.124s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[5.140s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[5.176s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[5.227s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[5.281s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[5.331s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[5.378s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[5.419s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[5.478s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[5.524s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[5.579s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[5.621s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[5.671s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[5.718s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[5.775s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[5.827s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[5.875s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[5.932s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[5.976s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[6.020s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[6.075s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[6.117s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[6.131s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[6.147s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[6.161s] -- Symlinking: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[6.204s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_description:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_gazebo --target install -- -j8 -l8

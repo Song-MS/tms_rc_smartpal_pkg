@@ -1,0 +1,17 @@
+[1.301s] Invoking command in '/home/common/colcon_ws/build/tms_ts_subtask': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_subtask --editable --build-directory /home/common/colcon_ws/build/tms_ts_subtask/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_subtask
+[1.782s] running develop
+[2.063s] running egg_info
+[2.063s] writing tms_ts_subtask.egg-info/PKG-INFO
+[2.064s] writing dependency_links to tms_ts_subtask.egg-info/dependency_links.txt
+[2.064s] writing entry points to tms_ts_subtask.egg-info/entry_points.txt
+[2.064s] writing requirements to tms_ts_subtask.egg-info/requires.txt
+[2.064s] writing top-level names to tms_ts_subtask.egg-info/top_level.txt
+[2.103s] reading manifest file 'tms_ts_subtask.egg-info/SOURCES.txt'
+[2.104s] writing manifest file 'tms_ts_subtask.egg-info/SOURCES.txt'
+[2.105s] running build_ext
+[2.106s] Creating /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms-ts-subtask.egg-link (link to .)
+[2.106s] Installing tms_ts_subtask script to /home/common/colcon_ws/install/tms_ts_subtask/lib/tms_ts_subtask
+[2.107s] 
+[2.107s] Installed /home/common/colcon_ws/build/tms_ts_subtask
+[2.107s] running install_data
+[2.449s] Invoked command in '/home/common/colcon_ws/build/tms_ts_subtask' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_subtask --editable --build-directory /home/common/colcon_ws/build/tms_ts_subtask/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_subtask

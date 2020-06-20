@@ -1,0 +1,161 @@
+[1.455s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.741s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.746s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.758s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.785s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.821s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.826s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.851s] -- Found tms_msg_rc: 1.0.2 (/home/common/colcon_ws/install/tms_msg_rc/share/tms_msg_rc/cmake)
+[1.869s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[1.890s] -- Found moveit_msgs: 0.10.0 (/home/common/colcon_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[2.032s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[2.314s] -- Configuring done
+[2.338s] -- Generating done
+[2.339s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_smartpal_control
+[2.362s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[2.396s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_client.cpp.o[0m
+[2.397s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_lumbar.cpp.o[0m
+[2.397s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_gripper.cpp.o[0m
+[2.397s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[2.397s] [ 50%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/MobilitySK.cc.o[0m
+[2.397s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/CommonSK.cc.o[0m
+[2.397s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_mobility.cpp.o[0m
+[2.397s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_arm.cpp.o[0m
+[2.984s] [ 64%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/ArmUnitSK.cc.o[0m
+[3.172s] In file included from [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:6:0[m[K:
+[3.172s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:[m[K In constructor ‘[01m[KClient::Client()[m[K’:
+[3.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:206:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KClient::bInitialize[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.173s]    bool [01;35m[KbInitialize[m[K;
+[3.173s]         [01;35m[K^~~~~~~~~~~[m[K
+[3.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:182:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCORBA::ORB_var Client::orb[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.173s]    CORBA::ORB_var [01;35m[Korb[m[K;
+[3.173s]                   [01;35m[K^~~[m[K
+[3.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.174s]  [01;35m[KClient[m[K::Client()
+[3.174s]  [01;35m[K^~~~~~[m[K
+[3.177s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:[m[K In member function ‘[01m[Kint8_t Client::gripperSetPower(int8_t, double)[m[K’:
+[3.178s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRL[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.178s]  int8_t Client::gripperSetPower(int8_t [01;35m[KRL[m[K, double OnOff)
+[3.178s]                                        [01;35m[K^~[m[K
+[3.178s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KOnOff[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.178s]  int8_t Client::gripperSetPower(int8_t RL, double [01;35m[KOnOff[m[K)
+[3.178s]                                                   [01;35m[K^~~~~[m[K
+[3.185s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:[m[K In member function ‘[01m[Kint8_t Client::armGetActiveAlarm(int8_t, u_int32_t, double*)[m[K’:
+[3.185s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:315:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreturn_code[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.186s]  int8_t Client::armGetActiveAlarm(int8_t RL, u_int32_t num_request, double *[01;35m[Kreturn_code[m[K)
+[3.186s]                                                                             [01;35m[K^~~~~~~~~~~[m[K
+[3.262s] [ 71%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperUnitSK.cc.o[0m
+[3.374s] [ 78%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperExtAxesSK.cc.o[0m
+[3.393s] [ 85%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarUnitSK.cc.o[0m
+[3.409s] [ 92%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarExtAxesSK.cc.o[0m
+[5.124s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In constructor ‘[01m[KSmartpalControl::SmartpalControl()[m[K’:
+[5.124s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:107:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublisher_[m[K’
+[5.124s]      [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[5.124s]      [01;31m[K^~~~~~~~~~[m[K
+[5.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In destructor ‘[01m[Kvirtual SmartpalControl::~SmartpalControl()[m[K’:
+[5.173s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[5.173s]      [01;31m[Kloop_rate[m[K.sleep();
+[5.173s]      [01;31m[K^~~~~~~~~[m[K
+[5.178s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kvoid SmartpalControl::initialize()[m[K’:
+[5.178s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:213:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.178s]      double [01;35m[Kx[m[K;
+[5.178s]             [01;35m[K^[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:214:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[Ky[m[K;
+[5.179s]             [01;35m[K^[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:215:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kth[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[Kth[m[K;
+[5.179s]             [01;35m[K^~[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:216:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KgripperR[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[KgripperR[m[K;
+[5.179s]             [01;35m[K^~~~~~~~[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:217:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KgripperL[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[KgripperL[m[K;
+[5.179s]             [01;35m[K^~~~~~~~[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:218:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KwaistL[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[KwaistL[m[K;
+[5.179s]             [01;35m[K^~~~~~[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:219:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KwaistH[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[KwaistH[m[K;
+[5.179s]             [01;35m[K^~~~~~[m[K
+[5.179s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:220:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KjointR[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.179s]      double [01;35m[KjointR[m[K[7];
+[5.180s]             [01;35m[K^~~~~~[m[K
+[5.180s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:221:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KjointL[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.180s]      double [01;35m[KjointL[m[K[7];
+[5.180s]             [01;35m[K^~~~~~[m[K
+[5.180s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kvoid SmartpalControl::timer_callback()[m[K’:
+[5.180s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[5.180s]        if (getRobotCurrentPos(&[01;31m[Kx[m[K, &y, &th, &waistL, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.180s]                                [01;31m[K^[m[K
+[5.181s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+[5.181s]        if (getRobotCurrentPos(&x, &[01;31m[Ky[m[K, &th, &waistL, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.181s]                                    [01;31m[K^[m[K
+[5.182s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+[5.182s]        if (getRobotCurrentPos(&x, &[01;36m[Ky[m[K, &th, &waistL, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.182s]                                    [01;36m[K^[m[K
+[5.182s]                                    [32m[Kyn[m[K
+[5.182s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kth[m[K’ was not declared in this scope
+[5.182s]        if (getRobotCurrentPos(&x, &y, &[01;31m[Kth[m[K, &waistL, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.182s]                                        [01;31m[K^~[m[K
+[5.182s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+[5.183s]        if (getRobotCurrentPos(&x, &y, &[01;36m[Kth[m[K, &waistL, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.183s]                                        [01;36m[K^~[m[K
+[5.183s]                                        [32m[Ktm[m[K
+[5.183s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:44:[m[K [01;31m[Kerror: [m[K‘[01m[KwaistL[m[K’ was not declared in this scope
+[5.183s]        if (getRobotCurrentPos(&x, &y, &th, &[01;31m[KwaistL[m[K, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.183s]                                             [01;31m[K^~~~~~[m[K
+[5.184s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:44:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwrite[m[K’
+[5.184s]        if (getRobotCurrentPos(&x, &y, &th, &[01;36m[KwaistL[m[K, &waistH, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.184s]                                             [01;36m[K^~~~~~[m[K
+[5.184s]                                             [32m[Kwrite[m[K
+[5.184s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:53:[m[K [01;31m[Kerror: [m[K‘[01m[KwaistH[m[K’ was not declared in this scope
+[5.184s]        if (getRobotCurrentPos(&x, &y, &th, &waistL, &[01;31m[KwaistH[m[K, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.184s]                                                      [01;31m[K^~~~~~[m[K
+[5.185s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:53:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwrite[m[K’
+[5.185s]        if (getRobotCurrentPos(&x, &y, &th, &waistL, &[01;36m[KwaistH[m[K, jointR, &gripperR, jointL, &gripperL) == 1)
+[5.185s]                                                      [01;36m[K^~~~~~[m[K
+[5.185s]                                                      [32m[Kwrite[m[K
+[5.185s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:61:[m[K [01;31m[Kerror: [m[K‘[01m[KjointR[m[K’ was not declared in this scope
+[5.185s]    if (getRobotCurrentPos(&x, &y, &th, &waistL, &waistH, [01;31m[KjointR[m[K, &gripperR, jointL, &gripperL) == 1)
+[5.185s]                                                          [01;31m[K^~~~~~[m[K
+[5.186s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:61:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcount_[m[K’
+[5.186s]    if (getRobotCurrentPos(&x, &y, &th, &waistL, &waistH, [01;36m[KjointR[m[K, &gripperR, jointL, &gripperL) == 1)
+[5.186s]                                                          [01;36m[K^~~~~~[m[K
+[5.186s]                                                              [32m[Kcount_[m[K
+[5.186s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:70:[m[K [01;31m[Kerror: [m[K‘[01m[KgripperR[m[K’ was not declared in this scope
+[5.186s]  RobotCurrentPos(&x, &y, &th, &waistL, &waistH, jointR, &[01;31m[KgripperR[m[K, jointL, &gripperL) == 1)
+[5.186s]                                                          [01;31m[K^~~~~~~~[m[K
+[5.188s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:70:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGripperR[m[K’
+[5.188s]  RobotCurrentPos(&x, &y, &th, &waistL, &waistH, jointR, &[01;36m[KgripperR[m[K, jointL, &gripperL) == 1)
+[5.188s]                                                          [01;36m[K^~~~~~~~[m[K
+[5.188s]                                                                       [32m[KGripperR[m[K
+[5.188s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:80:[m[K [01;31m[Kerror: [m[K‘[01m[KjointL[m[K’ was not declared in this scope
+[5.188s]  ntPos(&x, &y, &th, &waistL, &waistH, jointR, &gripperR, [01;31m[KjointL[m[K, &gripperL) == 1)
+[5.188s]                                                          [01;31m[K^~~~~~[m[K
+[5.189s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:80:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcount_[m[K’
+[5.189s]  ntPos(&x, &y, &th, &waistL, &waistH, jointR, &gripperR, [01;36m[KjointL[m[K, &gripperL) == 1)
+[5.189s]                                                          [01;36m[K^~~~~~[m[K
+[5.189s]                                                                                 [32m[Kcount_[m[K
+[5.189s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:89:[m[K [01;31m[Kerror: [m[K‘[01m[KgripperL[m[K’ was not declared in this scope
+[5.189s]   &y, &th, &waistL, &waistH, jointR, &gripperR, jointL, &[01;31m[KgripperL[m[K) == 1)
+[5.189s]                                                          [01;31m[K^~~~~~~~[m[K
+[5.191s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:230:89:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGripperL[m[K’
+[5.191s]   &y, &th, &waistL, &waistH, jointR, &gripperR, jointL, &[01;36m[KgripperL[m[K) == 1)
+[5.191s]                                                          [01;36m[K^~~~~~~~[m[K
+[5.191s]                                                                                          [32m[KGripperL[m[K
+[5.210s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kbool SmartpalControl::robotControl(std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Request_<std::allocator<void> > >, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Response_<std::allocator<void> > >)[m[K’:
+[5.210s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:390:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[5.210s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[5.210s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[5.210s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:403:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[5.210s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[5.210s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[6.703s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[6.703s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[6.704s] make: *** [all] Error 2
+[6.704s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[6.704s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[6.704s] Makefile:140: recipe for target 'all' failed

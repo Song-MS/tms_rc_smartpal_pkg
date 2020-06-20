@@ -1,0 +1,66 @@
+[0.048s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_timer
+[0.346s] -- The C compiler identification is GNU 7.4.0
+[0.518s] -- The CXX compiler identification is GNU 7.4.0
+[0.524s] -- Check for working C compiler: /usr/bin/cc
+[0.856s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.856s] -- Detecting C compiler ABI info
+[1.225s] -- Detecting C compiler ABI info - done
+[1.233s] -- Detecting C compile features
+[2.104s] -- Detecting C compile features - done
+[2.108s] -- Check for working CXX compiler: /usr/bin/c++
+[2.459s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.460s] -- Detecting CXX compiler ABI info
+[2.918s] -- Detecting CXX compiler ABI info - done
+[2.926s] -- Detecting CXX compile features
+[4.439s] -- Detecting CXX compile features - done
+[4.442s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.550s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.551s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.282s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[5.374s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[5.507s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[5.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.510s] -- Looking for pthread.h
+[5.917s] -- Looking for pthread.h - found
+[5.918s] -- Looking for pthread_create
+[6.283s] -- Looking for pthread_create - not found
+[6.284s] -- Looking for pthread_create in pthreads
+[6.647s] -- Looking for pthread_create in pthreads - not found
+[6.648s] -- Looking for pthread_create in pthread
+[7.122s] -- Looking for pthread_create in pthread - found
+[7.124s] -- Found Threads: TRUE  
+[7.608s] -- Configuring done
+[7.651s] -- Generating done
+[7.675s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_timer
+[7.716s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_timer
+[7.718s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[7.986s] [35m[1mScanning dependencies of target timer_lambda[0m
+[7.988s] [35m[1mScanning dependencies of target timer_member_function[0m
+[8.080s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[8.135s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[12.239s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[12.317s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[12.445s] [100%] Built target timer_lambda
+[12.558s] [100%] Built target timer_member_function
+[12.587s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[12.694s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer --target install -- -j8 -l8
+[12.835s] [ 50%] Built target timer_lambda
+[12.849s] [100%] Built target timer_member_function
+[12.889s] [36mInstall the project...[0m
+[12.905s] -- Install configuration: ""
+[12.906s] -- Execute custom install script
+[12.907s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[12.924s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[12.940s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[12.955s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[12.971s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[12.987s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[13.002s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[13.016s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[13.030s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[13.045s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[13.061s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[13.084s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[13.102s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[13.130s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_timer --target install -- -j8 -l8

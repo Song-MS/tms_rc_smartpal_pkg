@@ -1,0 +1,50 @@
+[0.131s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.217s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.484s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.497s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.525s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.550s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.554s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.568s] -- Found tms_msg_rc: 1.0.2 (/home/common/colcon_ws/install/tms_msg_rc/share/tms_msg_rc/cmake)
+[0.579s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[0.590s] -- Found moveit_msgs: 0.10.0 (/home/common/colcon_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[0.704s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.968s] -- Configuring done
+[1.025s] -- Generating done
+[1.026s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_smartpal_control
+[1.049s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[1.083s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_lumbar.cpp.o[0m
+[1.084s] [ 14%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[1.085s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_client.cpp.o[0m
+[1.085s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_arm.cpp.o[0m
+[1.085s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_mobility.cpp.o[0m
+[1.085s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_gripper.cpp.o[0m
+[1.085s] [ 50%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/CommonSK.cc.o[0m
+[1.089s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/MobilitySK.cc.o[0m
+[1.740s] [ 64%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/ArmUnitSK.cc.o[0m
+[1.980s] [ 71%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperUnitSK.cc.o[0m
+[2.082s] [ 78%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperExtAxesSK.cc.o[0m
+[2.093s] [ 85%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarUnitSK.cc.o[0m
+[2.109s] [ 92%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarExtAxesSK.cc.o[0m
+[7.424s] [100%] [32m[1mLinking CXX executable smartpal5_control[0m
+[7.821s] [100%] Built target smartpal5_control
+[7.940s] [100%] Built target smartpal5_control
+[7.960s] [36mInstall the project...[0m
+[7.970s] -- Install configuration: ""
+[7.970s] -- Execute custom install script
+[7.971s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/library_path.sh
+[7.972s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/lib/tms_rc_smartpal_control/smartpal5_control
+[7.972s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/package_run_dependencies/tms_rc_smartpal_control
+[7.973s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/parent_prefix_path/tms_rc_smartpal_control
+[7.973s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/ament_prefix_path.sh
+[7.973s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/path.sh
+[7.973s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.bash
+[7.974s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.sh
+[7.974s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.zsh
+[7.975s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/packages/tms_rc_smartpal_control
+[7.975s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/ament_cmake_export_libraries-extras.cmake
+[7.976s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig.cmake
+[7.976s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig-version.cmake
+[7.976s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/package.xml

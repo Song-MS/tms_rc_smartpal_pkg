@@ -1,0 +1,78 @@
+[0.577s] -- The C compiler identification is GNU 7.4.0
+[0.662s] -- The CXX compiler identification is GNU 7.4.0
+[0.669s] -- Check for working C compiler: /usr/bin/cc
+[0.787s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.787s] -- Detecting C compiler ABI info
+[0.895s] -- Detecting C compiler ABI info - done
+[0.904s] -- Detecting C compile features
+[1.244s] -- Detecting C compile features - done
+[1.248s] -- Check for working CXX compiler: /usr/bin/c++
+[1.378s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.379s] -- Detecting CXX compiler ABI info
+[1.512s] -- Detecting CXX compiler ABI info - done
+[1.520s] -- Detecting CXX compile features
+[2.060s] -- Detecting CXX compile features - done
+[2.068s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.146s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.555s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.625s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.736s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.743s] -- Looking for pthread.h
+[2.854s] -- Looking for pthread.h - found
+[2.855s] -- Looking for pthread_create
+[2.963s] -- Looking for pthread_create - not found
+[2.964s] -- Looking for pthread_create in pthreads
+[3.077s] -- Looking for pthread_create in pthreads - not found
+[3.077s] -- Looking for pthread_create in pthread
+[3.178s] -- Looking for pthread_create in pthread - found
+[3.179s] -- Found Threads: TRUE  
+[3.274s] -- Found tms_msg_rc: 1.0.2 (/home/common/colcon_ws/install/tms_msg_rc/share/tms_msg_rc/cmake)
+[3.281s] -- Found tms_msg_db: 1.0.2 (/home/common/colcon_ws/install/tms_msg_db/share/tms_msg_db/cmake)
+[3.307s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/tms_rc_smartpal_control/devel
+[3.307s] -- Using CMAKE_PREFIX_PATH: /home/common/colcon_ws/install/turtlebot3;/home/common/colcon_ws/install/turtlebot3_simulations;/home/common/colcon_ws/install/turtlebot3_bringup;/home/common/colcon_ws/install/turtlebot3_node;/home/common/colcon_ws/install/turtlebot3_navigation2;/home/common/colcon_ws/install/turtlebot3_fake_node;/home/common/colcon_ws/install/doublenode;/home/common/colcon_ws/install/turtlebot3_msgs;/home/common/colcon_ws/install/turtlebot3_gazebo;/home/common/colcon_ws/install/turtlebot3_description;/home/common/colcon_ws/install/turtlebot3_cartographer;/home/common/colcon_ws/install/tms_ss_vicon;/home/common/colcon_ws/install/tms_rc_tfnode;/home/common/colcon_ws/install/tms_rc_bot;/home/common/colcon_ws/install/tms_nw_rp;/home/common/colcon_ws/install/tms_msg_ur;/home/common/colcon_ws/install/tms_msg_ts;/home/common/colcon_ws/install/tms_msg_ss;/home/common/colcon_ws/install/tms_msg_rc;/home/common/colcon_ws/install/tms_msg_db;/home/common/colcon_ws/install/object_recognition_msgs;/home/common/colcon_ws/install/hls_lfcd_lds_driver;/home/common/colcon_ws/install/examples_rclcpp_minimal_timer;/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber;/home/common/colcon_ws/install/examples_rclcpp_minimal_service;/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher;/home/common/colcon_ws/install/examples_rclcpp_minimal_composition;/home/common/colcon_ws/install/examples_rclcpp_minimal_client;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client;/home/common/colcon_ws/install/dynamixel_sdk;/home/common/catkin_ws/devel;/opt/ros/melodic
+[3.307s] -- This workspace overlays: /home/common/catkin_ws/devel;/opt/ros/melodic
+[3.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.356s] -- Using Debian Python package layout
+[3.357s] -- Using empy: /usr/bin/empy
+[3.558s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.558s] -- Call enable_testing()
+[3.558s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/tms_rc_smartpal_control/test_results
+[3.584s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.584s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.624s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.630s] -- Using Python nosetests: /usr/bin/nosetests
+[3.696s] -- catkin 0.7.19
+[3.697s] -- BUILD_SHARED_LIBS is on
+[3.992s] Traceback (most recent call last):
+[3.992s]   File "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[3.993s]     code = generate_environment_script('/home/common/colcon_ws/build/tms_rc_smartpal_control/devel/env.sh')
+[3.993s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/catkin/environment_cache.py", line 62, in generate_environment_script
+[3.993s]     env_after = ast.literal_eval(output.decode('utf8'))
+[3.993s]   File "/usr/lib/python3.6/ast.py", line 48, in literal_eval
+[3.993s]     node_or_string = parse(node_or_string, mode='eval')
+[3.993s]   File "/usr/lib/python3.6/ast.py", line 35, in parse
+[3.994s]     return compile(source, filename, mode, PyCF_ONLY_AST)
+[3.994s]   File "<unknown>", line 1
+[3.994s]     ROS_DISTRO was set to 'dashing' before. Please make sure that the environment does not mix paths from different distributions.
+[3.994s]                  ^
+[3.994s] SyntaxError: invalid syntax
+[4.007s] CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[4.007s]   execute_process(/usr/bin/python3
+[4.008s]   "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py")
+[4.008s]   returned error code 1
+[4.008s] Call Stack (most recent call first):
+[4.008s]   /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[4.008s]   /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[4.008s]   /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:9 (find_package)
+[4.008s]   /opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+[4.009s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+[4.009s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+[4.009s]   /opt/ros/melodic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake:197 (find_package)
+[4.009s]   CMakeLists.txt:19 (find_package)
+[4.009s] 
+[4.009s] 
+[4.010s] -- Configuring incomplete, errors occurred!
+[4.010s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeOutput.log".
+[4.011s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeError.log".

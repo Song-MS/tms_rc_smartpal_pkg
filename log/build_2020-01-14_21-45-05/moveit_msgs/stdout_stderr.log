@@ -1,0 +1,4 @@
+[0.205s] CMake Error: The source directory "/home/common/colcon_ws/src/ros_tms/moveit_msgs" does not exist.
+[0.205s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.205s] Makefile:15640: recipe for target 'cmake_check_build_system' failed
+[0.205s] make: *** [cmake_check_build_system] Error 1

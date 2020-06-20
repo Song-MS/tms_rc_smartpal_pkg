@@ -1,0 +1,61 @@
+[0.016s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_client
+[0.127s] -- The C compiler identification is GNU 7.4.0
+[0.242s] -- The CXX compiler identification is GNU 7.4.0
+[0.248s] -- Check for working C compiler: /usr/bin/cc
+[0.384s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.385s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.543s] -- Detecting C compile features
+[1.229s] -- Detecting C compile features - done
+[1.233s] -- Check for working CXX compiler: /usr/bin/c++
+[1.529s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.530s] -- Detecting CXX compiler ABI info
+[1.882s] -- Detecting CXX compiler ABI info - done
+[1.888s] -- Detecting CXX compile features
+[3.626s] -- Detecting CXX compile features - done
+[3.629s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[3.678s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.678s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.090s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.153s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[4.182s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[4.297s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[4.321s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.325s] -- Looking for pthread.h
+[4.695s] -- Looking for pthread.h - found
+[4.695s] -- Looking for pthread_create
+[5.152s] -- Looking for pthread_create - not found
+[5.152s] -- Looking for pthread_create in pthreads
+[5.526s] -- Looking for pthread_create in pthreads - not found
+[5.526s] -- Looking for pthread_create in pthread
+[6.009s] -- Looking for pthread_create in pthread - found
+[6.011s] -- Found Threads: TRUE  
+[6.509s] -- Configuring done
+[6.560s] -- Generating done
+[6.562s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_client
+[6.573s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_client
+[6.575s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+[6.909s] [35m[1mScanning dependencies of target client_main[0m
+[7.043s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[12.343s] [100%] [32m[1mLinking CXX executable client_main[0m
+[12.819s] [100%] Built target client_main
+[12.854s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+[13.260s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_client --target install -- -j8 -l8
+[13.598s] [100%] Built target client_main
+[13.734s] [36mInstall the project...[0m
+[13.787s] -- Install configuration: ""
+[13.788s] -- Execute custom install script
+[13.789s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[13.843s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[13.900s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[13.980s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[14.019s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[14.057s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[14.125s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[14.169s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[14.203s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[14.251s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[14.292s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[14.343s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[14.402s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_client --target install -- -j8 -l8

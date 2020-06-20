@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_navigation2
+[0.048s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.348s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.430s] -- Configuring done
+[0.432s] -- Generating done
+[0.433s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_navigation2
+[0.555s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_navigation2
+[0.556s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[1.034s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[1.104s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8
+[1.228s] [36mInstall the project...[0m
+[1.243s] -- Install configuration: ""
+[1.244s] -- Execute custom install script
+[1.245s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.246s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.246s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.247s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.247s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.247s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.248s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.249s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.249s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.249s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.250s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.250s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.251s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.252s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.252s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.253s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.253s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.254s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.263s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8

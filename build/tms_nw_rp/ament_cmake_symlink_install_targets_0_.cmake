@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/common/colcon_ws/build/tms_nw_rp/libtms_nw_rp__rosidl_generator_c.so" "TARGETS" "tms_nw_rp__rosidl_generator_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

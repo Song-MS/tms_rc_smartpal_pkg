@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgetpcdinfo.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgetpcdinfo_Request {
+      uint32 id;
+    };
+    struct Tmsdbgetpcdinfo_Response {
+      uint64 rostime;
+
+      string pcd_file;
+
+      sensor_msgs::msg::PointCloud2 cloud;
+
+      float get_x;
+
+      float get_y;
+
+      float get_z;
+
+      float get_theta;
+    };
+  };
+};

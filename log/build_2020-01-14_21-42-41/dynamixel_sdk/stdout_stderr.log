@@ -1,0 +1,39 @@
+[0.106s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.647s] -- Configuring done
+[0.654s] -- Generating done
+[0.655s] -- Build files have been written to: /home/common/colcon_ws/build/dynamixel_sdk
+[0.743s] [100%] Built target dynamixel_sdk
+[0.942s] [100%] Built target dynamixel_sdk
+[0.975s] [36mInstall the project...[0m
+[0.991s] -- Install configuration: ""
+[0.992s] -- Execute custom install script
+[0.993s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[0.993s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[0.993s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[0.994s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[0.994s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[0.995s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[0.995s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[0.995s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[0.996s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[0.996s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[0.996s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[0.997s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[0.997s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[0.998s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[0.998s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[0.999s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.000s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.000s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.001s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.001s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.002s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.002s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.003s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.003s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.004s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.004s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.005s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.005s] -- Up-to-date symlink: /home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml

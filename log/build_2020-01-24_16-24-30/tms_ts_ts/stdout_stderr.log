@@ -1,0 +1,15 @@
+[2.292s] running develop
+[2.437s] running egg_info
+[2.437s] writing tms_ts_ts.egg-info/PKG-INFO
+[2.437s] writing dependency_links to tms_ts_ts.egg-info/dependency_links.txt
+[2.438s] writing entry points to tms_ts_ts.egg-info/entry_points.txt
+[2.438s] writing requirements to tms_ts_ts.egg-info/requires.txt
+[2.438s] writing top-level names to tms_ts_ts.egg-info/top_level.txt
+[2.464s] reading manifest file 'tms_ts_ts.egg-info/SOURCES.txt'
+[2.465s] writing manifest file 'tms_ts_ts.egg-info/SOURCES.txt'
+[2.466s] running build_ext
+[2.466s] Creating /home/common/colcon_ws/install/tms_ts_ts/lib/python3.6/site-packages/tms-ts-ts.egg-link (link to .)
+[2.467s] Installing tms_ts_master script to /home/common/colcon_ws/install/tms_ts_ts/lib/tms_ts_ts
+[2.467s] 
+[2.467s] Installed /home/common/colcon_ws/build/tms_ts_ts
+[2.468s] running install_data

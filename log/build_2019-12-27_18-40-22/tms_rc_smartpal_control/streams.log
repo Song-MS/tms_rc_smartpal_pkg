@@ -1,0 +1,13 @@
+[0.440s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8
+[0.562s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[1.495s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Ktms_msg_db/msg/tmsdb_stamped.hpp: No such file or directory
+[1.496s]  #include [01;31m[K<tms_msg_db/msg/tmsdb_stamped.hpp>[m[K
+[1.496s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.496s] compilation terminated.
+[1.502s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[1.503s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[1.503s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[1.503s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[1.503s] Makefile:140: recipe for target 'all' failed
+[1.503s] make: *** [all] Error 2
+[1.511s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '2': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8

@@ -1,0 +1,20 @@
+[1.579s] [100%] Built target vicon_stream
+[2.331s] [100%] Built target vicon_stream
+[2.358s] [36mInstall the project...[0m
+[2.373s] -- Install configuration: ""
+[2.375s] -- Execute custom install script
+[2.376s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/bin/vicon_stream
+[2.376s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/lib/tms_ss_vicon/vicon_stream
+[2.376s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/package_run_dependencies/tms_ss_vicon
+[2.376s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/parent_prefix_path/tms_ss_vicon
+[2.376s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/ament_prefix_path.sh
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/path.sh
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.bash
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.sh
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.zsh
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/packages/tms_ss_vicon
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.377s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.378s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig.cmake
+[2.378s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig-version.cmake
+[2.378s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/package.xml

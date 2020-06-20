@@ -1,0 +1,31 @@
+{
+  "package_name": "tms_msg_ts",
+  "output_dir": "/home/common/colcon_ws/build/tms_msg_ts/rosidl_typesupport_cpp/tms_msg_ts",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts:msg/Arg.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts:srv/TmsSaFindObjects.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts:srv/TsReq.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts:srv/TsStateControl.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts:srv/TsDoTask.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts/msg/Arg.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts/srv/TmsSaFindObjects.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts/srv/TsReq.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts/srv/TsStateControl.idl",
+    "/home/common/colcon_ws/build/tms_msg_ts/rosidl_adapter/tms_msg_ts/srv/TsDoTask.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

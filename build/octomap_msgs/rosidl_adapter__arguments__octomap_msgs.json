@@ -1,0 +1,9 @@
+{
+  "package_name": "octomap_msgs",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/octomap_msgs:msg/Octomap.msg",
+    "/home/common/colcon_ws/src/octomap_msgs:msg/OctomapWithPose.msg",
+    "/home/common/colcon_ws/src/octomap_msgs:srv/BoundingBoxQuery.srv",
+    "/home/common/colcon_ws/src/octomap_msgs:srv/GetOctomap.srv"
+  ]
+}

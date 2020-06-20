@@ -1,0 +1,4 @@
+[0.030s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[0.101s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[0.132s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_navigation2': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8
+[0.247s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_navigation2' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_navigation2 --target install -- -j8 -l8

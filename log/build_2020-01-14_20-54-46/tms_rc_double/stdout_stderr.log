@@ -1,0 +1,16 @@
+[1.684s] running develop
+[1.991s] running egg_info
+[1.991s] writing tms_rc_double.egg-info/PKG-INFO
+[1.991s] writing dependency_links to tms_rc_double.egg-info/dependency_links.txt
+[1.991s] writing entry points to tms_rc_double.egg-info/entry_points.txt
+[1.992s] writing requirements to tms_rc_double.egg-info/requires.txt
+[1.992s] writing top-level names to tms_rc_double.egg-info/top_level.txt
+[2.044s] reading manifest file 'tms_rc_double.egg-info/SOURCES.txt'
+[2.045s] writing manifest file 'tms_rc_double.egg-info/SOURCES.txt'
+[2.048s] running build_ext
+[2.049s] Creating /home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms-rc-double.egg-link (link to .)
+[2.050s] Installing convert_twist2vector3 script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[2.050s] Installing vicon_control script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[2.051s] 
+[2.051s] Installed /home/common/colcon_ws/build/tms_rc_double
+[2.051s] running install_data

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tms_msg_ts/msg/Arg.msg
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ts {
+  module msg {
+    struct Arg {
+      sequence<float> arg;
+    };
+  };
+};

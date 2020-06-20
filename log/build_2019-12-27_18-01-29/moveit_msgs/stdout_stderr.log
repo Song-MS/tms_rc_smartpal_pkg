@@ -1,0 +1,175 @@
+[0.247s] [  0%] Built target moveit_msgs__cpp
+[0.288s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__functions.c.o[0m
+[0.288s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o[0m
+[0.289s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__functions.c.o[0m
+[0.296s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c.o[0m
+[0.299s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c.o[0m
+[0.301s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o[0m
+[0.319s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[0.320s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[0.320s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__struct.h:24[m[K,
+[0.320s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__functions.h:19[m[K,
+[0.322s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__functions.c:4[m[K:
+[0.322s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.322s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.322s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.323s] compilation terminated.
+[0.323s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1593: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__functions.c.o' failed
+[0.323s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_request__functions.c.o] Error 1
+[0.323s] make[2]: *** Waiting for unfinished jobs....
+[0.324s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[0.324s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[0.324s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__struct.h:22[m[K,
+[0.324s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__functions.h:19[m[K,
+[0.324s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__functions.c:4[m[K:
+[0.325s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.326s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.327s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.327s] compilation terminated.
+[0.327s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1617: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__functions.c.o' failed
+[0.328s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/motion_plan_response__functions.c.o] Error 1
+[0.333s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[0.333s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[0.333s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__struct.h:26[m[K,
+[0.333s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.h:19[m[K,
+[0.333s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c:4[m[K:
+[0.335s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.335s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.335s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.336s] compilation terminated.
+[0.336s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[0.337s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/robot_state__struct.h:26[m[K,
+[0.337s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_robot_state__struct.h:22[m[K,
+[0.338s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.h:19[m[K,
+[0.339s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c:4[m[K:
+[0.339s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.340s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.340s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.340s] compilation terminated.
+[0.341s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o] Error 1
+[0.341s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c.o] Error 1
+[0.341s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1401: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_trajectory__functions.c.o' failed
+[0.341s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1425: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/display_robot_state__functions.c.o' failed
+[0.341s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.h:19:0[m[K,
+[0.341s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c:4[m[K:
+[0.341s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.341s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.342s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.343s] compilation terminated.
+[0.343s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o] Error 1
+[0.343s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1281: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o' failed
+[0.347s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__struct.h:25:0[m[K,
+[0.347s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.h:19[m[K,
+[0.348s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c:4[m[K:
+[0.348s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_c/moveit_msgs/msg/collision_object__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.h: No such file or directory
+[0.348s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.h"[m[K
+[0.349s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.349s] compilation terminated.
+[0.350s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c.o] Error 1
+[0.350s] CMakeFiles/moveit_msgs__rosidl_generator_c.dir/build.make:1233: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/attached_collision_object__functions.c.o' failed
+[0.350s] CMakeFiles/Makefile2:698: recipe for target 'CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all' failed
+[0.350s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_generator_c.dir/all] Error 2
+[0.350s] make[1]: *** Waiting for unfinished jobs....
+[0.365s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o[0m
+[0.365s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/link_padding__type_support.cpp.o[0m
+[0.368s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_robot_state__type_support.cpp.o[0m
+[0.378s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp.o[0m
+[0.378s] [  0%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_trajectory__type_support.cpp.o[0m
+[0.378s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/link_scale__type_support.cpp.o[0m
+[0.389s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp.o[0m
+[0.393s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/motion_plan_request__type_support.cpp.o[0m
+[0.449s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.450s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/robot_state__struct.hpp:33[m[K,
+[0.450s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_robot_state__struct.hpp:29[m[K,
+[0.450s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_robot_state__type_support.cpp:12[m[K:
+[0.450s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.450s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.450s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.450s] compilation terminated.
+[0.451s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.451s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp:12[m[K:
+[0.451s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.451s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.451s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.452s] compilation terminated.
+[0.452s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:853: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_robot_state__type_support.cpp.o' failed
+[0.452s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:661: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp.o' failed
+[0.452s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_robot_state__type_support.cpp.o] Error 1
+[0.452s] make[2]: *** Waiting for unfinished jobs....
+[0.452s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/attached_collision_object__type_support.cpp.o] Error 1
+[0.471s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.471s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/attached_collision_object__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.472s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp:4[m[K:
+[0.477s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.477s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.477s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.477s] compilation terminated.
+[0.477s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp:12:0[m[K:
+[0.478s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.478s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.478s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.478s] compilation terminated.
+[0.479s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o] Error 1
+[0.479s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:709: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o' failed
+[0.484s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp.o] Error 1
+[0.484s] make[2]: *** Waiting for unfinished jobs....
+[0.485s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:661: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/attached_collision_object__type_support.cpp.o' failed
+[0.487s] [  1%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_trajectory__type_support.cpp.o[0m
+[0.488s] [  2%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o[0m
+[0.496s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.496s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/robot_state__struct.hpp:33[m[K,
+[0.497s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/motion_plan_request__struct.hpp:31[m[K,
+[0.497s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/motion_plan_request__type_support.cpp:12[m[K:
+[0.497s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.497s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.497s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.497s] compilation terminated.
+[0.498s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1021: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/motion_plan_request__type_support.cpp.o' failed
+[0.498s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/motion_plan_request__type_support.cpp.o] Error 1
+[0.513s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_robot_state__type_support.cpp.o[0m
+[0.527s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.527s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/robot_state__struct.hpp:33[m[K,
+[0.527s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_trajectory__struct.hpp:31[m[K,
+[0.527s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_trajectory__type_support.cpp:12[m[K:
+[0.527s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.527s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.527s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.528s] compilation terminated.
+[0.528s] CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:829: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_trajectory__type_support.cpp.o' failed
+[0.528s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/display_trajectory__type_support.cpp.o] Error 1
+[0.581s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/collision_object__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[0.581s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp:4[m[K:
+[0.581s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.581s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.581s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.581s] compilation terminated.
+[0.582s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:709: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o' failed
+[0.582s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o] Error 1
+[0.582s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.582s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/robot_state__struct.hpp:33[m[K,
+[0.582s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_robot_state__struct.hpp:29[m[K,
+[0.582s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/display_robot_state__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.583s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_robot_state__type_support.cpp:4[m[K:
+[0.583s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.583s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.583s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.583s] compilation terminated.
+[0.584s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:853: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_robot_state__type_support.cpp.o' failed
+[0.584s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_robot_state__type_support.cpp.o] Error 1
+[0.588s] In file included from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/attached_collision_object__struct.hpp:29:0[m[K,
+[0.589s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/robot_state__struct.hpp:33[m[K,
+[0.589s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_trajectory__struct.hpp:31[m[K,
+[0.589s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/display_trajectory__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.589s]                  from [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_trajectory__type_support.cpp:4[m[K:
+[0.589s] [01m[K/home/common/colcon_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/collision_object__struct.hpp:31:10:[m[K [01;31m[Kfatal error: [m[Kobject_recognition_msgs/msg/object_type__struct.hpp: No such file or directory
+[0.589s]  #include [01;31m[K"object_recognition_msgs/msg/object_type__struct.hpp"[m[K
+[0.589s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.590s] compilation terminated.
+[0.590s] CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:829: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_trajectory__type_support.cpp.o' failed
+[0.590s] CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[0.590s] make[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/display_trajectory__type_support.cpp.o] Error 1
+[0.590s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.703s] CMakeFiles/Makefile2:110: recipe for target 'CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all' failed
+[0.703s] make[1]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.703s] Makefile:140: recipe for target 'all' failed
+[0.703s] make: *** [all] Error 2

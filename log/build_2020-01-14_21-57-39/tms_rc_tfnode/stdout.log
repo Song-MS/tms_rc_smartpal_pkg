@@ -1,0 +1,54 @@
+[0.112s] -- The C compiler identification is GNU 7.4.0
+[0.197s] -- The CXX compiler identification is GNU 7.4.0
+[0.205s] -- Check for working C compiler: /usr/bin/cc
+[0.316s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.317s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.458s] -- Detecting C compile features
+[0.825s] -- Detecting C compile features - done
+[0.827s] -- Check for working CXX compiler: /usr/bin/c++
+[0.947s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.948s] -- Detecting CXX compiler ABI info
+[1.056s] -- Detecting CXX compiler ABI info - done
+[1.065s] -- Detecting CXX compile features
+[1.557s] -- Detecting CXX compile features - done
+[1.561s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.645s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.037s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.077s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.119s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.181s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.185s] -- Looking for pthread.h
+[2.290s] -- Looking for pthread.h - found
+[2.291s] -- Looking for pthread_create
+[2.394s] -- Looking for pthread_create - not found
+[2.395s] -- Looking for pthread_create in pthreads
+[2.489s] -- Looking for pthread_create in pthreads - not found
+[2.489s] -- Looking for pthread_create in pthread
+[2.604s] -- Looking for pthread_create in pthread - found
+[2.606s] -- Found Threads: TRUE  
+[2.668s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[2.691s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[2.966s] -- Configuring done
+[2.990s] -- Generating done
+[2.993s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_tfnode
+[3.806s] [35m[1mScanning dependencies of target Tfnode[0m
+[3.806s] [100%] Built target Tfnode
+[5.562s] [100%] Built target Tfnode
+[5.562s] [36mInstall the project...[0m
+[5.563s] -- Install configuration: ""
+[5.563s] -- Execute custom install script
+[5.563s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/lib/tms_rc_tfnode/Tfnode
+[5.563s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/package_run_dependencies/tms_rc_tfnode
+[5.564s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/parent_prefix_path/tms_rc_tfnode
+[5.564s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/ament_prefix_path.sh
+[5.564s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/path.sh
+[5.564s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.bash
+[5.565s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.sh
+[5.566s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.zsh
+[5.566s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/packages/tms_rc_tfnode
+[5.567s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig.cmake
+[5.567s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig-version.cmake
+[5.568s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/package.xml

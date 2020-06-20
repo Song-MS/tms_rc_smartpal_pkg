@@ -1,0 +1,21 @@
+[0.046s] Invoking command in '/home/common/colcon_ws/build/tms_rc_tfnode': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_tfnode -- -j8 -l8
+[0.145s] [100%] Built target Tfnode
+[0.430s] Invoked command in '/home/common/colcon_ws/build/tms_rc_tfnode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_tfnode -- -j8 -l8
+[0.961s] Invoking command in '/home/common/colcon_ws/build/tms_rc_tfnode': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_tfnode --target install -- -j8 -l8
+[1.096s] [100%] Built target Tfnode
+[1.151s] [36mInstall the project...[0m
+[1.165s] -- Install configuration: ""
+[1.166s] -- Execute custom install script
+[1.167s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/lib/tms_rc_tfnode/Tfnode
+[1.168s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/package_run_dependencies/tms_rc_tfnode
+[1.168s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/parent_prefix_path/tms_rc_tfnode
+[1.169s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/ament_prefix_path.sh
+[1.169s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/path.sh
+[1.170s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.bash
+[1.170s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.sh
+[1.171s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.zsh
+[1.171s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/packages/tms_rc_tfnode
+[1.172s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig.cmake
+[1.172s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig-version.cmake
+[1.172s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/package.xml
+[1.459s] Invoked command in '/home/common/colcon_ws/build/tms_rc_tfnode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_tfnode --target install -- -j8 -l8

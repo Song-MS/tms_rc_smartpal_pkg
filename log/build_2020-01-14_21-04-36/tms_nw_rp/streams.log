@@ -1,0 +1,15 @@
+[0.064s] Invoking command in '/home/common/colcon_ws/build/tms_nw_rp': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8
+[0.287s] [  3%] Built target tms_nw_rp__cpp
+[0.325s] [ 13%] Built target tms_nw_rp__rosidl_generator_c
+[0.390s] [ 24%] Built target tms_nw_rp__rosidl_typesupport_introspection_cpp
+[0.453s] [ 34%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_cpp
+[0.475s] [ 44%] Built target tms_nw_rp__rosidl_typesupport_introspection_c
+[0.577s] [ 55%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c
+[0.585s] [ 65%] Built target tms_nw_rp__rosidl_typesupport_cpp
+[0.639s] [ 75%] Built target tms_nw_rp__rosidl_typesupport_c
+[0.674s] [ 75%] Built target tms_nw_rp
+[0.703s] [ 79%] Built target tms_nw_rp__py
+[0.743s] [ 86%] Built target tms_nw_rp__python
+[0.777s] [ 93%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext
+[0.783s] [100%] Built target tms_nw_rp__rosidl_typesupport_c__pyext
+[1.259s] Invoked command in '/home/common/colcon_ws/build/tms_nw_rp' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8

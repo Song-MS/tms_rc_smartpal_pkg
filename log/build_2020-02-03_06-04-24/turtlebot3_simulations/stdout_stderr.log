@@ -1,0 +1,14 @@
+[0.223s] [36mInstall the project...[0m
+[0.234s] -- Install configuration: ""
+[0.234s] -- Execute custom install script
+[0.235s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.235s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.236s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.237s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.237s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.238s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.238s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.238s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.239s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml

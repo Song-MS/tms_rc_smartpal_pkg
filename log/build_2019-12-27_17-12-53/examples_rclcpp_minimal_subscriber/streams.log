@@ -1,0 +1,73 @@
+[0.031s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber
+[0.404s] -- The C compiler identification is GNU 7.4.0
+[0.612s] -- The CXX compiler identification is GNU 7.4.0
+[0.618s] -- Check for working C compiler: /usr/bin/cc
+[1.060s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.061s] -- Detecting C compiler ABI info
+[1.455s] -- Detecting C compiler ABI info - done
+[1.457s] -- Detecting C compile features
+[2.595s] -- Detecting C compile features - done
+[2.595s] -- Check for working CXX compiler: /usr/bin/c++
+[3.065s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.066s] -- Detecting CXX compiler ABI info
+[3.422s] -- Detecting CXX compiler ABI info - done
+[3.431s] -- Detecting CXX compile features
+[5.068s] -- Detecting CXX compile features - done
+[5.070s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[5.176s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.719s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[5.772s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[5.853s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[5.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.857s] -- Looking for pthread.h
+[6.193s] -- Looking for pthread.h - found
+[6.194s] -- Looking for pthread_create
+[6.670s] -- Looking for pthread_create - not found
+[6.670s] -- Looking for pthread_create in pthreads
+[7.053s] -- Looking for pthread_create in pthreads - not found
+[7.054s] -- Looking for pthread_create in pthread
+[7.507s] -- Looking for pthread_create in pthread - found
+[7.509s] -- Found Threads: TRUE  
+[7.570s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[7.809s] -- Configuring done
+[7.911s] -- Generating done
+[7.914s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber
+[7.934s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber
+[7.937s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[8.182s] [35m[1mScanning dependencies of target subscriber_not_composable[0m
+[8.182s] [35m[1mScanning dependencies of target subscriber_lambda[0m
+[8.195s] [35m[1mScanning dependencies of target subscriber_member_function[0m
+[8.335s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[8.356s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[8.375s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[14.133s] [ 66%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[14.406s] [ 66%] Built target subscriber_not_composable
+[14.471s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[14.623s] [100%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[14.714s] [100%] Built target subscriber_member_function
+[14.869s] [100%] Built target subscriber_lambda
+[14.888s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[14.954s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8
+[15.059s] [ 33%] Built target subscriber_member_function
+[15.064s] [ 66%] Built target subscriber_not_composable
+[15.079s] [100%] Built target subscriber_lambda
+[15.109s] [36mInstall the project...[0m
+[15.124s] -- Install configuration: ""
+[15.125s] -- Execute custom install script
+[15.125s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[15.140s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[15.157s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[15.173s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[15.189s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[15.204s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[15.220s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[15.234s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[15.247s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[15.263s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[15.278s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[15.294s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[15.309s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[15.326s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[15.349s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j8 -l8

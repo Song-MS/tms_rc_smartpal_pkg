@@ -1,0 +1,4 @@
+[0.019s] Invoking command in '/home/common/colcon_ws/build/tms_nw_rp': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8
+[0.682s] Invoked command in '/home/common/colcon_ws/build/tms_nw_rp' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8
+[1.182s] Invoking command in '/home/common/colcon_ws/build/tms_nw_rp': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp --target install -- -j8 -l8
+[1.844s] Invoked command in '/home/common/colcon_ws/build/tms_nw_rp' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp --target install -- -j8 -l8

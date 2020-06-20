@@ -1,0 +1,3 @@
+[0.408s] CMake Error: The source directory "/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control" does not exist.
+[0.408s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.410s] make: *** [cmake_check_build_system] Error 1

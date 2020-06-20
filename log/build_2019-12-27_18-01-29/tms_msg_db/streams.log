@@ -1,0 +1,15 @@
+[0.060s] Invoking command in '/home/common/colcon_ws/build/tms_msg_db': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_db -- -j8 -l8
+[0.159s] [  0%] Built target tms_msg_db__cpp
+[0.178s] [ 12%] Built target tms_msg_db__rosidl_generator_c
+[0.221s] [ 25%] Built target tms_msg_db__rosidl_typesupport_introspection_cpp
+[0.240s] [ 37%] Built target tms_msg_db__rosidl_typesupport_fastrtps_cpp
+[0.258s] [ 49%] Built target tms_msg_db__rosidl_typesupport_introspection_c
+[0.332s] [ 61%] Built target tms_msg_db__rosidl_typesupport_cpp
+[0.349s] [ 73%] Built target tms_msg_db__rosidl_typesupport_fastrtps_c
+[0.467s] [ 86%] Built target tms_msg_db__rosidl_typesupport_c
+[0.522s] [ 86%] Built target tms_msg_db
+[0.582s] [ 87%] Built target tms_msg_db__py
+[0.649s] [ 98%] Built target tms_msg_db__python
+[0.683s] [100%] Built target tms_msg_db__rosidl_typesupport_fastrtps_c__pyext
+[0.683s] [100%] Built target tms_msg_db__rosidl_typesupport_c__pyext
+[0.775s] Invoked command in '/home/common/colcon_ws/build/tms_msg_db' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_db -- -j8 -l8

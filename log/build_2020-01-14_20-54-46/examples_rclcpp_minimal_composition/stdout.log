@@ -1,0 +1,77 @@
+[0.109s] -- The C compiler identification is GNU 7.4.0
+[0.194s] -- The CXX compiler identification is GNU 7.4.0
+[0.201s] -- Check for working C compiler: /usr/bin/cc
+[0.312s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.313s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.429s] -- Detecting C compile features
+[0.845s] -- Detecting C compile features - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++
+[1.095s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.097s] -- Detecting CXX compiler ABI info
+[1.258s] -- Detecting CXX compiler ABI info - done
+[1.267s] -- Detecting CXX compile features
+[1.921s] -- Detecting CXX compile features - done
+[1.929s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.012s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.014s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.490s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.555s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.659s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.666s] -- Looking for pthread.h
+[2.839s] -- Looking for pthread.h - found
+[2.840s] -- Looking for pthread_create
+[3.286s] -- Looking for pthread_create - not found
+[3.286s] -- Looking for pthread_create in pthreads
+[3.693s] -- Looking for pthread_create in pthreads - not found
+[3.701s] -- Looking for pthread_create in pthread
+[4.172s] -- Looking for pthread_create in pthread - found
+[4.173s] -- Found Threads: TRUE  
+[4.336s] -- Found rclcpp_components: 0.7.12 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[4.369s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[4.415s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[4.821s] -- Configuring done
+[4.977s] -- Generating done
+[4.981s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_composition
+[5.260s] [35m[1mScanning dependencies of target composition_nodes[0m
+[5.400s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[5.414s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[11.341s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[11.637s] [ 33%] Built target composition_nodes
+[11.660s] [35m[1mScanning dependencies of target composition_publisher[0m
+[11.664s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[11.682s] [35m[1mScanning dependencies of target composition_composed[0m
+[11.713s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[11.729s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[11.731s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[13.932s] [ 77%] [32m[1mLinking CXX executable composition_subscriber[0m
+[13.952s] [ 88%] [32m[1mLinking CXX executable composition_publisher[0m
+[14.074s] [100%] [32m[1mLinking CXX executable composition_composed[0m
+[14.187s] [100%] Built target composition_subscriber
+[14.266s] [100%] Built target composition_publisher
+[14.344s] [100%] Built target composition_composed
+[15.569s] [ 33%] Built target composition_nodes
+[15.666s] [ 55%] Built target composition_composed
+[15.676s] [ 77%] Built target composition_publisher
+[15.694s] [100%] Built target composition_subscriber
+[15.789s] [36mInstall the project...[0m
+[15.804s] -- Install configuration: ""
+[15.806s] -- Execute custom install script
+[15.807s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[15.807s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[15.809s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[15.809s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[15.810s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[15.811s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[15.811s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[15.812s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[15.813s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[15.814s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[15.814s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[15.815s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[15.816s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[15.817s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[15.817s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[15.818s] -- Symlinking: /home/common/colcon_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

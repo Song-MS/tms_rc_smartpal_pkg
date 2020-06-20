@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/TmsdbGetData.srv
+// generated code does not contain a copyright notice
+
+#include "tms_msg_db/msg/Tmsdb.idl"
+
+module tms_msg_db {
+  module srv {
+    struct TmsdbGetData_Request {
+      tms_msg_db::msg::Tmsdb tmsdb;
+    };
+    struct TmsdbGetData_Response {
+      sequence<tms_msg_db::msg::Tmsdb> tmsdb;
+    };
+  };
+};

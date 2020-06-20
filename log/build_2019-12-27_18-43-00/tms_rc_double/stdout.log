@@ -1,0 +1,21 @@
+[1.125s] running develop
+[1.760s] running egg_info
+[1.761s] writing /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/PKG-INFO
+[1.761s] writing dependency_links to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/dependency_links.txt
+[1.761s] writing entry points to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/entry_points.txt
+[1.761s] writing requirements to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/requires.txt
+[1.761s] writing top-level names to /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/top_level.txt
+[1.787s] reading manifest file '/home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/SOURCES.txt'
+[1.788s] writing manifest file '/home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info/SOURCES.txt'
+[1.788s] running build
+[1.788s] running build_py
+[1.788s] running install
+[1.788s] running install_lib
+[1.789s] running install_data
+[1.789s] running install_egg_info
+[1.791s] removing '/home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms_rc_double-0.1.0-py3.6.egg-info' (and everything under it)
+[1.791s] Copying /home/common/colcon_ws/build/tms_rc_double/tms_rc_double.egg-info to /home/common/colcon_ws/install/tms_rc_double/lib/python3.6/site-packages/tms_rc_double-0.1.0-py3.6.egg-info
+[1.792s] running install_scripts
+[1.806s] Installing convert_twist2vector3 script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[1.806s] Installing vicon_control script to /home/common/colcon_ws/install/tms_rc_double/lib/tms_rc_double
+[1.806s] writing list of installed files to '/home/common/colcon_ws/build/tms_rc_double/install.log'

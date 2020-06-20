@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/TmsdbObjectsdata.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct TmsdbObjectsdata_Request {
+      uint64 rostime;
+
+      uint32 id;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float theta;
+
+      float weight;
+
+      uint32 state;
+
+      uint32 place;
+    };
+    struct TmsdbObjectsdata_Response {
+      uint32 success;
+
+      string message;
+    };
+  };
+};

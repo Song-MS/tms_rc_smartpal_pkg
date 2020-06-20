@@ -1,0 +1,13 @@
+[0.114s] [  1%] Built target object_recognition_msgs__cpp
+[0.119s] [ 12%] Built target object_recognition_msgs__rosidl_generator_c
+[0.146s] [ 24%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp
+[0.151s] [ 36%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[0.152s] [ 48%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c
+[0.183s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_cpp
+[0.183s] [ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c
+[0.213s] [ 83%] Built target object_recognition_msgs__rosidl_typesupport_c
+[0.233s] [ 83%] Built target object_recognition_msgs
+[0.253s] [ 84%] Built target object_recognition_msgs__py
+[0.285s] [ 95%] Built target object_recognition_msgs__python
+[0.317s] [100%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.318s] [100%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext

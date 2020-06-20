@@ -1,0 +1,63 @@
+[0.080s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.756s] -- Configuring done
+[0.759s] -- Generating done
+[0.760s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_gazebo
+[1.039s] [36mInstall the project...[0m
+[1.056s] -- Install configuration: ""
+[1.057s] -- Execute custom install script
+[1.058s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[1.059s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[1.059s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/left_tire.dae
+[1.059s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/right_tire.dae
+[1.060s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[1.060s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[1.061s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[1.061s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[1.061s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[1.062s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[1.062s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/left_tire.dae
+[1.062s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[1.063s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/right_tire.dae
+[1.063s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[1.064s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[1.064s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[1.065s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[1.065s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[1.065s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/left_tire.dae
+[1.065s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/right_tire.dae
+[1.066s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[1.066s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+[1.067s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[1.067s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[1.067s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[1.068s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[1.068s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[1.068s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[1.068s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[1.069s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[1.070s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[1.070s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[1.070s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[1.070s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[1.071s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[1.071s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[1.071s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[1.071s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[1.072s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[1.072s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[1.072s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[1.073s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[1.073s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[1.073s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[1.074s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[1.074s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[1.075s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[1.075s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[1.075s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[1.076s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[1.076s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[1.077s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[1.077s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[1.077s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml

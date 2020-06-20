@@ -1,0 +1,17 @@
+[1.993s] Invoking command in '/home/common/colcon_ws/build/tms_ts_ts': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_ts/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_ts --editable --build-directory /home/common/colcon_ws/build/tms_ts_ts/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_ts
+[2.222s] running develop
+[2.372s] running egg_info
+[2.372s] writing tms_ts_ts.egg-info/PKG-INFO
+[2.372s] writing dependency_links to tms_ts_ts.egg-info/dependency_links.txt
+[2.372s] writing entry points to tms_ts_ts.egg-info/entry_points.txt
+[2.372s] writing requirements to tms_ts_ts.egg-info/requires.txt
+[2.373s] writing top-level names to tms_ts_ts.egg-info/top_level.txt
+[2.399s] reading manifest file 'tms_ts_ts.egg-info/SOURCES.txt'
+[2.400s] writing manifest file 'tms_ts_ts.egg-info/SOURCES.txt'
+[2.401s] running build_ext
+[2.401s] Creating /home/common/colcon_ws/install/tms_ts_ts/lib/python3.6/site-packages/tms-ts-ts.egg-link (link to .)
+[2.402s] Installing tms_ts_master script to /home/common/colcon_ws/install/tms_ts_ts/lib/tms_ts_ts
+[2.402s] 
+[2.402s] Installed /home/common/colcon_ws/build/tms_ts_ts
+[2.402s] running install_data
+[2.809s] Invoked command in '/home/common/colcon_ws/build/tms_ts_ts' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_ts/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_ts --editable --build-directory /home/common/colcon_ws/build/tms_ts_ts/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_ts

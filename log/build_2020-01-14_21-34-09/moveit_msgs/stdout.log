@@ -1,0 +1,27 @@
+[0.033s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/moveit_msgs/devel
+[0.033s] -- Using CMAKE_PREFIX_PATH: /home/common/colcon_ws/install/octomap_msgs;/home/common/colcon_ws/install/object_recognition_msgs;/opt/ros/melodic;/home/common/colcon_ws/install/turtlebot3;/home/common/colcon_ws/install/turtlebot3_simulations;/home/common/colcon_ws/install/turtlebot3_bringup;/home/common/colcon_ws/install/turtlebot3_node;/home/common/colcon_ws/install/turtlebot3_navigation2;/home/common/colcon_ws/install/turtlebot3_fake_node;/home/common/colcon_ws/install/doublenode;/home/common/colcon_ws/install/turtlebot3_msgs;/home/common/colcon_ws/install/turtlebot3_gazebo;/home/common/colcon_ws/install/turtlebot3_description;/home/common/colcon_ws/install/turtlebot3_cartographer;/home/common/colcon_ws/install/tms_ss_vicon;/home/common/colcon_ws/install/tms_rc_tfnode;/home/common/colcon_ws/install/tms_rc_bot;/home/common/colcon_ws/install/tms_nw_rp;/home/common/colcon_ws/install/tms_msg_ur;/home/common/colcon_ws/install/tms_msg_ts;/home/common/colcon_ws/install/tms_msg_ss;/home/common/colcon_ws/install/tms_msg_rc;/home/common/colcon_ws/install/tms_msg_db;/home/common/colcon_ws/install/hls_lfcd_lds_driver;/home/common/colcon_ws/install/examples_rclcpp_minimal_timer;/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber;/home/common/colcon_ws/install/examples_rclcpp_minimal_service;/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher;/home/common/colcon_ws/install/examples_rclcpp_minimal_composition;/home/common/colcon_ws/install/examples_rclcpp_minimal_client;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client;/home/common/colcon_ws/install/dynamixel_sdk
+[0.033s] -- This workspace overlays: /opt/ros/melodic
+[0.068s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.069s] -- Using Debian Python package layout
+[0.069s] -- Using empy: /usr/bin/empy
+[0.176s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.176s] -- Call enable_testing()
+[0.177s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/moveit_msgs/test_results
+[0.196s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.196s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.231s] -- Looking for pthread.h
+[0.288s] -- Looking for pthread.h - found
+[0.288s] -- Looking for pthread_create
+[0.347s] -- Looking for pthread_create - not found
+[0.347s] -- Looking for pthread_create in pthreads
+[0.395s] -- Looking for pthread_create in pthreads - not found
+[0.395s] -- Looking for pthread_create in pthread
+[0.455s] -- Looking for pthread_create in pthread - found
+[0.456s] -- Found Threads: TRUE  
+[0.461s] -- Using Python nosetests: /usr/bin/nosetests
+[0.527s] -- catkin 0.7.19
+[0.527s] -- BUILD_SHARED_LIBS is on
+[0.750s] -- Configuring incomplete, errors occurred!
+[0.750s] See also "/home/common/colcon_ws/build/moveit_msgs/CMakeFiles/CMakeOutput.log".
+[0.750s] See also "/home/common/colcon_ws/build/moveit_msgs/CMakeFiles/CMakeError.log".

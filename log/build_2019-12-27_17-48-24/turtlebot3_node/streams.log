@@ -1,0 +1,27 @@
+[0.061s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:/home/common/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_node -- -j8 -l8
+[0.173s] [ 85%] Built target turtlebot3_node_lib
+[0.220s] [100%] Built target turtlebot3_ros
+[0.248s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:/home/common/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_node -- -j8 -l8
+[1.069s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:/home/common/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_node --target install -- -j8 -l8
+[1.389s] [ 85%] Built target turtlebot3_node_lib
+[1.390s] [100%] Built target turtlebot3_ros
+[1.390s] [36mInstall the project...[0m
+[1.390s] -- Install configuration: ""
+[1.391s] -- Execute custom install script
+[1.391s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[1.391s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[1.391s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[1.391s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[1.392s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[1.392s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[1.392s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[1.393s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[1.393s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[1.393s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[1.394s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[1.405s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:/home/common/colcon_ws/install/dynamixel_sdk:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:/home/common/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/turtlebot3_node --target install -- -j8 -l8

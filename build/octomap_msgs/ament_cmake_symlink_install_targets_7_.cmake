@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/common/colcon_ws/build/octomap_msgs/rosidl_generator_py/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" "TARGETS" "octomap_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/octomap_msgs")

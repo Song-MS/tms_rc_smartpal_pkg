@@ -1,0 +1,23 @@
+[0.158s] [ 33%] Built target subscriber_member_function
+[0.165s] [ 66%] Built target subscriber_lambda
+[0.167s] [100%] Built target subscriber_not_composable
+[0.418s] [ 33%] Built target subscriber_member_function
+[0.419s] [ 66%] Built target subscriber_not_composable
+[0.436s] [100%] Built target subscriber_lambda
+[0.475s] [36mInstall the project...[0m
+[0.500s] -- Install configuration: ""
+[0.501s] -- Execute custom install script
+[0.502s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[0.503s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[0.504s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[0.505s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[0.506s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[0.507s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[0.508s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[0.508s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[0.509s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[0.510s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[0.511s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[0.512s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[0.512s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[0.513s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

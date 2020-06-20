@@ -1,0 +1,14 @@
+msg/JuliusMsg.idl
+msg/JuliusMsg.msg
+srv/GSpeechSrv.idl
+srv/GSpeechSrv.srv
+srv/GSpeechSrv_Request.msg
+srv/GSpeechSrv_Response.msg
+srv/SlackSrv.idl
+srv/SlackSrv.srv
+srv/SlackSrv_Request.msg
+srv/SlackSrv_Response.msg
+srv/SpeakerSrv.idl
+srv/SpeakerSrv.srv
+srv/SpeakerSrv_Request.msg
+srv/SpeakerSrv_Response.msg

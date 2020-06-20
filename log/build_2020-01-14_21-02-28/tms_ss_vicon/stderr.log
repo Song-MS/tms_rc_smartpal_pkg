@@ -1,0 +1,65 @@
+[7.127s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:[m[K In constructor ‘[01m[KViconStream::ViconStream()[m[K’:
+[7.127s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:462:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::count_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.127s]    size_t [01;35m[Kcount_[m[K;
+[7.127s]           [01;35m[K^~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:106:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t ViconStream::idPlace[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.128s]    int32_t [01;35m[KidPlace[m[K;
+[7.128s]            [01;35m[K^~~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.128s]    [01;35m[KViconStream[m[K()
+[7.128s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.128s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:461:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::frame_id[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.129s]    string [01;35m[Kframe_id[m[K;
+[7.129s]           [01;35m[K^~~~~~~~[m[K
+[7.129s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:113:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble ViconStream::update_time[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.129s]    double [01;35m[Kupdate_time[m[K;
+[7.129s]           [01;35m[K^~~~~~~~~~~[m[K
+[7.129s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.129s]    [01;35m[KViconStream[m[K()
+[7.129s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:113:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KViconStream::update_time[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[7.130s]    double [01;35m[Kupdate_time[m[K;
+[7.130s]           [01;35m[K^~~~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:109:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::__cxx11::string ViconStream::host_name[m[K’ [[01;35m[K-Wreorder[m[K]
+[7.130s]    string [01;35m[Khost_name[m[K;
+[7.130s]           [01;35m[K^~~~~~~~~[m[K
+[7.130s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:65:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[7.131s]    [01;35m[KViconStream[m[K()
+[7.131s]    [01;35m[K^~~~~~~~~~~[m[K
+[7.132s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:92:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = tms_msg_ss::msg::ViconData_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tms_msg_ss::msg::ViconData_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.133s]        posepub = this->create_publisher<tms_msg_ss::msg::ViconData>("~/output"[01;35m[K)[m[K;
+[7.133s]                                                                               [01;35m[K^[m[K
+[7.133s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.133s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.134s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.134s]  [01;36m[KNode[m[K::create_publisher(
+[7.134s]  [01;36m[K^~~~[m[K
+[7.134s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:93:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = tms_msg_db::msg::TmsdbStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tms_msg_db::msg::TmsdbStamped_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.134s]        dbpub = this->create_publisher<tms_msg_db::msg::TmsdbStamped>("~/tms_db_data"[01;35m[K)[m[K;
+[7.134s]                                                                                     [01;35m[K^[m[K
+[7.135s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.135s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.135s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.135s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.135s]  [01;36m[KNode[m[K::create_publisher(
+[7.136s]  [01;36m[K^~~~[m[K
+[7.136s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:94:96:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = visualization_msgs::msg::MarkerArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.136s]     checkerpub = this->create_publisher<visualization_msgs::msg::MarkerArray>("~/checker_box"[01;35m[K)[m[K;
+[7.136s]                                                                                              [01;35m[K^[m[K
+[7.136s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[7.136s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.136s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[7.137s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.137s]                  from [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:1[m[K:
+[7.137s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.137s]  [01;36m[KNode[m[K::create_publisher(
+[7.137s]  [01;36m[K^~~~[m[K
+[7.211s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:[m[K In member function ‘[01m[Kvoid ViconStream::updateCallback()[m[K’:
+[7.211s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_ss/tms_ss_vicon/src/vicon_stream.cpp:207:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[K_Output_GetFrameNumber[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[7.211s]      Output_GetFrameNumber [01;35m[K_Output_GetFrameNumber[m[K = MyClient.GetFrameNumber();
+[7.211s]                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

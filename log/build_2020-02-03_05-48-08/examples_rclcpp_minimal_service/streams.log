@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[0.152s] [100%] Built target service_main
+[0.202s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[0.275s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_service --target install -- -j8 -l8
+[0.378s] [100%] Built target service_main
+[0.406s] [36mInstall the project...[0m
+[0.421s] -- Install configuration: ""
+[0.422s] -- Execute custom install script
+[0.422s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[0.423s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[0.424s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[0.424s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[0.424s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[0.425s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[0.425s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[0.426s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[0.426s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[0.427s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[0.427s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[0.428s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[0.433s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_service --target install -- -j8 -l8

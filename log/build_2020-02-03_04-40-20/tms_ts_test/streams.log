@@ -1,0 +1,20 @@
+[1.772s] Invoking command in '/home/common/colcon_ws/build/tms_ts_test': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_test --editable --build-directory /home/common/colcon_ws/build/tms_ts_test/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_test
+[1.997s] running develop
+[2.115s] running egg_info
+[2.115s] writing tms_ts_test.egg-info/PKG-INFO
+[2.115s] writing dependency_links to tms_ts_test.egg-info/dependency_links.txt
+[2.115s] writing entry points to tms_ts_test.egg-info/entry_points.txt
+[2.115s] writing requirements to tms_ts_test.egg-info/requires.txt
+[2.115s] writing top-level names to tms_ts_test.egg-info/top_level.txt
+[2.141s] reading manifest file 'tms_ts_test.egg-info/SOURCES.txt'
+[2.142s] writing manifest file 'tms_ts_test.egg-info/SOURCES.txt'
+[2.143s] running build_ext
+[2.144s] Creating /home/common/colcon_ws/install/tms_ts_test/lib/python3.6/site-packages/tms-ts-test.egg-link (link to .)
+[2.144s] Installing task_manager script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.145s] Installing task_manager_recursion script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.145s] Installing task_manager_test_client script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.145s] Installing task_viewer script to /home/common/colcon_ws/install/tms_ts_test/lib/tms_ts_test
+[2.145s] 
+[2.145s] Installed /home/common/colcon_ws/build/tms_ts_test
+[2.145s] running install_data
+[2.790s] Invoked command in '/home/common/colcon_ws/build/tms_ts_test' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ts_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ts_test --editable --build-directory /home/common/colcon_ws/build/tms_ts_test/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ts_test

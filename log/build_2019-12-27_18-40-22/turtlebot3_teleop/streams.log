@@ -1,0 +1,24 @@
+[0.632s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_teleop': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/common/colcon_ws/build/turtlebot3_teleop/build
+[1.110s] running develop
+[1.467s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/common/colcon_ws/build/turtlebot3_teleop/build
+[1.470s] Invoking command in '/home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/common/colcon_ws/build/turtlebot3_teleop build --build-base /home/common/colcon_ws/build/turtlebot3_teleop/build install --prefix /home/common/colcon_ws/install/turtlebot3_teleop --record /home/common/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[1.888s] running egg_info
+[1.890s] writing /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[1.890s] writing dependency_links to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[1.890s] writing entry points to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[1.890s] writing requirements to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[1.890s] writing top-level names to /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[1.949s] reading manifest file '/home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.951s] writing manifest file '/home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.951s] running build
+[1.952s] running build_py
+[1.952s] running install
+[1.953s] running install_lib
+[1.955s] running install_data
+[1.955s] running install_egg_info
+[1.958s] removing '/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop-2.0.1-py3.6.egg-info' (and everything under it)
+[1.959s] Copying /home/common/colcon_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop-2.0.1-py3.6.egg-info
+[1.960s] running install_scripts
+[1.988s] Installing teleop_keyboard script to /home/common/colcon_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.989s] writing list of installed files to '/home/common/colcon_ws/build/turtlebot3_teleop/install.log'
+[2.022s] Invoked command in '/home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/common/colcon_ws/build/turtlebot3_teleop build --build-base /home/common/colcon_ws/build/turtlebot3_teleop/build install --prefix /home/common/colcon_ws/install/turtlebot3_teleop --record /home/common/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed

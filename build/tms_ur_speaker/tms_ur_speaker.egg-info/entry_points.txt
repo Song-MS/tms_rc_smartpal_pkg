@@ -1,0 +1,3 @@
+[console_scripts]
+tms_ur_speaker_node = tms_ur_speaker.tms_ur_speaker_node:main
+

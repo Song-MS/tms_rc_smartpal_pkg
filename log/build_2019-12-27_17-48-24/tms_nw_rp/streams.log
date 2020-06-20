@@ -1,0 +1,15 @@
+[0.039s] Invoking command in '/home/common/colcon_ws/build/tms_nw_rp': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8
+[0.203s] [ 10%] Built target tms_nw_rp__rosidl_generator_c
+[0.212s] [ 13%] Built target tms_nw_rp__cpp
+[0.285s] [ 24%] Built target tms_nw_rp__rosidl_typesupport_introspection_cpp
+[0.295s] [ 34%] Built target tms_nw_rp__rosidl_typesupport_introspection_c
+[0.316s] [ 44%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_cpp
+[0.407s] [ 55%] Built target tms_nw_rp__rosidl_typesupport_cpp
+[0.434s] [ 65%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c
+[0.509s] [ 75%] Built target tms_nw_rp__rosidl_typesupport_c
+[0.563s] [ 75%] Built target tms_nw_rp
+[0.653s] [ 79%] Built target tms_nw_rp__py
+[0.696s] [ 86%] Built target tms_nw_rp__python
+[0.736s] [ 93%] Built target tms_nw_rp__rosidl_typesupport_fastrtps_c__pyext
+[0.738s] [100%] Built target tms_nw_rp__rosidl_typesupport_c__pyext
+[1.095s] Invoked command in '/home/common/colcon_ws/build/tms_nw_rp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_nw_rp -- -j8 -l8

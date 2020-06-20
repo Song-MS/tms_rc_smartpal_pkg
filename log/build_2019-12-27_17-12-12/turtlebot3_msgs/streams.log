@@ -1,0 +1,34 @@
+[0.037s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/turtlebot3/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/turtlebot3_msgs
+[0.191s] -- The C compiler identification is GNU 7.4.0
+[0.315s] -- The CXX compiler identification is GNU 7.4.0
+[0.322s] -- Check for working C compiler: /usr/bin/cc
+[0.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.403s] -- Detecting C compiler ABI info
+[0.491s] -- Detecting C compiler ABI info - done
+[0.503s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.757s] -- Check for working CXX compiler: /usr/bin/c++
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.862s] -- Detecting CXX compiler ABI info
+[0.968s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Detecting CXX compile features
+[1.475s] -- Detecting CXX compile features - done
+[1.494s] -- Configuring incomplete, errors occurred!
+[1.494s] See also "/home/common/colcon_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[1.495s] CMake Error at CMakeLists.txt:18 (find_package):
+[1.495s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.495s]   has asked CMake to find a package configuration file provided by
+[1.495s]   "ament_cmake", but CMake did not find one.
+[1.495s] 
+[1.495s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.495s]   any of the following names:
+[1.495s] 
+[1.495s]     ament_cmakeConfig.cmake
+[1.496s]     ament_cmake-config.cmake
+[1.496s] 
+[1.496s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.496s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.496s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.496s]   has been installed.
+[1.496s] 
+[1.496s] 

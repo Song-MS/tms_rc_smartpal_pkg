@@ -1,0 +1,23 @@
+[3.456s] Traceback (most recent call last):
+[3.456s]   File "/home/common/colcon_ws/build/moveit_msgs/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[3.456s]     code = generate_environment_script('/home/common/colcon_ws/build/moveit_msgs/devel/env.sh')
+[3.457s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/catkin/environment_cache.py", line 62, in generate_environment_script
+[3.457s]     env_after = ast.literal_eval(output.decode('utf8'))
+[3.457s]   File "/usr/lib/python3.6/ast.py", line 48, in literal_eval
+[3.457s]     node_or_string = parse(node_or_string, mode='eval')
+[3.457s]   File "/usr/lib/python3.6/ast.py", line 35, in parse
+[3.457s]     return compile(source, filename, mode, PyCF_ONLY_AST)
+[3.457s]   File "<unknown>", line 1
+[3.457s]     ROS_DISTRO was set to 'dashing' before. Please make sure that the environment does not mix paths from different distributions.
+[3.458s]                  ^
+[3.458s] SyntaxError: invalid syntax
+[3.472s] CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[3.473s]   execute_process(/usr/bin/python3
+[3.474s]   "/home/common/colcon_ws/build/moveit_msgs/catkin_generated/generate_cached_setup.py")
+[3.475s]   returned error code 1
+[3.475s] Call Stack (most recent call first):
+[3.475s]   /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[3.475s]   /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[3.475s]   CMakeLists.txt:14 (find_package)
+[3.475s] 
+[3.475s] 

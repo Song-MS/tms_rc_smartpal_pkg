@@ -1,0 +1,19 @@
+[0.634s] Invoking command in '/home/common/colcon_ws/build/tms_ss_whs1': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ss_whs1 --editable --build-directory /home/common/colcon_ws/build/tms_ss_whs1/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ss_whs1
+[0.881s] running develop
+[1.140s] running egg_info
+[1.140s] writing tms_ss_whs1.egg-info/PKG-INFO
+[1.141s] writing dependency_links to tms_ss_whs1.egg-info/dependency_links.txt
+[1.141s] writing entry points to tms_ss_whs1.egg-info/entry_points.txt
+[1.141s] writing requirements to tms_ss_whs1.egg-info/requires.txt
+[1.141s] writing top-level names to tms_ss_whs1.egg-info/top_level.txt
+[1.187s] reading manifest file 'tms_ss_whs1.egg-info/SOURCES.txt'
+[1.189s] writing manifest file 'tms_ss_whs1.egg-info/SOURCES.txt'
+[1.191s] running build_ext
+[1.191s] Creating /home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages/tms-ss-whs1.egg-link (link to .)
+[1.192s] Installing double_whs1_control script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[1.192s] Installing tms_ss_whs1 script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[1.193s] Installing tms_ss_whs1_monitor script to /home/common/colcon_ws/install/tms_ss_whs1/lib/tms_ss_whs1
+[1.193s] 
+[1.193s] Installed /home/common/colcon_ws/build/tms_ss_whs1
+[1.193s] running install_data
+[1.359s] Invoked command in '/home/common/colcon_ws/build/tms_ss_whs1' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ss_whs1 --editable --build-directory /home/common/colcon_ws/build/tms_ss_whs1/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ss_whs1

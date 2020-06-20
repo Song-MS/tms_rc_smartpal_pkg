@@ -1,0 +1,2 @@
+[0.690s] Invoking command in '/home/common/colcon_ws/build/tms_ss_whs1': PYTHONPATH=/home/common/colcon_ws/install/tms_ss_whs1/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ss_whs1 --uninstall --editable --build-directory /home/common/colcon_ws/build/tms_ss_whs1/build
+[0.904s] running develop

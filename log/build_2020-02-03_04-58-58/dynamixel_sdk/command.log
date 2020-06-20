@@ -1,0 +1,4 @@
+[0.059s] Invoking command in '/home/common/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[0.150s] Invoked command in '/home/common/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[0.367s] Invoking command in '/home/common/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/dynamixel_sdk --target install -- -j8 -l8
+[0.529s] Invoked command in '/home/common/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/dynamixel_sdk --target install -- -j8 -l8

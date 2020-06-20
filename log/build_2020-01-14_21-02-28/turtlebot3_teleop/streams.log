@@ -1,0 +1,19 @@
+[0.985s] Invoking command in '/home/common/colcon_ws/build/turtlebot3_teleop': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/turtlebot3_teleop --editable --build-directory /home/common/colcon_ws/build/turtlebot3_teleop/build --no-deps install_data --install-dir /home/common/colcon_ws/install/turtlebot3_teleop
+[1.501s] running develop
+[1.796s] running egg_info
+[1.796s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.797s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.797s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.797s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.797s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.861s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.863s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.866s] running build_ext
+[1.866s] Creating /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.867s] Installing teleop_keyboard script to /home/common/colcon_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.868s] 
+[1.868s] Installed /home/common/colcon_ws/build/turtlebot3_teleop
+[1.868s] running install_data
+[1.868s] copying resource/turtlebot3_teleop -> /home/common/colcon_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.868s] copying package.xml -> /home/common/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.906s] Invoked command in '/home/common/colcon_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/turtlebot3_teleop --editable --build-directory /home/common/colcon_ws/build/turtlebot3_teleop/build --no-deps install_data --install-dir /home/common/colcon_ws/install/turtlebot3_teleop

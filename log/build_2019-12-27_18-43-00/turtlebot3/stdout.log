@@ -1,0 +1,33 @@
+[0.375s] -- The C compiler identification is GNU 7.4.0
+[0.440s] -- The CXX compiler identification is GNU 7.4.0
+[0.444s] -- Check for working C compiler: /usr/bin/cc
+[0.535s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.536s] -- Detecting C compiler ABI info
+[0.627s] -- Detecting C compiler ABI info - done
+[0.632s] -- Detecting C compile features
+[0.877s] -- Detecting C compile features - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.971s] -- Detecting CXX compiler ABI info
+[1.065s] -- Detecting CXX compiler ABI info - done
+[1.069s] -- Detecting CXX compile features
+[1.407s] -- Detecting CXX compile features - done
+[1.410s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.452s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.452s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.780s] -- Configuring done
+[1.782s] -- Generating done
+[1.783s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3
+[1.921s] [36mInstall the project...[0m
+[1.933s] -- Install configuration: ""
+[1.933s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+[1.933s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+[1.934s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+[1.934s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+[1.934s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+[1.934s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+[1.934s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+[1.935s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+[1.935s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+[1.935s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+[1.935s] -- Installing: /home/common/colcon_ws/install/turtlebot3/share/turtlebot3/package.xml

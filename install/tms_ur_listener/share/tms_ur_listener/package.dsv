@@ -1,0 +1,9 @@
+source;share/tms_ur_listener/hook/pythonpath.ps1
+source;share/tms_ur_listener/hook/pythonpath.dsv
+source;share/tms_ur_listener/hook/pythonpath.sh
+source;share/tms_ur_listener/hook/ament_prefix_path.ps1
+source;share/tms_ur_listener/hook/ament_prefix_path.dsv
+source;share/tms_ur_listener/hook/ament_prefix_path.sh
+source;../../build/tms_ur_listener/share/tms_ur_listener/hook/pythonpath_develop.ps1
+source;../../build/tms_ur_listener/share/tms_ur_listener/hook/pythonpath_develop.dsv
+source;../../build/tms_ur_listener/share/tms_ur_listener/hook/pythonpath_develop.sh

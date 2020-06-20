@@ -1,0 +1,40 @@
+[0.076s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher
+[0.106s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.555s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.565s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.590s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.643s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.693s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.886s] -- Configuring done
+[0.928s] -- Generating done
+[0.930s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher
+[0.937s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/rclcpp/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher
+[0.938s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[1.080s] [ 33%] Built target publisher_lambda
+[1.095s] [100%] Built target publisher_not_composable
+[1.095s] [100%] Built target publisher_member_function
+[1.117s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[1.187s] Invoking command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher --target install -- -j8 -l8
+[1.301s] [ 33%] Built target publisher_member_function
+[1.321s] [ 66%] Built target publisher_lambda
+[1.334s] [100%] Built target publisher_not_composable
+[1.371s] [36mInstall the project...[0m
+[1.392s] -- Install configuration: ""
+[1.393s] -- Execute custom install script
+[1.394s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[1.394s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[1.395s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[1.396s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[1.396s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[1.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[1.397s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[1.398s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[1.398s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[1.400s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[1.402s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[1.404s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[1.404s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[1.407s] Invoked command in '/home/common/colcon_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/examples_rclcpp_minimal_publisher --target install -- -j8 -l8

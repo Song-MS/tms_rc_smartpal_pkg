@@ -1,0 +1,1 @@
+[0.032s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ss': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ss -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ss

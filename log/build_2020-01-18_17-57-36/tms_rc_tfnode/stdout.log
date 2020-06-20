@@ -1,0 +1,32 @@
+[0.099s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.478s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.501s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.548s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.582s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.595s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.758s] -- Configuring done
+[0.783s] -- Generating done
+[0.784s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_tfnode
+[0.810s] [35m[1mScanning dependencies of target Tfnode[0m
+[0.831s] [ 50%] [32mBuilding CXX object CMakeFiles/Tfnode.dir/Tfnode.cpp.o[0m
+[3.898s] [100%] [32m[1mLinking CXX executable Tfnode[0m
+[4.139s] [100%] Built target Tfnode
+[5.203s] [100%] Built target Tfnode
+[5.234s] [36mInstall the project...[0m
+[5.245s] -- Install configuration: ""
+[5.246s] -- Execute custom install script
+[5.246s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/lib/tms_rc_tfnode/Tfnode
+[5.247s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/package_run_dependencies/tms_rc_tfnode
+[5.247s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/parent_prefix_path/tms_rc_tfnode
+[5.248s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/ament_prefix_path.sh
+[5.248s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/environment/path.sh
+[5.248s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.bash
+[5.248s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.sh
+[5.249s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/local_setup.zsh
+[5.249s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/ament_index/resource_index/packages/tms_rc_tfnode
+[5.250s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig.cmake
+[5.250s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/cmake/tms_rc_tfnodeConfig-version.cmake
+[5.250s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_tfnode/share/tms_rc_tfnode/package.xml

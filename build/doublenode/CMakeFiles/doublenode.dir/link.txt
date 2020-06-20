@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdoublenode.a  CMakeFiles/doublenode.dir/src/constants.cpp.o CMakeFiles/doublenode.dir/src/odometry.cpp.o
+/usr/bin/ranlib libdoublenode.a

@@ -1,0 +1,3 @@
+[console_scripts]
+tms_ts_master = tms_ts_ts.tms_ts_master:main
+

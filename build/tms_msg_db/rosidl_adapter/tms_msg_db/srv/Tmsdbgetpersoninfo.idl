@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/Tmsdbgetpersoninfo.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct Tmsdbgetpersoninfo_Request {
+      sequence<uint64> rostime;
+
+      sequence<uint32> id;
+
+      sequence<float> x;
+
+      sequence<float> y;
+
+      sequence<float> z;
+
+      sequence<float> theta;
+
+      sequence<uint32> state;
+
+      sequence<uint32> place;
+    };
+    struct Tmsdbgetpersoninfo_Response {
+      sequence<uint64> rostime;
+
+      sequence<uint32> id;
+
+      sequence<float> x;
+
+      sequence<float> y;
+
+      sequence<float> z;
+
+      sequence<float> theta;
+
+      sequence<uint32> state;
+
+      sequence<uint32> place;
+    };
+  };
+};

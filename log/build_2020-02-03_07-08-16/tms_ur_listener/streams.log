@@ -1,0 +1,18 @@
+[1.396s] Invoking command in '/home/common/colcon_ws/build/tms_ur_listener': PYTHONPATH=/home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ur_listener --editable --build-directory /home/common/colcon_ws/build/tms_ur_listener/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ur_listener
+[1.897s] running develop
+[1.897s] running egg_info
+[1.898s] writing tms_ur_listener.egg-info/PKG-INFO
+[1.898s] writing dependency_links to tms_ur_listener.egg-info/dependency_links.txt
+[1.900s] writing entry points to tms_ur_listener.egg-info/entry_points.txt
+[1.900s] writing requirements to tms_ur_listener.egg-info/requires.txt
+[1.901s] writing top-level names to tms_ur_listener.egg-info/top_level.txt
+[1.901s] reading manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[1.904s] writing manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[1.904s] running build_ext
+[1.904s] Creating /home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages/tms-ur-listener.egg-link (link to .)
+[1.904s] Installing tms_ur_listener_client script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[1.904s] Installing tms_ur_listener_server script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[1.905s] 
+[1.907s] Installed /home/common/colcon_ws/build/tms_ur_listener
+[1.908s] running install_data
+[1.910s] Invoked command in '/home/common/colcon_ws/build/tms_ur_listener' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ur_listener --editable --build-directory /home/common/colcon_ws/build/tms_ur_listener/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ur_listener

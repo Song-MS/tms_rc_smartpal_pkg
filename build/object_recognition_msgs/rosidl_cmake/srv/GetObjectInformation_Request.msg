@@ -1,0 +1,5 @@
+# Retrieve extra data from the DB for a given object
+
+# The type of the object to retrieve info from
+object_recognition_msgs/ObjectType type
+

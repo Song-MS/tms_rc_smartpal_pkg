@@ -1,0 +1,30 @@
+[0.053s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.529s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.571s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.642s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.840s] -- Configuring done
+[0.865s] -- Generating done
+[0.867s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_timer
+[0.999s] [ 50%] Built target timer_member_function
+[1.003s] [100%] Built target timer_lambda
+[1.226s] [ 50%] Built target timer_lambda
+[1.231s] [100%] Built target timer_member_function
+[1.287s] [36mInstall the project...[0m
+[1.292s] -- Install configuration: ""
+[1.293s] -- Execute custom install script
+[1.293s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.294s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.294s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.295s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.296s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.296s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.297s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.297s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.298s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.298s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.299s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.299s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.300s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml

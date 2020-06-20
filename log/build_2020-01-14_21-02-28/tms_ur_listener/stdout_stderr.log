@@ -1,0 +1,19 @@
+[3.562s] running develop
+[3.817s] running egg_info
+[3.817s] writing tms_ur_listener.egg-info/PKG-INFO
+[3.818s] writing dependency_links to tms_ur_listener.egg-info/dependency_links.txt
+[3.818s] writing entry points to tms_ur_listener.egg-info/entry_points.txt
+[3.818s] writing requirements to tms_ur_listener.egg-info/requires.txt
+[3.818s] writing top-level names to tms_ur_listener.egg-info/top_level.txt
+[3.877s] reading manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[3.879s] writing manifest file 'tms_ur_listener.egg-info/SOURCES.txt'
+[3.882s] running build_ext
+[3.882s] Creating /home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages/site.py
+[3.884s] Creating /home/common/colcon_ws/install/tms_ur_listener/lib/python3.6/site-packages/tms-ur-listener.egg-link (link to .)
+[3.885s] Installing tms_ur_listener_client script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[3.885s] Installing tms_ur_listener_server script to /home/common/colcon_ws/install/tms_ur_listener/lib/tms_ur_listener
+[3.886s] 
+[3.886s] Installed /home/common/colcon_ws/build/tms_ur_listener
+[3.886s] running install_data
+[3.887s] copying resource/tms_ur_listener -> /home/common/colcon_ws/install/tms_ur_listener/share/ament_index/resource_index/packages
+[3.887s] copying package.xml -> /home/common/colcon_ws/install/tms_ur_listener/share/tms_ur_listener

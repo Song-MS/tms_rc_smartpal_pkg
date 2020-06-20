@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_db/srv/TmsdbPlanning.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_db {
+  module srv {
+    struct TmsdbPlanning_Request {
+      uint32 robotid;
+
+      uint32 objectid;
+    };
+    struct TmsdbPlanning_Response {
+      float robot_x;
+
+      float robot_y;
+
+      float robot_z;
+
+      float robot_th;
+
+      float wagon_x;
+
+      float wagon_y;
+
+      float wagon_z;
+
+      float wagon_th;
+
+      float object_x;
+
+      float object_y;
+
+      float object_z;
+
+      float object_th;
+    };
+  };
+};

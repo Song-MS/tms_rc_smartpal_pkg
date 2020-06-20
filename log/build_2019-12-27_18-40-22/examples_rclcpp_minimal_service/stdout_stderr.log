@@ -1,0 +1,28 @@
+[0.043s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.110s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[0.527s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.601s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.617s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.816s] -- Configuring done
+[0.836s] -- Generating done
+[0.839s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_service
+[0.992s] [100%] Built target service_main
+[1.219s] [100%] Built target service_main
+[1.257s] [36mInstall the project...[0m
+[1.275s] -- Install configuration: ""
+[1.275s] -- Execute custom install script
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[1.276s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[1.277s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[1.277s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[1.277s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[1.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[1.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[1.278s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

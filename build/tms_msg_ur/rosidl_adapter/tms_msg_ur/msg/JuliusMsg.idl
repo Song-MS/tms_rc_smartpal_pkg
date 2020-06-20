@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tms_msg_ur/msg/JuliusMsg.msg
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ur {
+  module msg {
+    struct JuliusMsg {
+      string data;
+
+      float value;
+    };
+  };
+};

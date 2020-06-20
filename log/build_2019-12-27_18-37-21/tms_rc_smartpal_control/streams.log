@@ -1,0 +1,77 @@
+[0.011s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_smartpal_control
+[0.024s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.214s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.224s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.245s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.274s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/tms_rc_smartpal_control/devel
+[0.275s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic;/home/common/colcon_ws/install/tms_rc_tfnode;/home/common/colcon_ws/install/tms_msg_ur;/home/common/colcon_ws/install/tms_msg_ts;/home/common/colcon_ws/install/turtlebot3_bringup;/home/common/colcon_ws/install/turtlebot3_node;/home/common/colcon_ws/install/turtlebot3_navigation2;/home/common/colcon_ws/install/turtlebot3_fake_node;/home/common/colcon_ws/install/turtlebot3_msgs;/home/common/colcon_ws/install/turtlebot3_gazebo;/home/common/colcon_ws/install/turtlebot3_description;/home/common/colcon_ws/install/turtlebot3_cartographer;/home/common/colcon_ws/install/tms_rc_bot;/home/common/colcon_ws/install/tms_nw_rp;/home/common/colcon_ws/install/tms_msg_ss;/home/common/colcon_ws/install/tms_msg_rc;/home/common/colcon_ws/install/tms_msg_db;/home/common/colcon_ws/install/object_recognition_msgs;/home/common/colcon_ws/install/hls_lfcd_lds_driver;/home/common/colcon_ws/install/examples_rclcpp_minimal_timer;/home/common/colcon_ws/install/examples_rclcpp_minimal_subscriber;/home/common/colcon_ws/install/examples_rclcpp_minimal_service;/home/common/colcon_ws/install/examples_rclcpp_minimal_publisher;/home/common/colcon_ws/install/examples_rclcpp_minimal_composition;/home/common/colcon_ws/install/examples_rclcpp_minimal_client;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_server;/home/common/colcon_ws/install/examples_rclcpp_minimal_action_client;/home/common/colcon_ws/install/dynamixel_sdk
+[0.275s] -- This workspace overlays: /opt/ros/melodic
+[0.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.303s] -- Using Debian Python package layout
+[0.303s] -- Using empy: /usr/bin/empy
+[0.409s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.409s] -- Call enable_testing()
+[0.410s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/tms_rc_smartpal_control/test_results
+[0.427s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.427s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.455s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.459s] -- Using Python nosetests: /usr/bin/nosetests
+[0.508s] -- catkin 0.7.19
+[0.508s] -- BUILD_SHARED_LIBS is on
+[0.659s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.780s] -- Configuring done
+[0.812s] -- Generating done
+[0.818s] -- Build files have been written to: /home/common/colcon_ws/build/tms_rc_smartpal_control
+[0.822s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '0': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_smartpal_control
+[0.825s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8
+[0.863s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[0.904s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[0.904s] [ 35%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_lumbar.cpp.o[0m
+[0.904s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_client.cpp.o[0m
+[0.904s] [ 42%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_gripper.cpp.o[0m
+[0.904s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_arm.cpp.o[0m
+[0.905s] [ 28%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/sp5_cmd_mobility.cpp.o[0m
+[0.905s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/CommonSK.cc.o[0m
+[0.905s] [ 57%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/MobilitySK.cc.o[0m
+[1.450s] [ 64%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/ArmUnitSK.cc.o[0m
+[1.570s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:[m[K In member function ‘[01m[Kint8_t Client::armGetActiveAlarm(int8_t, u_int32_t, double*)[m[K’:
+[1.570s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_arm.cpp:315:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreturn_code[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.570s]  int8_t Client::armGetActiveAlarm(int8_t RL, u_int32_t num_request, double *[01;35m[Kreturn_code[m[K)
+[1.571s]                                                                             [01;35m[K^~~~~~~~~~~[m[K
+[1.589s] In file included from [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:6:0[m[K:
+[1.589s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:[m[K In constructor ‘[01m[KClient::Client()[m[K’:
+[1.589s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:206:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KClient::bInitialize[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[1.589s]    bool [01;35m[KbInitialize[m[K;
+[1.589s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.590s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.h:182:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCORBA::ORB_var Client::orb[m[K’ [[01;35m[K-Wreorder[m[K]
+[1.590s]    CORBA::ORB_var [01;35m[Korb[m[K;
+[1.590s]                   [01;35m[K^~~[m[K
+[1.590s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_client.cpp:11:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[1.590s]  [01;35m[KClient[m[K::Client()
+[1.590s]  [01;35m[K^~~~~~[m[K
+[1.590s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:[m[K In member function ‘[01m[Kint8_t Client::gripperSetPower(int8_t, double)[m[K’:
+[1.590s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRL[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.591s]  int8_t Client::gripperSetPower(int8_t [01;35m[KRL[m[K, double OnOff)
+[1.591s]                                        [01;35m[K^~[m[K
+[1.591s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/sp5_cmd_gripper.cpp:41:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KOnOff[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.591s]  int8_t Client::gripperSetPower(int8_t RL, double [01;35m[KOnOff[m[K)
+[1.591s]                                                   [01;35m[K^~~~~[m[K
+[1.642s] [ 71%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperUnitSK.cc.o[0m
+[1.715s] [ 78%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/GripperExtAxesSK.cc.o[0m
+[1.787s] [ 85%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarUnitSK.cc.o[0m
+[1.804s] [ 92%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/idl/sp5/LumbarExtAxesSK.cc.o[0m
+[1.984s] [01m[K/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Ktms_msg_db/msg/tmsdb_stamped.hpp: No such file or directory
+[1.984s]  #include [01;31m[K<tms_msg_db/msg/tmsdb_stamped.hpp>[m[K
+[1.985s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.985s] compilation terminated.
+[1.989s] CMakeFiles/smartpal5_control.dir/build.make:62: recipe for target 'CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o' failed
+[1.990s] make[2]: *** [CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o] Error 1
+[1.990s] make[2]: *** Waiting for unfinished jobs....
+[2.385s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/smartpal5_control.dir/all' failed
+[2.386s] make[1]: *** [CMakeFiles/smartpal5_control.dir/all] Error 2
+[2.386s] Makefile:140: recipe for target 'all' failed
+[2.386s] make: *** [all] Error 2
+[2.388s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '2': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8

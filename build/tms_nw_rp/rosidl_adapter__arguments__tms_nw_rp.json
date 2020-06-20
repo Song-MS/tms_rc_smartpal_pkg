@@ -1,0 +1,6 @@
+{
+  "package_name": "tms_nw_rp",
+  "non_idl_tuples": [
+    "/home/common/colcon_ws/src/ros_tms/tms_nw/tms_nw_rp:srv/TmsNwReq.srv"
+  ]
+}

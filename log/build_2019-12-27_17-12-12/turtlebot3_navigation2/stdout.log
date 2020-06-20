@@ -1,0 +1,16 @@
+[0.161s] -- The C compiler identification is GNU 7.4.0
+[0.283s] -- The CXX compiler identification is GNU 7.4.0
+[0.289s] -- Check for working C compiler: /usr/bin/cc
+[0.372s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.373s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.466s] -- Detecting C compile features
+[0.732s] -- Detecting C compile features - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++
+[0.821s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.823s] -- Detecting CXX compiler ABI info
+[0.941s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.479s] -- Configuring incomplete, errors occurred!
+[1.479s] See also "/home/common/colcon_ws/build/turtlebot3_navigation2/CMakeFiles/CMakeOutput.log".

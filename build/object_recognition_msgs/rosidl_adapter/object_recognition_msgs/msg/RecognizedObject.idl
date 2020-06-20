@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_recognition_msgs/msg/RecognizedObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/PoseWithCovarianceStamped.idl"
+#include "object_recognition_msgs/msg/ObjectType.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+#include "shape_msgs/msg/Mesh.idl"
+#include "std_msgs/msg/Header.idl"
+
+module object_recognition_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "#################################################### HEADER ###########################################################")
+    struct RecognizedObject {
+      @verbatim (language="comment", text=
+        " The header frame corresponds to the pose frame, NOT the point_cloud frame.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "################################################# OBJECT INFO #########################################################" "\n"
+        " Contains information about the type and the position of a found object" "\n"
+        " Some of those fields might not be filled because the used techniques do not fill them or because the user does not" "\n"
+        " request them" "\n"
+        " The type of the found object")
+      object_recognition_msgs::msg::ObjectType type;
+
+      @verbatim (language="comment", text=
+        "confidence: how sure you are it is that object and not another one." "\n"
+        " It is between 0 and 1 and the closer to one it is the better")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "############################################### OBJECT CLUSTERS #######################################################" "\n"
+        " Sometimes you can extract the 3d points that belong to the object, in the frames of the original sensors" "\n"
+        " (it is an array as you might have several sensors)")
+      sequence<sensor_msgs::msg::PointCloud2> point_clouds;
+
+      @verbatim (language="comment", text=
+        " Sometimes, you can only provide a bounding box/shape, even in 3d" "\n"
+        " This is in the pose frame")
+      shape_msgs::msg::Mesh bounding_mesh;
+
+      @verbatim (language="comment", text=
+        " Sometimes, you only have 2d input so you can't really give a pose, you just get a contour, or a box" "\n"
+        " The last point will be linked to the first one automatically")
+      sequence<geometry_msgs::msg::Point> bounding_contours;
+
+      @verbatim (language="comment", text=
+        "################################################### POSE INFO #########################################################" "\n"
+        " This is the result that everybody expects : the pose in some frame given with the input. The units are radian/meters" "\n"
+        " as usual")
+      geometry_msgs::msg::PoseWithCovarianceStamped pose;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tms_msg_ts/srv/TsReq.srv
+// generated code does not contain a copyright notice
+
+
+module tms_msg_ts {
+  module srv {
+    struct TsReq_Request {
+      uint64 rostime;
+
+      int32 task_id;
+
+      int32 robot_id;
+
+      int32 object_id;
+
+      int32 user_id;
+
+      int32 place_id;
+
+      int32 priority;
+    };
+    struct TsReq_Response {
+      int32 result;
+
+      sequence<float> val;
+    };
+  };
+};

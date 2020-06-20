@@ -1,0 +1,35 @@
+[0.113s] -- The C compiler identification is GNU 7.4.0
+[0.199s] -- The CXX compiler identification is GNU 7.4.0
+[0.205s] -- Check for working C compiler: /usr/bin/cc
+[0.322s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.323s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.441s] -- Detecting C compile features
+[0.775s] -- Detecting C compile features - done
+[0.779s] -- Check for working CXX compiler: /usr/bin/c++
+[0.910s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.912s] -- Detecting CXX compiler ABI info
+[1.048s] -- Detecting CXX compiler ABI info - done
+[1.052s] -- Detecting CXX compile features
+[1.589s] -- Detecting CXX compile features - done
+[1.593s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.686s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.688s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.112s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.158s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[2.194s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.274s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.293s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.298s] -- Looking for pthread.h
+[2.396s] -- Looking for pthread.h - found
+[2.396s] -- Looking for pthread_create
+[2.496s] -- Looking for pthread_create - not found
+[2.497s] -- Looking for pthread_create in pthreads
+[2.566s] -- Looking for pthread_create in pthreads - not found
+[2.566s] -- Looking for pthread_create in pthread
+[2.644s] -- Looking for pthread_create in pthread - found
+[2.645s] -- Found Threads: TRUE  
+[2.806s] -- Configuring done
+[2.823s] -- Generating done
+[2.825s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_client

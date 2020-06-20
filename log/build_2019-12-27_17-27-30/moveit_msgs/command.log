@@ -1,0 +1,1 @@
+[0.055s] Invoking command in '/home/common/colcon_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/moveit_msgs -- -j8 -l8

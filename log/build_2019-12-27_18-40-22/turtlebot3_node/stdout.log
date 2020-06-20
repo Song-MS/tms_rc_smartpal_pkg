@@ -1,0 +1,42 @@
+[0.078s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.533s] -- Found dynamixel_sdk: 3.7.20 (/home/common/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.536s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.554s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.622s] -- Found message_filters: 3.1.3 (/opt/ros/dashing/share/message_filters/cmake)
+[0.630s] -- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)
+[0.644s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.660s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.709s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.729s] -- Found std_srvs: 0.7.0 (/opt/ros/dashing/share/std_srvs/cmake)
+[0.735s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[0.739s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[0.821s] -- Found turtlebot3_msgs: 2.1.0 (/home/common/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.316s] -- Configuring done
+[1.387s] -- Generating done
+[1.388s] -- Build files have been written to: /home/common/colcon_ws/build/turtlebot3_node
+[1.576s] [ 85%] Built target turtlebot3_node_lib
+[1.624s] [100%] Built target turtlebot3_ros
+[2.258s] [ 85%] Built target turtlebot3_node_lib
+[2.302s] [100%] Built target turtlebot3_ros
+[2.335s] [36mInstall the project...[0m
+[2.351s] -- Install configuration: ""
+[2.352s] -- Execute custom install script
+[2.353s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[2.353s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[2.353s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[2.354s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[2.354s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[2.355s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[2.355s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[2.356s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[2.356s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[2.357s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[2.357s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[2.357s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[2.358s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.358s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[2.359s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[2.359s] -- Up-to-date symlink: /home/common/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml

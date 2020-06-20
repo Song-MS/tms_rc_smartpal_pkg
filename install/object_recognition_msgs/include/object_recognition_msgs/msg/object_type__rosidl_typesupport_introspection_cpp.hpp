@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp

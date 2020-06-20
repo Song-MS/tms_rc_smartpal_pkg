@@ -1,0 +1,15 @@
+[1.116s] running develop
+[1.379s] running egg_info
+[1.380s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.380s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.380s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.381s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.381s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.433s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.438s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.442s] running build_ext
+[1.442s] Creating /home/common/colcon_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.442s] Installing teleop_keyboard script to /home/common/colcon_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.442s] 
+[1.442s] Installed /home/common/colcon_ws/build/turtlebot3_teleop
+[1.442s] running install_data

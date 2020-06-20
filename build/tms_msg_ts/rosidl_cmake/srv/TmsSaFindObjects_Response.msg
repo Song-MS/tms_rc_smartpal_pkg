@@ -1,0 +1,8 @@
+
+uint32 success
+string message
+uint32[] object_id
+float32[] object_x
+float32[] object_y
+float32[] object_z
+uint32[] furnitures_id

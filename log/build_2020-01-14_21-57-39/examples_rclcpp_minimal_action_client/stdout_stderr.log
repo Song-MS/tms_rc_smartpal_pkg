@@ -1,0 +1,66 @@
+[0.140s] -- The C compiler identification is GNU 7.4.0
+[0.226s] -- The CXX compiler identification is GNU 7.4.0
+[0.231s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.343s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.454s] -- Detecting C compile features
+[0.809s] -- Detecting C compile features - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++
+[0.952s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.953s] -- Detecting CXX compiler ABI info
+[1.095s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Detecting CXX compile features
+[1.697s] -- Detecting CXX compile features - done
+[1.701s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.795s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.795s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.199s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.246s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[2.278s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.371s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.396s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.402s] -- Looking for pthread.h
+[2.517s] -- Looking for pthread.h - found
+[2.518s] -- Looking for pthread_create
+[2.647s] -- Looking for pthread_create - not found
+[2.648s] -- Looking for pthread_create in pthreads
+[2.748s] -- Looking for pthread_create in pthreads - not found
+[2.748s] -- Looking for pthread_create in pthread
+[2.872s] -- Looking for pthread_create in pthread - found
+[2.872s] -- Found Threads: TRUE  
+[2.928s] -- Found rclcpp_action: 0.7.12 (/opt/ros/dashing/share/rclcpp_action/cmake)
+[3.480s] -- Configuring done
+[3.553s] -- Generating done
+[3.556s] -- Build files have been written to: /home/common/colcon_ws/build/examples_rclcpp_minimal_action_client
+[3.648s] [35m[1mScanning dependencies of target action_client_not_composable_with_cancel[0m
+[3.653s] [35m[1mScanning dependencies of target action_client_member_functions[0m
+[3.655s] [35m[1mScanning dependencies of target action_client_not_composable_with_feedback[0m
+[3.659s] [35m[1mScanning dependencies of target action_client_not_composable[0m
+[3.705s] [ 25%] Built target action_client_not_composable_with_feedback
+[3.706s] [ 50%] Built target action_client_member_functions
+[3.713s] [ 75%] Built target action_client_not_composable_with_cancel
+[3.714s] [100%] Built target action_client_not_composable
+[3.935s] [ 25%] Built target action_client_not_composable
+[3.940s] [ 50%] Built target action_client_not_composable_with_cancel
+[3.949s] [ 75%] Built target action_client_member_functions
+[3.951s] [100%] Built target action_client_not_composable_with_feedback
+[3.986s] [36mInstall the project...[0m
+[4.001s] -- Install configuration: ""
+[4.002s] -- Execute custom install script
+[4.003s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[4.003s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[4.004s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[4.004s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[4.005s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[4.005s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[4.006s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[4.006s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[4.007s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[4.008s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[4.009s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[4.009s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[4.009s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[4.010s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[4.010s] -- Up-to-date symlink: /home/common/colcon_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml

@@ -1,0 +1,55 @@
+[0.318s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_smartpal_control
+[0.342s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.382s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.770s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.792s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.849s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.921s] -- Using CATKIN_DEVEL_PREFIX: /home/common/colcon_ws/build/tms_rc_smartpal_control/devel
+[0.922s] -- Using CMAKE_PREFIX_PATH: /home/common/catkin_ws/devel;/opt/ros/melodic
+[0.922s] -- This workspace overlays: /home/common/catkin_ws/devel;/opt/ros/melodic
+[0.974s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.975s] -- Using Debian Python package layout
+[0.977s] -- Using empy: /usr/bin/empy
+[1.223s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.223s] -- Call enable_testing()
+[1.223s] -- Using CATKIN_TEST_RESULTS_DIR: /home/common/colcon_ws/build/tms_rc_smartpal_control/test_results
+[1.254s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.254s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.294s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.303s] -- Using Python nosetests: /usr/bin/nosetests
+[1.397s] -- catkin 0.7.19
+[1.397s] -- BUILD_SHARED_LIBS is on
+[1.644s] Traceback (most recent call last):
+[1.644s]   File "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[1.644s]     code = generate_environment_script('/home/common/colcon_ws/build/tms_rc_smartpal_control/devel/env.sh')
+[1.645s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/catkin/environment_cache.py", line 62, in generate_environment_script
+[1.645s]     env_after = ast.literal_eval(output.decode('utf8'))
+[1.645s]   File "/usr/lib/python3.6/ast.py", line 48, in literal_eval
+[1.645s]     node_or_string = parse(node_or_string, mode='eval')
+[1.645s]   File "/usr/lib/python3.6/ast.py", line 35, in parse
+[1.645s]     return compile(source, filename, mode, PyCF_ONLY_AST)
+[1.645s]   File "<unknown>", line 1
+[1.645s]     ROS_DISTRO was set to 'dashing' before. Please make sure that the environment does not mix paths from different distributions.
+[1.645s]                  ^
+[1.645s] SyntaxError: invalid syntax
+[1.659s] CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[1.659s]   execute_process(/usr/bin/python3
+[1.659s]   "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py")
+[1.660s]   returned error code 1
+[1.660s] Call Stack (most recent call first):
+[1.660s]   /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[1.660s]   /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[1.660s]   /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:9 (find_package)
+[1.660s]   /opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+[1.660s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+[1.660s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+[1.661s]   /opt/ros/melodic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake:197 (find_package)
+[1.661s]   CMakeLists.txt:19 (find_package)
+[1.661s] 
+[1.661s] 
+[1.662s] -- Configuring incomplete, errors occurred!
+[1.662s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeOutput.log".
+[1.662s] See also "/home/common/colcon_ws/build/tms_rc_smartpal_control/CMakeFiles/CMakeError.log".
+[2.630s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '1': /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_rc_smartpal_control

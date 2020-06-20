@@ -1,0 +1,458 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (object_recognition_msgs) JobQueued: {'identifier': 'object_recognition_msgs', 'dependencies': OrderedDict()}
+[0.000290] (object_recognition_msgs) JobStarted: {'identifier': 'object_recognition_msgs'}
+[0.007372] (object_recognition_msgs) JobProgress: {'identifier': 'object_recognition_msgs', 'progress': 'cmake'}
+[0.007561] (object_recognition_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/common/colcon_ws/src/object_recognition_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/object_recognition_msgs'], 'cwd': '/home/common/colcon_ws/build/object_recognition_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/common'), ('USER', 'common'), ('SSH_CLIENT', '192.168.4.170 42824 22'), ('LANGUAGE', 'ja:en'), ('LC_TIME', 'ja_JP.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/include:/usr/include/omniORB4'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/common/colcon_ws/src'), ('HOME', '/home/common'), ('OMNIORB_USEHOSTNAME', '192.168.4.211'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('ROS_IP', '192.168.4.211'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'common'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm'), ('PATH', '/opt/ros/melodic/bin:/opt/ros/dashing/bin:/home/common/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.4.170:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('OMNIORB_CONFIG', '/etc/omniORB.cfg'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/common/colcon_ws/build/object_recognition_msgs'), ('SSH_CONNECTION', '192.168.4.170 42824 192.168.4.69 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.092207] (object_recognition_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[0.098889] (-) TimerEvent: {}
+[0.144355] (object_recognition_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[0.146741] (object_recognition_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.197242] (object_recognition_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.197599] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198988] (-) TimerEvent: {}
+[0.248432] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.251902] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299097] (-) TimerEvent: {}
+[0.399403] (-) TimerEvent: {}
+[0.409739] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.411369] (object_recognition_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.472922] (object_recognition_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.473367] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499542] (-) TimerEvent: {}
+[0.535889] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.539493] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599673] (-) TimerEvent: {}
+[0.699955] (-) TimerEvent: {}
+[0.800251] (-) TimerEvent: {}
+[0.802781] (object_recognition_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.804383] (object_recognition_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.827798] (object_recognition_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.827947] (object_recognition_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900366] (-) TimerEvent: {}
+[0.976733] (object_recognition_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.989761] (object_recognition_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[1.000464] (-) TimerEvent: {}
+[1.051116] (object_recognition_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[1.066211] (object_recognition_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[1.076116] (object_recognition_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.100578] (-) TimerEvent: {}
+[1.124345] (object_recognition_msgs) StdoutLine: {'line': b'-- Found action_msgs: 0.7.4 (/opt/ros/dashing/share/action_msgs/cmake)\n'}
+[1.137144] (object_recognition_msgs) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[1.140987] (object_recognition_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)\n'}
+[1.145537] (object_recognition_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[1.153313] (object_recognition_msgs) StdoutLine: {'line': b'-- Found shape_msgs: 0.7.0 (/opt/ros/dashing/share/shape_msgs/cmake)\n'}
+[1.176039] (object_recognition_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.200668] (-) TimerEvent: {}
+[1.300932] (-) TimerEvent: {}
+[1.372635] (object_recognition_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[1.401032] (-) TimerEvent: {}
+[1.424283] (object_recognition_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[1.501161] (-) TimerEvent: {}
+[1.601423] (-) TimerEvent: {}
+[1.701672] (-) TimerEvent: {}
+[1.787783] (object_recognition_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.801786] (-) TimerEvent: {}
+[1.805799] (object_recognition_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[1.806778] (object_recognition_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[1.826560] (object_recognition_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[1.826704] (object_recognition_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.826786] (object_recognition_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[1.826854] (object_recognition_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[1.843452] (object_recognition_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.901918] (-) TimerEvent: {}
+[1.991632] (object_recognition_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002096] (-) TimerEvent: {}
+[2.102321] (-) TimerEvent: {}
+[2.202607] (-) TimerEvent: {}
+[2.302842] (-) TimerEvent: {}
+[2.312883] (object_recognition_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.315192] (object_recognition_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/common/colcon_ws/build/object_recognition_msgs\n'}
+[2.319935] (object_recognition_msgs) CommandEnded: {'returncode': 0}
+[2.320644] (object_recognition_msgs) JobProgress: {'identifier': 'object_recognition_msgs', 'progress': 'build'}
+[2.322196] (object_recognition_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/common/colcon_ws/build/object_recognition_msgs', '--', '-j8', '-l8'], 'cwd': '/home/common/colcon_ws/build/object_recognition_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/common'), ('USER', 'common'), ('SSH_CLIENT', '192.168.4.170 42824 22'), ('LANGUAGE', 'ja:en'), ('LC_TIME', 'ja_JP.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/include:/usr/include/omniORB4'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/common/colcon_ws/src'), ('HOME', '/home/common'), ('OMNIORB_USEHOSTNAME', '192.168.4.211'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('ROS_IP', '192.168.4.211'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'common'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm'), ('PATH', '/opt/ros/melodic/bin:/opt/ros/dashing/bin:/home/common/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.4.170:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('OMNIORB_CONFIG', '/etc/omniORB.cfg'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/common/colcon_ws/build/object_recognition_msgs'), ('SSH_CONNECTION', '192.168.4.170 42824 192.168.4.69 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[2.360017] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__cpp\x1b[0m\n'}
+[2.361070] (object_recognition_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.373548] (object_recognition_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.402966] (-) TimerEvent: {}
+[2.503273] (-) TimerEvent: {}
+[2.603549] (-) TimerEvent: {}
+[2.703808] (-) TimerEvent: {}
+[2.804101] (-) TimerEvent: {}
+[2.904364] (-) TimerEvent: {}
+[3.004635] (-) TimerEvent: {}
+[3.104881] (-) TimerEvent: {}
+[3.198393] (object_recognition_msgs) StdoutLine: {'line': b'[  2%] Built target object_recognition_msgs__cpp\n'}
+[3.205010] (-) TimerEvent: {}
+[3.209614] (object_recognition_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.209784] (object_recognition_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.305099] (-) TimerEvent: {}
+[3.392447] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.405207] (-) TimerEvent: {}
+[3.415886] (object_recognition_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/object_information__functions.c.o\x1b[0m\n'}
+[3.416211] (object_recognition_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/object_type__functions.c.o\x1b[0m\n'}
+[3.416431] (object_recognition_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/recognized_object_array__functions.c.o\x1b[0m\n'}
+[3.416549] (object_recognition_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/recognized_object__functions.c.o\x1b[0m\n'}
+[3.416675] (object_recognition_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/table_array__functions.c.o\x1b[0m\n'}
+[3.417252] (object_recognition_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/msg/table__functions.c.o\x1b[0m\n'}
+[3.470851] (object_recognition_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/action/object_recognition__functions.c.o\x1b[0m\n'}
+[3.473716] (object_recognition_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_msgs/srv/get_object_information__functions.c.o\x1b[0m\n'}
+[3.505331] (-) TimerEvent: {}
+[3.558170] (object_recognition_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libobject_recognition_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.605431] (-) TimerEvent: {}
+[3.618307] (object_recognition_msgs) StdoutLine: {'line': b'[ 15%] Built target object_recognition_msgs__rosidl_generator_c\n'}
+[3.629848] (object_recognition_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.705526] (-) TimerEvent: {}
+[3.805798] (-) TimerEvent: {}
+[3.906061] (-) TimerEvent: {}
+[4.006325] (-) TimerEvent: {}
+[4.106583] (-) TimerEvent: {}
+[4.199905] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.206650] (-) TimerEvent: {}
+[4.225872] (object_recognition_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/object_type__type_support.cpp.o\x1b[0m\n'}
+[4.226132] (object_recognition_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/object_information__type_support.cpp.o\x1b[0m\n'}
+[4.226252] (object_recognition_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/recognized_object__type_support.cpp.o\x1b[0m\n'}
+[4.226356] (object_recognition_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/recognized_object_array__type_support.cpp.o\x1b[0m\n'}
+[4.226550] (object_recognition_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/table__type_support.cpp.o\x1b[0m\n'}
+[4.226939] (object_recognition_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/msg/table_array__type_support.cpp.o\x1b[0m\n'}
+[4.306758] (-) TimerEvent: {}
+[4.407080] (-) TimerEvent: {}
+[4.507426] (-) TimerEvent: {}
+[4.569333] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.607527] (-) TimerEvent: {}
+[4.619805] (object_recognition_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/object_information__type_support.cpp.o\x1b[0m\n'}
+[4.630735] (object_recognition_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/object_type__type_support.cpp.o\x1b[0m\n'}
+[4.639932] (object_recognition_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/srv/get_object_information__type_support.cpp.o\x1b[0m\n'}
+[4.689822] (object_recognition_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_msgs/action/object_recognition__type_support.cpp.o\x1b[0m\n'}
+[4.707621] (-) TimerEvent: {}
+[4.728585] (object_recognition_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/recognized_object__type_support.cpp.o\x1b[0m\n'}
+[4.807723] (-) TimerEvent: {}
+[4.809790] (object_recognition_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/recognized_object_array__type_support.cpp.o\x1b[0m\n'}
+[4.868132] (object_recognition_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/table__type_support.cpp.o\x1b[0m\n'}
+[4.907829] (-) TimerEvent: {}
+[5.008149] (-) TimerEvent: {}
+[5.076470] (object_recognition_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/dds_fastrtps/table_array__type_support.cpp.o\x1b[0m\n'}
+[5.101503] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.108258] (-) TimerEvent: {}
+[5.148180] (object_recognition_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/object_information__type_support.c.o\x1b[0m\n'}
+[5.192892] (object_recognition_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libobject_recognition_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.199671] (object_recognition_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/object_type__type_support.c.o\x1b[0m\n'}
+[5.208372] (-) TimerEvent: {}
+[5.240063] (object_recognition_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/srv/dds_fastrtps/get_object_information__type_support.cpp.o\x1b[0m\n'}
+[5.244112] (object_recognition_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/recognized_object__type_support.c.o\x1b[0m\n'}
+[5.268115] (object_recognition_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/action/dds_fastrtps/object_recognition__type_support.cpp.o\x1b[0m\n'}
+[5.304821] (object_recognition_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/recognized_object_array__type_support.c.o\x1b[0m\n'}
+[5.308476] (-) TimerEvent: {}
+[5.361319] (object_recognition_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/table__type_support.c.o\x1b[0m\n'}
+[5.363027] (object_recognition_msgs) StdoutLine: {'line': b'[ 42%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.379936] (object_recognition_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/msg/table_array__type_support.c.o\x1b[0m\n'}
+[5.408587] (-) TimerEvent: {}
+[5.414365] (object_recognition_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/srv/get_object_information__type_support.c.o\x1b[0m\n'}
+[5.434918] (object_recognition_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_msgs/action/object_recognition__type_support.c.o\x1b[0m\n'}
+[5.495678] (object_recognition_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libobject_recognition_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.508714] (-) TimerEvent: {}
+[5.551226] (object_recognition_msgs) StdoutLine: {'line': b'[ 47%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c\n'}
+[5.608835] (-) TimerEvent: {}
+[5.709173] (-) TimerEvent: {}
+[5.809442] (-) TimerEvent: {}
+[5.812929] (object_recognition_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libobject_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.907467] (object_recognition_msgs) StdoutLine: {'line': b'[ 48%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.909510] (-) TimerEvent: {}
+[5.917835] (object_recognition_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.918000] (object_recognition_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.009604] (-) TimerEvent: {}
+[6.109879] (-) TimerEvent: {}
+[6.210119] (-) TimerEvent: {}
+[6.310367] (-) TimerEvent: {}
+[6.410620] (-) TimerEvent: {}
+[6.510866] (-) TimerEvent: {}
+[6.587140] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.610959] (-) TimerEvent: {}
+[6.613087] (object_recognition_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/object_information__type_support.cpp.o\x1b[0m\n'}
+[6.613415] (object_recognition_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/recognized_object__type_support.cpp.o\x1b[0m\n'}
+[6.613614] (object_recognition_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/object_type__type_support.cpp.o\x1b[0m\n'}
+[6.613738] (object_recognition_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/table__type_support.cpp.o\x1b[0m\n'}
+[6.613866] (object_recognition_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/recognized_object_array__type_support.cpp.o\x1b[0m\n'}
+[6.613978] (object_recognition_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/msg/table_array__type_support.cpp.o\x1b[0m\n'}
+[6.615109] (object_recognition_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/srv/get_object_information__type_support.cpp.o\x1b[0m\n'}
+[6.711055] (-) TimerEvent: {}
+[6.811355] (-) TimerEvent: {}
+[6.911660] (-) TimerEvent: {}
+[7.011956] (-) TimerEvent: {}
+[7.112275] (-) TimerEvent: {}
+[7.207677] (object_recognition_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_msgs/action/object_recognition__type_support.cpp.o\x1b[0m\n'}
+[7.212390] (-) TimerEvent: {}
+[7.216860] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.249115] (object_recognition_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/object_information__type_support_c.cpp.o\x1b[0m\n'}
+[7.249416] (object_recognition_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/recognized_object__type_support_c.cpp.o\x1b[0m\n'}
+[7.249611] (object_recognition_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/object_type__type_support_c.cpp.o\x1b[0m\n'}
+[7.249795] (object_recognition_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/recognized_object_array__type_support_c.cpp.o\x1b[0m\n'}
+[7.249914] (object_recognition_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/table__type_support_c.cpp.o\x1b[0m\n'}
+[7.250088] (object_recognition_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/msg/table_array__type_support_c.cpp.o\x1b[0m\n'}
+[7.251161] (object_recognition_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/srv/get_object_information__type_support_c.cpp.o\x1b[0m\n'}
+[7.312501] (-) TimerEvent: {}
+[7.412846] (-) TimerEvent: {}
+[7.513179] (-) TimerEvent: {}
+[7.613508] (-) TimerEvent: {}
+[7.713838] (-) TimerEvent: {}
+[7.765413] (object_recognition_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_msgs/action/object_recognition__type_support_c.cpp.o\x1b[0m\n'}
+[7.794599] (object_recognition_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libobject_recognition_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.813966] (-) TimerEvent: {}
+[7.893526] (object_recognition_msgs) StdoutLine: {'line': b'[ 70%] Built target object_recognition_msgs__rosidl_typesupport_cpp\n'}
+[7.914095] (-) TimerEvent: {}
+[8.014390] (-) TimerEvent: {}
+[8.041672] (object_recognition_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libobject_recognition_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.114538] (-) TimerEvent: {}
+[8.134973] (object_recognition_msgs) StdoutLine: {'line': b'[ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.144963] (object_recognition_msgs) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.214657] (-) TimerEvent: {}
+[8.314915] (-) TimerEvent: {}
+[8.415158] (-) TimerEvent: {}
+[8.515401] (-) TimerEvent: {}
+[8.615655] (-) TimerEvent: {}
+[8.715954] (-) TimerEvent: {}
+[8.749574] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[8.770816] (object_recognition_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/srv/get_object_information__type_support.cpp.o\x1b[0m\n'}
+[8.771113] (object_recognition_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/recognized_object_array__type_support.cpp.o\x1b[0m\n'}
+[8.771340] (object_recognition_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/recognized_object__type_support.cpp.o\x1b[0m\n'}
+[8.771478] (object_recognition_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/table__type_support.cpp.o\x1b[0m\n'}
+[8.771686] (object_recognition_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/table_array__type_support.cpp.o\x1b[0m\n'}
+[8.771819] (object_recognition_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/object_type__type_support.cpp.o\x1b[0m\n'}
+[8.772287] (object_recognition_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/msg/object_information__type_support.cpp.o\x1b[0m\n'}
+[8.781249] (object_recognition_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_msgs/action/object_recognition__type_support.cpp.o\x1b[0m\n'}
+[8.816097] (-) TimerEvent: {}
+[8.825230] (object_recognition_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libobject_recognition_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.891736] (object_recognition_msgs) StdoutLine: {'line': b'[ 83%] Built target object_recognition_msgs__rosidl_typesupport_c\n'}
+[8.899998] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs\x1b[0m\n'}
+[8.909154] (object_recognition_msgs) StdoutLine: {'line': b'[ 83%] Built target object_recognition_msgs\n'}
+[8.916210] (-) TimerEvent: {}
+[8.917744] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__py\x1b[0m\n'}
+[8.927209] (object_recognition_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.016332] (-) TimerEvent: {}
+[9.116597] (-) TimerEvent: {}
+[9.216868] (-) TimerEvent: {}
+[9.317137] (-) TimerEvent: {}
+[9.417360] (-) TimerEvent: {}
+[9.517598] (-) TimerEvent: {}
+[9.617828] (-) TimerEvent: {}
+[9.718054] (-) TimerEvent: {}
+[9.818257] (-) TimerEvent: {}
+[9.918475] (-) TimerEvent: {}
+[10.018692] (-) TimerEvent: {}
+[10.118893] (-) TimerEvent: {}
+[10.219119] (-) TimerEvent: {}
+[10.319373] (-) TimerEvent: {}
+[10.419637] (-) TimerEvent: {}
+[10.519858] (-) TimerEvent: {}
+[10.590274] (object_recognition_msgs) StdoutLine: {'line': b'[ 84%] Built target object_recognition_msgs__py\n'}
+[10.599002] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__python\x1b[0m\n'}
+[10.619960] (-) TimerEvent: {}
+[10.648460] (object_recognition_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_object_type_s.c.o\x1b[0m\n'}
+[10.648802] (object_recognition_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_recognized_object_s.c.o\x1b[0m\n'}
+[10.648978] (object_recognition_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_recognized_object_array_s.c.o\x1b[0m\n'}
+[10.649075] (object_recognition_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_object_information_s.c.o\x1b[0m\n'}
+[10.649166] (object_recognition_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_table_s.c.o\x1b[0m\n'}
+[10.649253] (object_recognition_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/srv/_get_object_information_s.c.o\x1b[0m\n'}
+[10.649313] (object_recognition_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/msg/_table_array_s.c.o\x1b[0m\n'}
+[10.656721] (object_recognition_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__python.dir/rosidl_generator_py/object_recognition_msgs/action/_object_recognition_s.c.o\x1b[0m\n'}
+[10.720087] (-) TimerEvent: {}
+[10.815162] (object_recognition_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/object_recognition_msgs/libobject_recognition_msgs__python.so\x1b[0m\n'}
+[10.820181] (-) TimerEvent: {}
+[10.878370] (object_recognition_msgs) StdoutLine: {'line': b'[ 95%] Built target object_recognition_msgs__python\n'}
+[10.887857] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.888004] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.908512] (object_recognition_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/object_recognition_msgs/_object_recognition_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.908685] (object_recognition_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/object_recognition_msgs/_object_recognition_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.920314] (-) TimerEvent: {}
+[11.013879] (object_recognition_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.014061] (object_recognition_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.020406] (-) TimerEvent: {}
+[11.106644] (object_recognition_msgs) StdoutLine: {'line': b'[100%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext\n'}
+[11.106829] (object_recognition_msgs) StdoutLine: {'line': b'[100%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.115738] (object_recognition_msgs) CommandEnded: {'returncode': 0}
+[11.120522] (-) TimerEvent: {}
+[11.220743] (-) TimerEvent: {}
+[11.223873] (object_recognition_msgs) JobProgress: {'identifier': 'object_recognition_msgs', 'progress': 'install'}
+[11.225455] (object_recognition_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/common/colcon_ws/build/object_recognition_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/common/colcon_ws/build/object_recognition_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/common'), ('USER', 'common'), ('SSH_CLIENT', '192.168.4.170 42824 22'), ('LANGUAGE', 'ja:en'), ('LC_TIME', 'ja_JP.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/include:/usr/include/omniORB4'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/common/colcon_ws/src'), ('HOME', '/home/common'), ('OMNIORB_USEHOSTNAME', '192.168.4.211'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('ROS_IP', '192.168.4.211'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'common'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm'), ('PATH', '/opt/ros/melodic/bin:/opt/ros/dashing/bin:/home/common/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.4.170:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('OMNIORB_CONFIG', '/etc/omniORB.cfg'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/common/colcon_ws/build/object_recognition_msgs'), ('SSH_CONNECTION', '192.168.4.170 42824 192.168.4.69 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[11.271323] (object_recognition_msgs) StdoutLine: {'line': b'[  1%] Built target object_recognition_msgs__cpp\n'}
+[11.278153] (object_recognition_msgs) StdoutLine: {'line': b'[ 12%] Built target object_recognition_msgs__rosidl_generator_c\n'}
+[11.297000] (object_recognition_msgs) StdoutLine: {'line': b'[ 24%] Built target object_recognition_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.305178] (object_recognition_msgs) StdoutLine: {'line': b'[ 36%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[11.308104] (object_recognition_msgs) StdoutLine: {'line': b'[ 48%] Built target object_recognition_msgs__rosidl_typesupport_introspection_c\n'}
+[11.320844] (-) TimerEvent: {}
+[11.337422] (object_recognition_msgs) StdoutLine: {'line': b'[ 71%] Built target object_recognition_msgs__rosidl_typesupport_cpp\n'}
+[11.337593] (object_recognition_msgs) StdoutLine: {'line': b'[ 71%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.365135] (object_recognition_msgs) StdoutLine: {'line': b'[ 83%] Built target object_recognition_msgs__rosidl_typesupport_c\n'}
+[11.382147] (object_recognition_msgs) StdoutLine: {'line': b'[ 83%] Built target object_recognition_msgs\n'}
+[11.400202] (object_recognition_msgs) StdoutLine: {'line': b'[ 84%] Built target object_recognition_msgs__py\n'}
+[11.420970] (-) TimerEvent: {}
+[11.429098] (object_recognition_msgs) StdoutLine: {'line': b'[ 95%] Built target object_recognition_msgs__python\n'}
+[11.454602] (object_recognition_msgs) StdoutLine: {'line': b'[100%] Built target object_recognition_msgs__rosidl_typesupport_c__pyext\n'}
+[11.454810] (object_recognition_msgs) StdoutLine: {'line': b'[100%] Built target object_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.470056] (object_recognition_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[11.476851] (object_recognition_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.477348] (object_recognition_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.477629] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/rosidl_interfaces/object_recognition_msgs\n'}
+[11.484992] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_c.so\n'}
+[11.492175] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/library_path.sh\n'}
+[11.499446] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_cpp.so\n'}
+[11.506987] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_c.h\n'}
+[11.513860] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_c.h\n'}
+[11.520834] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_c.h\n'}
+[11.520961] (-) TimerEvent: {}
+[11.527723] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_c.h\n'}
+[11.534604] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[11.541374] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.548122] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_c.h\n'}
+[11.554979] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_c.h\n'}
+[11.561883] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_c.h\n'}
+[11.569033] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.576386] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.h\n'}
+[11.583414] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__functions.h\n'}
+[11.590214] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.h\n'}
+[11.597113] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__type_support.h\n'}
+[11.603972] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.h\n'}
+[11.610831] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__functions.h\n'}
+[11.617641] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.h\n'}
+[11.621074] (-) TimerEvent: {}
+[11.624551] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__type_support.h\n'}
+[11.631535] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.h\n'}
+[11.638359] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__functions.h\n'}
+[11.645229] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.h\n'}
+[11.652103] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__type_support.h\n'}
+[11.658903] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.h\n'}
+[11.665656] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__functions.h\n'}
+[11.672524] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.h\n'}
+[11.679470] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__type_support.h\n'}
+[11.686362] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.h\n'}
+[11.693229] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__functions.h\n'}
+[11.700104] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.h\n'}
+[11.706999] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__type_support.h\n'}
+[11.713782] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.720796] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.h\n'}
+[11.721175] (-) TimerEvent: {}
+[11.727742] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__functions.h\n'}
+[11.734550] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.h\n'}
+[11.741321] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__type_support.h\n'}
+[11.748151] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.h\n'}
+[11.754912] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__functions.h\n'}
+[11.763032] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.h\n'}
+[11.769830] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__type_support.h\n'}
+[11.776759] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.h\n'}
+[11.783715] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__functions.h\n'}
+[11.790546] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.h\n'}
+[11.797354] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__type_support.h\n'}
+[11.804476] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_generator_c.so\n'}
+[11.812016] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.818937] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.821283] (-) TimerEvent: {}
+[11.825860] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.832747] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.839584] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.846369] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.853366] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.860308] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.867136] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.874124] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.881516] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition.hpp\n'}
+[11.888525] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__struct.hpp\n'}
+[11.895478] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__traits.hpp\n'}
+[11.902307] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information.hpp\n'}
+[11.909187] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__struct.hpp\n'}
+[11.916073] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__traits.hpp\n'}
+[11.921392] (-) TimerEvent: {}
+[11.922978] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type.hpp\n'}
+[11.929825] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__struct.hpp\n'}
+[11.936739] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__traits.hpp\n'}
+[11.943604] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object.hpp\n'}
+[11.950396] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__struct.hpp\n'}
+[11.957241] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__traits.hpp\n'}
+[11.964149] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array.hpp\n'}
+[11.971094] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__struct.hpp\n'}
+[11.977952] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__traits.hpp\n'}
+[11.984933] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table.hpp\n'}
+[11.991779] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__struct.hpp\n'}
+[11.998659] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__traits.hpp\n'}
+[12.005587] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array.hpp\n'}
+[12.012536] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__struct.hpp\n'}
+[12.019391] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__traits.hpp\n'}
+[12.021497] (-) TimerEvent: {}
+[12.026294] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information.hpp\n'}
+[12.033229] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__struct.hpp\n'}
+[12.040137] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__traits.hpp\n'}
+[12.047361] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_c.h\n'}
+[12.054190] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_c.h\n'}
+[12.061246] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_c.h\n'}
+[12.068129] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_c.h\n'}
+[12.074951] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_c.h\n'}
+[12.081820] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.088671] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_c.h\n'}
+[12.095594] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_c.h\n'}
+[12.102384] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_c.h\n'}
+[12.109555] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.116806] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/action/object_recognition__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.121610] (-) TimerEvent: {}
+[12.123661] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_information__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.130613] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.137424] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.144283] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/recognized_object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.151181] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.157935] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/msg/table_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.164788] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/include/object_recognition_msgs/srv/get_object_information__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.171804] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.178746] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/pythonpath.sh\n'}
+[12.185777] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/__init__.py\n'}
+[12.193016] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/__init__.py\n'}
+[12.199951] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_information.py\n'}
+[12.206745] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_object_type.py\n'}
+[12.213615] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object.py\n'}
+[12.220427] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_recognized_object_array.py\n'}
+[12.221717] (-) TimerEvent: {}
+[12.227354] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table.py\n'}
+[12.234320] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/msg/_table_array.py\n'}
+[12.241549] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/__init__.py\n'}
+[12.248383] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/srv/_get_object_information.py\n'}
+[12.255536] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/__init__.py\n'}
+[12.262338] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/action/_object_recognition.py\n'}
+[12.269370] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[12.276480] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/object_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[12.283651] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/lib/libobject_recognition_msgs__python.so\n'}
+[12.290735] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.idl\n'}
+[12.297703] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.idl\n'}
+[12.304565] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.idl\n'}
+[12.311433] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.idl\n'}
+[12.318341] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.idl\n'}
+[12.321827] (-) TimerEvent: {}
+[12.325517] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.idl\n'}
+[12.332494] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.idl\n'}
+[12.339439] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.idl\n'}
+[12.346362] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectInformation.msg\n'}
+[12.353474] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/ObjectType.msg\n'}
+[12.360449] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObject.msg\n'}
+[12.367343] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/RecognizedObjectArray.msg\n'}
+[12.374193] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/Table.msg\n'}
+[12.381211] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/msg/TableArray.msg\n'}
+[12.388290] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation.srv\n'}
+[12.395343] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Request.msg\n'}
+[12.402269] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/srv/GetObjectInformation_Response.msg\n'}
+[12.409234] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/action/ObjectRecognition.action\n'}
+[12.416267] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/package_run_dependencies/object_recognition_msgs\n'}
+[12.421940] (-) TimerEvent: {}
+[12.423281] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/parent_prefix_path/object_recognition_msgs\n'}
+[12.430401] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/ament_prefix_path.sh\n'}
+[12.437410] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/environment/path.sh\n'}
+[12.444529] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.bash\n'}
+[12.451425] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.sh\n'}
+[12.458290] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/local_setup.zsh\n'}
+[12.465205] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/ament_index/resource_index/packages/object_recognition_msgs\n'}
+[12.472207] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.479280] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.486306] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.493345] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.500366] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig.cmake\n'}
+[12.507406] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake\n'}
+[12.514435] (object_recognition_msgs) StdoutLine: {'line': b'-- Symlinking: /home/common/colcon_ws/install/object_recognition_msgs/share/object_recognition_msgs/package.xml\n'}
+[12.522059] (-) TimerEvent: {}
+[12.545082] (object_recognition_msgs) StdoutLine: {'line': b"Compiling '/home/common/colcon_ws/install/object_recognition_msgs/lib/python3.6/site-packages/object_recognition_msgs/__init__.py'...\n"}
+[12.550879] (object_recognition_msgs) CommandEnded: {'returncode': 0}
+[12.563247] (object_recognition_msgs) JobEnded: {'identifier': 'object_recognition_msgs', 'rc': 0}
+[12.564228] (-) EventReactorShutdown: {}

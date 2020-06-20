@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot
+# Build directory: /home/common/colcon_ws/build/tms_rc_bot
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(copyright "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/copyright.xunit.xml" "--package-name" "tms_rc_bot" "--output-file" "/home/common/colcon_ws/build/tms_rc_bot/ament_copyright/copyright.txt" "--command" "/opt/ros/dashing/bin/ament_copyright" "--xunit-file" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/copyright.xunit.xml")
+set_tests_properties(copyright PROPERTIES  LABELS "copyright;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot")
+add_test(flake8 "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/flake8.xunit.xml" "--package-name" "tms_rc_bot" "--output-file" "/home/common/colcon_ws/build/tms_rc_bot/ament_flake8/flake8.txt" "--command" "/opt/ros/dashing/bin/ament_flake8" "--xunit-file" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/flake8.xunit.xml")
+set_tests_properties(flake8 PROPERTIES  LABELS "flake8;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot")
+add_test(lint_cmake "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/lint_cmake.xunit.xml" "--package-name" "tms_rc_bot" "--output-file" "/home/common/colcon_ws/build/tms_rc_bot/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/dashing/bin/ament_lint_cmake" "--xunit-file" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/lint_cmake.xunit.xml")
+set_tests_properties(lint_cmake PROPERTIES  LABELS "lint_cmake;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot")
+add_test(pep257 "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/pep257.xunit.xml" "--package-name" "tms_rc_bot" "--output-file" "/home/common/colcon_ws/build/tms_rc_bot/ament_pep257/pep257.txt" "--command" "/opt/ros/dashing/bin/ament_pep257" "--xunit-file" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/pep257.xunit.xml")
+set_tests_properties(pep257 PROPERTIES  LABELS "pep257;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot")
+add_test(xmllint "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/xmllint.xunit.xml" "--package-name" "tms_rc_bot" "--output-file" "/home/common/colcon_ws/build/tms_rc_bot/ament_xmllint/xmllint.txt" "--command" "/opt/ros/dashing/bin/ament_xmllint" "--xunit-file" "/home/common/colcon_ws/build/tms_rc_bot/test_results/tms_rc_bot/xmllint.xunit.xml")
+set_tests_properties(xmllint PROPERTIES  LABELS "xmllint;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_bot")

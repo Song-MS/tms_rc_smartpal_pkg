@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/common/colcon_ws/build/object_recognition_msgs/rosidl_generator_py/object_recognition_msgs/libobject_recognition_msgs__python.so" "TARGETS" "object_recognition_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

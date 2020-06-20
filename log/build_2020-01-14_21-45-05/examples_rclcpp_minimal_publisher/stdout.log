@@ -1,0 +1,6 @@
+[0.116s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[0.128s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[0.129s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[0.176s] [ 33%] Built target publisher_member_function
+[0.180s] [ 66%] Built target publisher_not_composable
+[0.185s] [100%] Built target publisher_lambda

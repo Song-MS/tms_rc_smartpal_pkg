@@ -1,0 +1,11 @@
+source;share/tms_ss_vicon/hook/cmake_prefix_path.ps1
+source;share/tms_ss_vicon/hook/cmake_prefix_path.dsv
+source;share/tms_ss_vicon/hook/cmake_prefix_path.sh
+source;share/tms_ss_vicon/hook/path.ps1
+source;share/tms_ss_vicon/hook/path.dsv
+source;share/tms_ss_vicon/hook/path.sh
+source;share/tms_ss_vicon/local_setup.bash
+source;share/tms_ss_vicon/local_setup.dsv
+source;share/tms_ss_vicon/local_setup.ps1
+source;share/tms_ss_vicon/local_setup.sh
+source;share/tms_ss_vicon/local_setup.zsh

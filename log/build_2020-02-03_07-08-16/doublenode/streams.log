@@ -1,0 +1,24 @@
+[0.890s] Invoking command in '/home/common/colcon_ws/build/doublenode': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/doublenode -- -j8 -l8
+[1.109s] [ 60%] Built target doublenode
+[1.109s] [100%] Built target double_odom
+[1.124s] Invoked command in '/home/common/colcon_ws/build/doublenode' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/doublenode -- -j8 -l8
+[1.884s] Invoking command in '/home/common/colcon_ws/build/doublenode': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/doublenode --target install -- -j8 -l8
+[1.955s] [ 60%] Built target doublenode
+[1.991s] [100%] Built target double_odom
+[2.020s] [36mInstall the project...[0m
+[2.031s] -- Install configuration: ""
+[2.032s] -- Execute custom install script
+[2.032s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/lib/doublenode/double_odom
+[2.032s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/package_run_dependencies/doublenode
+[2.033s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/parent_prefix_path/doublenode
+[2.033s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/ament_prefix_path.sh
+[2.033s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/environment/path.sh
+[2.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.bash
+[2.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.sh
+[2.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/local_setup.zsh
+[2.034s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/ament_index/resource_index/packages/doublenode
+[2.035s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.035s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig.cmake
+[2.035s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/cmake/doublenodeConfig-version.cmake
+[2.036s] -- Up-to-date symlink: /home/common/colcon_ws/install/doublenode/share/doublenode/package.xml
+[2.040s] Invoked command in '/home/common/colcon_ws/build/doublenode' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/doublenode --target install -- -j8 -l8

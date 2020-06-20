@@ -1,0 +1,4 @@
+[0.085s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[0.085s] CMake Error: The source directory "/home/common/colcon_ws/src/ros_tms/utils/hls_lfcd_lds_driver" does not exist.
+[0.086s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.086s] make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,35 @@
+[0.071s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ts': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ts -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ts
+[0.085s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.151s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.533s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.541s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.567s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.729s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.038s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.049s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.162s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.201s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.202s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.261s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.261s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.261s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.446s] -- Configuring done
+[1.584s] -- Generating done
+[1.590s] -- Build files have been written to: /home/common/colcon_ws/build/tms_msg_ts
+[1.599s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ts' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/common/colcon_ws/src/ros2_tms/tms_msg/tms_msg_ts -DCMAKE_INSTALL_PREFIX=/home/common/colcon_ws/install/tms_msg_ts
+[1.600s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ts': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ts -- -j8 -l8
+[1.736s] [  1%] Built target tms_msg_ts__cpp
+[1.750s] [ 13%] Built target tms_msg_ts__rosidl_generator_c
+[1.818s] [ 24%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_cpp
+[1.824s] [ 36%] Built target tms_msg_ts__rosidl_typesupport_introspection_c
+[1.841s] [ 47%] Built target tms_msg_ts__rosidl_typesupport_introspection_cpp
+[1.891s] [ 59%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_c
+[1.918s] [ 70%] Built target tms_msg_ts__rosidl_typesupport_cpp
+[1.956s] [ 81%] Built target tms_msg_ts__rosidl_typesupport_c
+[1.993s] [ 81%] Built target tms_msg_ts
+[2.032s] [ 83%] Built target tms_msg_ts__py
+[2.075s] [ 93%] Built target tms_msg_ts__python
+[2.114s] [ 98%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_c__pyext
+[2.114s] [100%] Built target tms_msg_ts__rosidl_typesupport_c__pyext

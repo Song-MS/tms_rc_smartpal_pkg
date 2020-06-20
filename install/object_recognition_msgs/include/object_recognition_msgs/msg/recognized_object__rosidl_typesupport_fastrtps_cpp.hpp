@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_typesupport_fastrtps_cpp/object_recognition_msgs/msg/recognized_object__rosidl_typesupport_fastrtps_cpp.hpp

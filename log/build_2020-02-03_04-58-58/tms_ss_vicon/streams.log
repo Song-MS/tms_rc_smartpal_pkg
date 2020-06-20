@@ -1,0 +1,24 @@
+[0.905s] Invoking command in '/home/common/colcon_ws/build/tms_ss_vicon': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/tms_msg_ss/lib:/home/common/colcon_ws/install/tms_msg_db/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages:/home/common/colcon_ws/install/tms_msg_db/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_ss_vicon -- -j8 -l8
+[1.339s] [100%] Built target vicon_stream
+[1.895s] Invoked command in '/home/common/colcon_ws/build/tms_ss_vicon' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/tms_msg_ss/lib:/home/common/colcon_ws/install/tms_msg_db/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages:/home/common/colcon_ws/install/tms_msg_db/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_ss_vicon -- -j8 -l8
+[1.953s] Invoking command in '/home/common/colcon_ws/build/tms_ss_vicon': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/tms_msg_ss/lib:/home/common/colcon_ws/install/tms_msg_db/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages:/home/common/colcon_ws/install/tms_msg_db/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_ss_vicon --target install -- -j8 -l8
+[2.047s] [100%] Built target vicon_stream
+[2.075s] [36mInstall the project...[0m
+[2.093s] -- Install configuration: ""
+[2.094s] -- Execute custom install script
+[2.095s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/bin/vicon_stream
+[2.095s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/lib/tms_ss_vicon/vicon_stream
+[2.095s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/package_run_dependencies/tms_ss_vicon
+[2.095s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/parent_prefix_path/tms_ss_vicon
+[2.096s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/ament_prefix_path.sh
+[2.096s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/environment/path.sh
+[2.096s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.bash
+[2.096s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.sh
+[2.097s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/local_setup.zsh
+[2.097s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/ament_index/resource_index/packages/tms_ss_vicon
+[2.103s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.104s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.104s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig.cmake
+[2.104s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/cmake/tms_ss_viconConfig-version.cmake
+[2.105s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_ss_vicon/share/tms_ss_vicon/package.xml
+[2.124s] Invoked command in '/home/common/colcon_ws/build/tms_ss_vicon' returned '0': AMENT_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/tms_msg_ss:/home/common/colcon_ws/install/tms_msg_db:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/common/colcon_ws/install/tms_msg_ss/lib:/home/common/colcon_ws/install/tms_msg_db/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/common/colcon_ws/install/tms_msg_ss/lib/python3.6/site-packages:/home/common/colcon_ws/install/tms_msg_db/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_ss_vicon --target install -- -j8 -l8

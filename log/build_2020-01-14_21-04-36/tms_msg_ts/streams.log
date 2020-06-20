@@ -1,0 +1,16 @@
+[0.030s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ts': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ts -- -j8 -l8
+[0.217s] [  1%] Built target tms_msg_ts__cpp
+[0.252s] [ 13%] Built target tms_msg_ts__rosidl_generator_c
+[0.332s] [ 24%] Built target tms_msg_ts__rosidl_typesupport_introspection_cpp
+[0.342s] [ 36%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_cpp
+[0.356s] [ 47%] Built target tms_msg_ts__rosidl_typesupport_introspection_c
+[0.438s] [ 59%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_c
+[0.459s] [ 70%] Built target tms_msg_ts__rosidl_typesupport_cpp
+[0.539s] [ 81%] Built target tms_msg_ts__rosidl_typesupport_c
+[0.681s] [ 81%] Built target tms_msg_ts
+[0.809s] [ 83%] Built target tms_msg_ts__py
+[0.889s] [ 93%] Built target tms_msg_ts__python
+[0.938s] [ 96%] Built target tms_msg_ts__rosidl_typesupport_c__pyext
+[0.941s] [100%] Built target tms_msg_ts__rosidl_typesupport_fastrtps_c__pyext
+[1.002s] Invoked command in '/home/common/colcon_ws/build/tms_msg_ts' returned '0': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ts -- -j8 -l8
+[1.564s] Invoking command in '/home/common/colcon_ws/build/tms_msg_ts': CMAKE_PREFIX_PATH=/home/common/colcon_ws/install/turtlebot3_teleop:/home/common/colcon_ws/install/tms_ur_speaker:/home/common/colcon_ws/install/tms_ur_listener:/home/common/colcon_ws/install/tms_ts_ts:/home/common/colcon_ws/install/tms_ts_test:/home/common/colcon_ws/install/tms_ts_subtask:/home/common/colcon_ws/install/tms_ss_whs1:/home/common/colcon_ws/install/tms_rc_double:/home/common/colcon_ws/install/tms_db_manager:/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/common/colcon_ws/build/tms_msg_ts --target install -- -j8 -l8

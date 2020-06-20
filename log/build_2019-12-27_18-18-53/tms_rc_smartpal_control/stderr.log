@@ -1,0 +1,28 @@
+[1.560s] Traceback (most recent call last):
+[1.560s]   File "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[1.561s]     code = generate_environment_script('/home/common/colcon_ws/build/tms_rc_smartpal_control/devel/env.sh')
+[1.561s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/catkin/environment_cache.py", line 62, in generate_environment_script
+[1.561s]     env_after = ast.literal_eval(output.decode('utf8'))
+[1.561s]   File "/usr/lib/python3.6/ast.py", line 48, in literal_eval
+[1.561s]     node_or_string = parse(node_or_string, mode='eval')
+[1.561s]   File "/usr/lib/python3.6/ast.py", line 35, in parse
+[1.561s]     return compile(source, filename, mode, PyCF_ONLY_AST)
+[1.561s]   File "<unknown>", line 1
+[1.562s]     ROS_DISTRO was set to 'dashing' before. Please make sure that the environment does not mix paths from different distributions.
+[1.562s]                  ^
+[1.562s] SyntaxError: invalid syntax
+[1.570s] CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[1.571s]   execute_process(/usr/bin/python3
+[1.571s]   "/home/common/colcon_ws/build/tms_rc_smartpal_control/catkin_generated/generate_cached_setup.py")
+[1.571s]   returned error code 1
+[1.571s] Call Stack (most recent call first):
+[1.571s]   /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[1.571s]   /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[1.571s]   /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:9 (find_package)
+[1.571s]   /opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+[1.572s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+[1.572s]   /opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+[1.572s]   /opt/ros/melodic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake:197 (find_package)
+[1.572s]   CMakeLists.txt:19 (find_package)
+[1.572s] 
+[1.572s] 

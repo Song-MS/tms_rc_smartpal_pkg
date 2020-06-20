@@ -1,0 +1,6 @@
+[0.386s] Invoking command in '/home/common/colcon_ws/build/tms_rc_smartpal_control': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8
+[0.408s] CMake Error: The source directory "/home/common/colcon_ws/src/ros2_tms/tms_rc/tms_rc_smartpal/smartpal_control" does not exist.
+[0.408s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.409s] Makefile:1802: recipe for target 'cmake_check_build_system' failed
+[0.410s] make: *** [cmake_check_build_system] Error 1
+[0.685s] Invoked command in '/home/common/colcon_ws/build/tms_rc_smartpal_control' returned '2': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_smartpal_control -- -j8 -l8

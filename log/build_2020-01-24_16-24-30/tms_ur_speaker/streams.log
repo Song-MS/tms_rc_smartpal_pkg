@@ -1,0 +1,17 @@
+[2.239s] Invoking command in '/home/common/colcon_ws/build/tms_ur_speaker': PYTHONPATH=/home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ur_speaker --editable --build-directory /home/common/colcon_ws/build/tms_ur_speaker/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ur_speaker
+[2.490s] running develop
+[2.652s] running egg_info
+[2.652s] writing tms_ur_speaker.egg-info/PKG-INFO
+[2.652s] writing dependency_links to tms_ur_speaker.egg-info/dependency_links.txt
+[2.652s] writing entry points to tms_ur_speaker.egg-info/entry_points.txt
+[2.652s] writing requirements to tms_ur_speaker.egg-info/requires.txt
+[2.652s] writing top-level names to tms_ur_speaker.egg-info/top_level.txt
+[2.704s] reading manifest file 'tms_ur_speaker.egg-info/SOURCES.txt'
+[2.706s] writing manifest file 'tms_ur_speaker.egg-info/SOURCES.txt'
+[2.707s] running build_ext
+[2.707s] Creating /home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages/tms-ur-speaker.egg-link (link to .)
+[2.707s] Installing tms_ur_speaker_node script to /home/common/colcon_ws/install/tms_ur_speaker/lib/tms_ur_speaker
+[2.708s] 
+[2.708s] Installed /home/common/colcon_ws/build/tms_ur_speaker
+[2.708s] running install_data
+[2.737s] Invoked command in '/home/common/colcon_ws/build/tms_ur_speaker' returned '0': PYTHONPATH=/home/common/colcon_ws/install/tms_ur_speaker/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/common/colcon_ws/install/tms_ur_speaker --editable --build-directory /home/common/colcon_ws/build/tms_ur_speaker/build --no-deps install_data --install-dir /home/common/colcon_ws/install/tms_ur_speaker

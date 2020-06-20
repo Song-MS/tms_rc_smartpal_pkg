@@ -1,0 +1,1 @@
+/home/common/colcon_ws/src/object_recognition_msgs/msg/RecognizedObject.msg

@@ -1,0 +1,1 @@
+/home/common/colcon_ws/src/moveit_msgs/msg/ObjectColor.msg

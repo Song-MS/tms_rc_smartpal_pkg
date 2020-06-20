@@ -1,0 +1,15 @@
+[1.257s] running develop
+[1.420s] running egg_info
+[1.420s] writing tms_ts_subtask.egg-info/PKG-INFO
+[1.421s] writing dependency_links to tms_ts_subtask.egg-info/dependency_links.txt
+[1.421s] writing entry points to tms_ts_subtask.egg-info/entry_points.txt
+[1.421s] writing requirements to tms_ts_subtask.egg-info/requires.txt
+[1.421s] writing top-level names to tms_ts_subtask.egg-info/top_level.txt
+[1.448s] reading manifest file 'tms_ts_subtask.egg-info/SOURCES.txt'
+[1.449s] writing manifest file 'tms_ts_subtask.egg-info/SOURCES.txt'
+[1.450s] running build_ext
+[1.450s] Creating /home/common/colcon_ws/install/tms_ts_subtask/lib/python3.6/site-packages/tms-ts-subtask.egg-link (link to .)
+[1.451s] Installing tms_ts_subtask script to /home/common/colcon_ws/install/tms_ts_subtask/lib/tms_ts_subtask
+[1.451s] 
+[1.451s] Installed /home/common/colcon_ws/build/tms_ts_subtask
+[1.451s] running install_data

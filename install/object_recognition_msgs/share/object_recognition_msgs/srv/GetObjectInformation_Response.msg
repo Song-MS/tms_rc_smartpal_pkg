@@ -1,0 +1,1 @@
+/home/common/colcon_ws/build/object_recognition_msgs/rosidl_cmake/srv/GetObjectInformation_Response.msg

@@ -1,0 +1,32 @@
+[1.192s] [35m[1mScanning dependencies of target smartpal5_control[0m
+[1.246s] [  7%] [32mBuilding CXX object CMakeFiles/smartpal5_control.dir/src/smartpal5_control.cpp.o[0m
+[3.301s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kbool SmartpalControl::robotControl(std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Request_<std::allocator<void> > >, std::shared_ptr<tms_msg_rc::srv::TurtlebotControl_Response_<std::allocator<void> > >)[m[K’:
+[3.301s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:395:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[3.301s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[3.301s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[3.301s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:408:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[3.301s]                for (int t=0; [01;35m[Kt<trajectory.size()[m[K; t++)
+[3.301s]                              [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[4.857s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:[m[K In member function ‘[01m[Kvoid SmartpalControl::armcallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.857s] [01m[K/home/common/colcon_ws/src/ros_tms/tms_rc/tms_rc_smartpal/smartpal_control/src/smartpal5_control.cpp:989:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kai[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.857s]        ai->gripper_left = msg->position[0];
+[6.927s] [ 14%] [32m[1mLinking CXX executable smartpal5_control[0m
+[7.294s] [100%] Built target smartpal5_control
+[7.414s] [100%] Built target smartpal5_control
+[7.433s] [36mInstall the project...[0m
+[7.443s] -- Install configuration: ""
+[7.443s] -- Execute custom install script
+[7.443s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/library_path.sh
+[7.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/lib/tms_rc_smartpal_control/smartpal5_control
+[7.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/package_run_dependencies/tms_rc_smartpal_control
+[7.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/parent_prefix_path/tms_rc_smartpal_control
+[7.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/ament_prefix_path.sh
+[7.444s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/environment/path.sh
+[7.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.bash
+[7.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.sh
+[7.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/local_setup.zsh
+[7.445s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/ament_index/resource_index/packages/tms_rc_smartpal_control
+[7.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/ament_cmake_export_libraries-extras.cmake
+[7.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig.cmake
+[7.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/cmake/tms_rc_smartpal_controlConfig-version.cmake
+[7.446s] -- Up-to-date symlink: /home/common/colcon_ws/install/tms_rc_smartpal_control/share/tms_rc_smartpal_control/package.xml

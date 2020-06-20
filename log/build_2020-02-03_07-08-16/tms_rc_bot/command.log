@@ -1,0 +1,4 @@
+[0.060s] Invoking command in '/home/common/colcon_ws/build/tms_rc_bot': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot -- -j8 -l8
+[0.647s] Invoked command in '/home/common/colcon_ws/build/tms_rc_bot' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot -- -j8 -l8
+[1.148s] Invoking command in '/home/common/colcon_ws/build/tms_rc_bot': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot --target install -- -j8 -l8
+[1.318s] Invoked command in '/home/common/colcon_ws/build/tms_rc_bot' returned '0': /usr/bin/cmake --build /home/common/colcon_ws/build/tms_rc_bot --target install -- -j8 -l8
